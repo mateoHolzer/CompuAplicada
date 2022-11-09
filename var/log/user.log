@@ -1,0 +1,98 @@
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Nov  9 16:23:57 debian 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Nov  9 16:23:57 debian os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Nov  9 16:23:57 debian os-prober: debug: /dev/sda5: is active swap
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+Nov  9 16:23:57 debian 05efi: debug: Not on UEFI platform
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+Nov  9 16:23:57 debian 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+Nov  9 16:23:57 debian 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+Nov  9 16:23:57 debian macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+Nov  9 16:23:57 debian 20microsoft: debug: /dev/sdb1 is not a MS partition: exiting
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+Nov  9 16:23:57 debian 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+Nov  9 16:23:57 debian 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+Nov  9 16:23:57 debian os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Nov  9 16:24:10 debian 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Nov  9 16:24:10 debian os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Nov  9 16:24:10 debian os-prober: debug: /dev/sda5: is active swap
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+Nov  9 16:24:10 debian 05efi: debug: Not on UEFI platform
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+Nov  9 16:24:10 debian 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+Nov  9 16:24:10 debian 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+Nov  9 16:24:10 debian macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+Nov  9 16:24:10 debian 20microsoft: debug: /dev/sdb1 is not a MS partition: exiting
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+Nov  9 16:24:10 debian 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+Nov  9 16:24:10 debian 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+Nov  9 16:24:10 debian os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Nov  9 16:25:11 debian 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Nov  9 16:25:11 debian os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Nov  9 16:25:11 debian os-prober: debug: /dev/sda5: is active swap
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+Nov  9 16:25:11 debian 05efi: debug: Not on UEFI platform
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+Nov  9 16:25:11 debian 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+Nov  9 16:25:11 debian 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+Nov  9 16:25:11 debian macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+Nov  9 16:25:11 debian 20microsoft: debug: /dev/sdb1 is not a MS partition: exiting
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+Nov  9 16:25:11 debian 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+Nov  9 16:25:11 debian 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+Nov  9 16:25:11 debian os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda2
+Nov  9 16:54:53 debian 50mounted-tests: debug: /dev/sda2 type not recognised; skipping
+Nov  9 16:54:53 debian os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Nov  9 16:54:53 debian os-prober: debug: /dev/sda5: is active swap
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+Nov  9 16:54:53 debian 05efi: debug: Not on UEFI platform
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+Nov  9 16:54:53 debian 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+Nov  9 16:54:53 debian 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+Nov  9 16:54:53 debian macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+Nov  9 16:54:53 debian 20microsoft: debug: /dev/sdb1 is not a MS partition: exiting
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+Nov  9 16:54:53 debian 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+Nov  9 16:54:53 debian 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sdc1
+Nov  9 16:54:53 debian 50mounted-tests: debug: /dev/sdc1 type not recognised; skipping
+Nov  9 16:54:53 debian os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Nov  9 16:54:53 debian os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sdd1
+Nov  9 16:54:53 debian 50mounted-tests: debug: /dev/sdd1 type not recognised; skipping
+Nov  9 16:54:53 debian os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests

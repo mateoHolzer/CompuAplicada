@@ -1,0 +1,14 @@
+caa9e4c887071a8657005b6a64bbf5fe  usr/lib/emacsen-common/emacs-install
+f0bdb6dbfe5e8e6e98d9778bb62415e3  usr/lib/emacsen-common/emacs-package-install
+91f220fba3b016d238b81b21a9a853b5  usr/lib/emacsen-common/emacs-package-remove
+cf36994c14588b34abab959813c03dfa  usr/lib/emacsen-common/emacs-remove
+730ee612282581ea26f4a7a93dc965f1  usr/lib/emacsen-common/lib.pl
+897316929176464ebc9ad085f31e7284  usr/lib/emacsen-common/packages/compat/emacsen-common
+54e89222962dd9db5cbe2eda25c0b6df  usr/lib/emacsen-common/packages/install/emacsen-common
+2b2a97ebdcf7f80b0fe511b5d71e1fa4  usr/lib/emacsen-common/packages/remove/emacsen-common
+a8bca1c3e66f4475d5d4d057232abaeb  usr/share/doc/emacsen-common/changelog.gz
+a672d245e0d23424279550be33cdbcb0  usr/share/doc/emacsen-common/copyright
+753ae0e8a516b6b9187c3712262669c1  usr/share/doc/emacsen-common/debian-emacs-policy.gz
+37e5cbffc578fa857c90f869007573d1  usr/share/doc/emacsen-common/sample-package-install-foo
+3af629773f630787a6e8c40470ef5464  usr/share/doc/emacsen-common/sample-package-remove-foo
+734d0b9f07e844a9be8d4a3e4dbfd00e  usr/share/emacsen-common/debian-startup.el

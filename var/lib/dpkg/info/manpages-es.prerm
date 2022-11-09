@@ -1,0 +1,7 @@
+#! /bin/sh
+set -e
+if [ -x /usr/sbin/chmanconfig ]; then
+	chmanconfig --remove --lang=es
+fi
+
+

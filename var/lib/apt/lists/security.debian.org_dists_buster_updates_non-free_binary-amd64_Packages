@@ -1,0 +1,18 @@
+Package: intel-microcode
+Version: 3.20220510.1~deb10u1
+Installed-Size: 5810
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: amd64
+Depends: iucode-tool (>= 1.0)
+Conflicts: microcode.ctl (<< 0.18~0)
+Description: Processor microcode firmware for Intel CPUs
+Homepage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+Description-md5: 3edb9824276886579313f0e847f6bb14
+Recommends: initramfs-tools (>= 0.113~)
+Section: non-free/admin
+Priority: extra
+Filename: pool/updates/non-free/i/intel-microcode/intel-microcode_3.20220510.1~deb10u1_amd64.deb
+Size: 4092936
+MD5sum: b98e1b68e6bda52d79809016e8e1f5c6
+SHA256: 72e5d47d86d1697fc2c88e5556137eb529eadf69fc74088184952c1a58a55c32
+

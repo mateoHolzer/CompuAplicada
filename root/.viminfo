@@ -1,0 +1,615 @@
+# Vim 8.1 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~Msle0~/}
+
+# Último SustituciónPatrón de búsqueda:
+~MSle0&buster
+
+# Última cadena de sustitución:
+$stable
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1668037211,,"wq"
+:q!
+|2,0,1598455836,,"q!"
+:x
+|2,0,1598454735,,"x"
+:q
+|2,0,1591017172,,"q"
+:%s/buster/stable/g
+|2,0,1586781976,,"%s/buster/stable/g"
+:Q!
+|2,0,1586781617,,"Q!"
+:set number
+|2,0,1586781557,,"set number"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? }
+|2,1,1668034986,,"}"
+? buster
+|2,1,1586781976,,"buster"
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	LINE	0
+			echo "$1 - Paso de inmortalidad del General Jose de San Martin;$PASO"
+|3,0,0,1,1,0,1668035227,"		echo \"$1 - Paso de inmortalidad del General Jose de San Martin;$PASO\""
+""1	LINE	0
+		echo $DiaSemana	
+|3,1,1,1,1,0,1668036873,"	echo $DiaSemana	"
+"2	LINE	0
+	function esLaborable{
+|3,0,2,1,1,0,1668035411,"function esLaborable{"
+"3	LINE	0
+			echo $PASO
+|3,0,3,1,1,0,1668035309,"		echo $PASO"
+"4	LINE	0
+			echo "Paso de inmortalidad del General Jose de San Martin;$PASO"
+|3,0,4,1,1,0,1668035268,"		echo \"Paso de inmortalidad del General Jose de San Martin;$PASO\""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1598454047,""
+"6	LINE	0
+	# The primary network interface
+|3,0,6,1,1,0,1598454046,"# The primary network interface"
+"7	LINE	0
+	iface enp0s8 inet dhcp
+|3,0,7,1,1,0,1598454045,"iface enp0s8 inet dhcp"
+"8	LINE	0
+	allow-hotplug enp0s8
+|3,0,8,1,1,0,1598454044,"allow-hotplug enp0s8"
+"9	LINE	0
+	/dev/sdb1 /home type ext4 rw,rel
+|3,0,9,1,1,0,1588598116,"/dev/sdb1 /home type ext4 rw,rel"
+"-	CHAR	0
+	shadow
+|3,0,36,0,1,0,1598454732,"shadow"
+
+# Marcas en el archivo:
+'0  48  0  /opt/tp/scripts/esLaborable.sh
+|4,48,48,0,1668037211,"/opt/tp/scripts/esLaborable.sh"
+'1  47  0  /opt/tp/scripts/esLaborable.sh
+|4,49,47,0,1668036960,"/opt/tp/scripts/esLaborable.sh"
+'2  47  0  /opt/tp/scripts/esLaborable.sh
+|4,50,47,0,1668036960,"/opt/tp/scripts/esLaborable.sh"
+'3  38  1  /opt/tp/scripts/esLaborable.sh
+|4,51,38,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+'4  35  1  /opt/tp/scripts/esLaborable.sh
+|4,52,35,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+'5  38  1  /opt/tp/scripts/esLaborable.sh
+|4,53,38,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+'6  35  1  /opt/tp/scripts/esLaborable.sh
+|4,54,35,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+'7  9  12  /opt/tp/scripts/esLaborable.sh
+|4,55,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+'8  9  12  /opt/tp/scripts/esLaborable.sh
+|4,56,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+'9  9  12  /opt/tp/scripts/esLaborable.sh
+|4,57,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+
+# Lista de saltos (el más reciente va primero):
+-'  48  0  /opt/tp/scripts/esLaborable.sh
+|4,39,48,0,1668037211,"/opt/tp/scripts/esLaborable.sh"
+-'  1  0  /opt/tp/scripts/esLaborable.sh
+|4,39,1,0,1668037084,"/opt/tp/scripts/esLaborable.sh"
+-'  47  0  /opt/tp/scripts/esLaborable.sh
+|4,39,47,0,1668036960,"/opt/tp/scripts/esLaborable.sh"
+-'  47  0  /opt/tp/scripts/esLaborable.sh
+|4,39,47,0,1668036960,"/opt/tp/scripts/esLaborable.sh"
+-'  1  0  /opt/tp/scripts/esLaborable.sh
+|4,39,1,0,1668036895,"/opt/tp/scripts/esLaborable.sh"
+-'  38  1  /opt/tp/scripts/esLaborable.sh
+|4,39,38,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+-'  35  1  /opt/tp/scripts/esLaborable.sh
+|4,39,35,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+-'  38  1  /opt/tp/scripts/esLaborable.sh
+|4,39,38,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+-'  35  1  /opt/tp/scripts/esLaborable.sh
+|4,39,35,1,1668036875,"/opt/tp/scripts/esLaborable.sh"
+-'  1  0  /opt/tp/scripts/esLaborable.sh
+|4,39,1,0,1668036847,"/opt/tp/scripts/esLaborable.sh"
+-'  9  12  /opt/tp/scripts/esLaborable.sh
+|4,39,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+-'  9  12  /opt/tp/scripts/esLaborable.sh
+|4,39,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+-'  9  12  /opt/tp/scripts/esLaborable.sh
+|4,39,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+-'  9  12  /opt/tp/scripts/esLaborable.sh
+|4,39,9,12,1668036816,"/opt/tp/scripts/esLaborable.sh"
+-'  1  0  /opt/tp/scripts/esLaborable.sh
+|4,39,1,0,1668036662,"/opt/tp/scripts/esLaborable.sh"
+-'  37  15  /opt/tp/scripts/esLaborable.sh
+|4,39,37,15,1668036560,"/opt/tp/scripts/esLaborable.sh"
+-'  34  15  /opt/tp/scripts/esLaborable.sh
+|4,39,34,15,1668036560,"/opt/tp/scripts/esLaborable.sh"
+-'  37  15  /opt/tp/scripts/esLaborable.sh
+|4,39,37,15,1668036560,"/opt/tp/scripts/esLaborable.sh"
+-'  34  15  /opt/tp/scripts/esLaborable.sh
+|4,39,34,15,1668036560,"/opt/tp/scripts/esLaborable.sh"
+-'  35  15  /opt/tp/scripts/esLaborable.sh
+|4,39,35,15,1668036560,"/opt/tp/scripts/esLaborable.sh"
+-'  34  15  /opt/tp/scripts/esLaborable.sh
+|4,39,34,15,1668036560,"/opt/tp/scripts/esLaborable.sh"
+-'  1  0  /opt/tp/scripts/esLaborable.sh
+|4,39,1,0,1668036546,"/opt/tp/scripts/esLaborable.sh"
+-'  39  6  /opt/tp/scripts/esLaborable.sh
+|4,39,39,6,1668036254,"/opt/tp/scripts/esLaborable.sh"
+-'  36  6  /opt/tp/scripts/esLaborable.sh
+|4,39,36,6,1668036254,"/opt/tp/scripts/esLaborable.sh"
+-'  39  6  /opt/tp/scripts/esLaborable.sh
+|4,39,39,6,1668036254,"/opt/tp/scripts/esLaborable.sh"
+-'  36  6  /opt/tp/scripts/esLaborable.sh
+|4,39,36,6,1668036254,"/opt/tp/scripts/esLaborable.sh"
+-'  35  6  /opt/tp/scripts/esLaborable.sh
+|4,39,35,6,1668036254,"/opt/tp/scripts/esLaborable.sh"
+-'  35  6  /opt/tp/scripts/esLaborable.sh
+|4,39,35,6,1668036254,"/opt/tp/scripts/esLaborable.sh"
+-'  1  0  /opt/tp/scripts/esLaborable.sh
+|4,39,1,0,1668036171,"/opt/tp/scripts/esLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  5  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,5,0,1668036131,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+-'  1  0  /opt/tp/scripts/testEsLaborable.sh
+|4,39,1,0,1668035460,"/opt/tp/scripts/testEsLaborable.sh"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> /opt/tp/scripts/esLaborable.sh
+	*	1668037210	0
+	"	48	0
+	^	47	0
+	.	45	7
+	+	35	2
+	+	33	64
+	+	37	44
+	+	38	54
+	+	41	2
+	+	39	58
+	+	46	2
+	+	44	1
+	+	39	88
+	+	44	90
+	+	39	89
+	+	33	64
+	+	38	6
+	+	43	27
+	+	37	31
+	+	3	21
+	+	14	1
+	+	4	21
+	+	12	5
+	+	9	57
+	+	11	4
+	+	10	8
+	+	13	7
+	+	26	15
+	+	27	66
+	+	31	39
+	+	33	69
+	+	25	15
+	+	31	13
+	+	15	62
+	+	9	50
+	+	4	1
+	+	5	0
+	+	6	0
+	+	7	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	33	0
+	+	31	25
+	+	26	0
+	+	33	66
+	+	27	63
+	+	33	66
+	+	27	70
+	+	38	47
+	+	43	5
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	26	0
+	+	33	0
+	+	31	25
+	+	33	65
+	+	27	62
+	+	32	8
+	+	14	0
+	+	13	0
+	+	14	0
+	+	3	21
+	+	43	17
+	+	38	43
+	+	43	33
+	+	3	0
+	+	16	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	16	21
+	+	43	40
+	+	38	7
+	+	38	15
+	+	8	8
+	+	9	12
+	+	27	62
+	+	33	65
+	+	38	0
+	+	21	8
+	+	28	7
+	+	34	7
+	+	40	7
+	+	45	7
+
+> /opt/tp/scripts/testEsLaborable.sh
+	*	1668035461	0
+	"	5	0
+	^	5	14
+	.	5	13
+	+	5	13
+
+> /tmp/mutt-debian-0-20694-18405474951165157684
+	*	1668029868	0
+	"	1	1
+
+> /tmp/mutt-debian-0-20651-6093819402098908143
+	*	1668029854	0
+	"	1	1
+
+> /tmp/mutt-debian-0-20613-248002672855283575
+	*	1668029846	0
+	"	1	1
+
+> /tmp/mutt-debian-0-20575-1695119866483952434
+	*	1668029834	0
+	"	1	1
+
+> /tmp/crontab.1gfZSH/crontab
+	*	1668029645	0
+	"	31	0
+	^	31	1
+	.	31	0
+	+	24	65
+	+	25	52
+	+	26	0
+	+	27	0
+	+	28	0
+	+	27	2
+	+	28	8
+	+	27	8
+	+	26	45
+	+	27	49
+	+	28	52
+	+	29	44
+	+	30	0
+	+	31	0
+	+	30	41
+	+	31	45
+	+	29	0
+	+	30	0
+	+	31	0
+
+> /etc/apache2/apache2.conf
+	*	1668028269	0
+	"	176	19
+	^	176	20
+	.	176	19
+	+	170	0
+	+	171	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	176	0
+	+	177	0
+	+	178	0
+	+	179	0
+	+	180	0
+	+	176	19
+
+> /opt/tp/scripts/monitor.sh
+	*	1668027886	0
+	"	6	76
+	^	6	77
+	.	6	76
+	+	7	1
+	+	6	76
+
+> /tmp/mutt-debian-0-19072-1592441327221707228
+	*	1668027795	0
+	"	1	1
+
+> /opt/tp/scripts/backup_full.sh
+	*	1668027786	0
+	"	13	16
+	^	13	17
+	.	7	68
+	+	11	0
+	+	9	3
+	+	9	2
+	+	9	3
+	+	10	0
+	+	21	0
+	+	19	52
+	+	15	42
+	+	23	23
+	+	26	3
+	+	25	7
+	+	26	5
+	+	53	1
+	+	32	2
+	+	28	24
+	+	30	48
+	+	28	26
+	+	34	10
+	+	33	11
+	+	24	40
+	+	33	48
+	+	34	68
+	+	51	2
+	+	38	13
+	+	37	2
+	+	38	26
+	+	39	56
+	+	44	19
+	+	31	7
+	+	47	32
+	+	49	3
+	+	53	0
+	+	46	57
+	+	41	69
+	+	7	68
+
+> /etc/fstab
+	*	1668024276	0
+	"	16	21
+	^	16	22
+	.	16	21
+	+	14	0
+	+	13	37
+	+	15	22
+	+	16	0
+	+	17	0
+	+	16	15
+	+	17	25
+	+	16	21
+
+> /etc/apache2/mods-enabled/dir.conf
+	*	1668023072	0
+	"	2	54
+	^	2	55
+	.	2	55
+	+	2	55
+
+> /etc/ssh/sshd_config
+	*	1668022139	0
+	"	32	18
+	^	32	19
+	.	32	18
+	+	32	18
+
+> /etc/network/interfaces
+	*	1668021538	0
+	"	14	19
+	^	14	20
+	.	14	19
+	+	14	0
+	+	15	12
+	+	14	19
+
+> /etc/hash
+	*	1598455832	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> /etc/hasg
+	*	1598454724	0
+	"	1	0
+
+> /tmp/crontab.byo59W/crontab
+	*	1591018206	0
+	"	24	48
+	^	24	49
+	.	24	48
+	+	24	48
+
+> /tmp/crontab.RIdmcB/crontab
+	*	1591017172	0
+	"	19	40
+	.	19	0
+	+	19	0
+
+> /etc/group
+	*	1587985101	0
+	"	21	15
+	^	21	16
+	.	21	15
+	+	21	15
+
+> ~/hola.sh
+	*	1587387080	0
+	"	5	0
+	^	5	0
+	.	4	8
+	+	3	18
+	+	4	8
+
+> /etc/apt/sources.list
+	*	1586781998	0
+	"	1	0
+	.	1	0
+	+	1	0

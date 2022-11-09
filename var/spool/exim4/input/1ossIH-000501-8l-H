@@ -1,0 +1,29 @@
+1ossIH-000501-8l-H
+Debian-exim 108 116
+<>
+1668028053 0
+-received_time_usec .271845
+-ident Debian-exim
+-received_protocol local
+-body_linecount 42
+-max_received_linelength 99
+-allow_unqualified_recipient
+-allow_unqualified_sender
+-frozen 1668028053
+-localerror
+XX
+1
+root@debian.up
+
+137P Received: from Debian-exim by debian.up with local (Exim 4.92)
+	id 1ossIH-000501-8l
+	for root@debian.up; Wed, 09 Nov 2022 18:07:33 -0300
+038  X-Failed-Recipients: alumno@debian.up
+029  Auto-Submitted: auto-replied
+053F From: Mail Delivery System <Mailer-Daemon@debian.up>
+019T To: root@debian.up
+100  Content-Type: multipart/report; report-type=delivery-status; boundary=1668028053-eximdsn-2120975580
+018  MIME-Version: 1.0
+059  Subject: Mail delivery failed: returning message to sender
+042I Message-Id: <E1ossIH-000501-8l@debian.up>
+038  Date: Wed, 09 Nov 2022 18:07:33 -0300

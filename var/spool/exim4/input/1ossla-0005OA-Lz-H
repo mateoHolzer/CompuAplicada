@@ -1,0 +1,29 @@
+1ossla-0005OA-Lz-H
+Debian-exim 108 116
+<>
+1668029870 0
+-received_time_usec .681606
+-ident Debian-exim
+-received_protocol local
+-body_linecount 46
+-max_received_linelength 99
+-allow_unqualified_recipient
+-allow_unqualified_sender
+-frozen 1668029870
+-localerror
+XX
+1
+root@debian.up
+
+137P Received: from Debian-exim by debian.up with local (Exim 4.92)
+	id 1ossla-0005OA-Lz
+	for root@debian.up; Wed, 09 Nov 2022 18:37:50 -0300
+038  X-Failed-Recipients: alumno@debian.up
+029  Auto-Submitted: auto-replied
+053F From: Mail Delivery System <Mailer-Daemon@debian.up>
+019T To: root@debian.up
+100  Content-Type: multipart/report; report-type=delivery-status; boundary=1668029870-eximdsn-2091652814
+018  MIME-Version: 1.0
+059  Subject: Mail delivery failed: returning message to sender
+042I Message-Id: <E1ossla-0005OA-Lz@debian.up>
+038  Date: Wed, 09 Nov 2022 18:37:50 -0300

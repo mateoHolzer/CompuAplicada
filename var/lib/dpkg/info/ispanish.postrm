@@ -1,0 +1,53 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdebconf/11.2.1
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+# Automatically added by installdeb-ispell/UNDECLARED
+dico_class="ispell"
+dico_varlib_remove="espa~nol.compat espa~nol.remove espa~nol.hash"
+dico_varlib_rmfiles="espa~nol.remove"
+
+case "$1" in abort-install|remove)
+	if [ -d "/var/lib/$dico_class" ]; then
+	    ( cd "/var/lib/$dico_class" &&
+		for rmfile in $dico_varlib_rmfiles; do
+		    for i in $(grep -s -e ^/usr/lib/$class -e ^/var/lib/$class "$rmfile"); do
+			if [ -e "$i" ]; then
+			    if [ -d "$i" ]; then
+			        rmdir --ignore-fail-on-non-empty "$i"
+			    else
+			        rm -f "$i"
+			    fi
+			else
+			    echo "Ignoring already removed file \"$i\"." >&2
+			fi
+		    done
+		done
+		rm -f $dico_varlib_remove )
+	    if ! dpkg-query -S "/var/lib/$dico_class"  > /dev/null 2>&1; then
+		rmdir --ignore-fail-on-non-empty "/var/lib/$dico_class"
+	    fi
+	fi
+esac
+# End automatically added section
+# Automatically added by installdeb-ispell/UNDECLARED
+rmscript="remove-default-ispell"
+
+case "$1" in abort-install|remove)
+	if which $rmscript > /dev/null 2>&1; then
+	    $rmscript ispanish
+	else
+	    echo "Warning: $rmscript not present or executable." >&2
+	fi
+
+        # Remove shared question stuff on package removal, not only on purge
+	if [ -e /usr/share/debconf/confmodule ]; then
+	    . /usr/share/debconf/confmodule
+	    db_purge
+	fi
+esac
+# End automatically added section

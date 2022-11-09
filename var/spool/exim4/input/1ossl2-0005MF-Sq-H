@@ -1,0 +1,29 @@
+1ossl2-0005MF-Sq-H
+Debian-exim 108 116
+<>
+1668029836 0
+-received_time_usec .894109
+-ident Debian-exim
+-received_protocol local
+-body_linecount 43
+-max_received_linelength 99
+-allow_unqualified_recipient
+-allow_unqualified_sender
+-frozen 1668029836
+-localerror
+XX
+1
+root@debian.up
+
+137P Received: from Debian-exim by debian.up with local (Exim 4.92)
+	id 1ossl2-0005MF-Sq
+	for root@debian.up; Wed, 09 Nov 2022 18:37:16 -0300
+038  X-Failed-Recipients: alumno@debian.up
+029  Auto-Submitted: auto-replied
+053F From: Mail Delivery System <Mailer-Daemon@debian.up>
+019T To: root@debian.up
+100  Content-Type: multipart/report; report-type=delivery-status; boundary=1668029836-eximdsn-1360863404
+018  MIME-Version: 1.0
+059  Subject: Mail delivery failed: returning message to sender
+042I Message-Id: <E1ossl2-0005MF-Sq@debian.up>
+038  Date: Wed, 09 Nov 2022 18:37:16 -0300

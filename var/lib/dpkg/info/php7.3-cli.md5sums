@@ -1,0 +1,9 @@
+9556c706ba9e4fdc9e70ce2c640d73e3  usr/bin/phar.phar7.3
+f91d9687e84591a0f8af8d7ab239e204  usr/bin/php7.3
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/php/7.3/sapi/cli
+5c4fdd1a55e80a29728b04fbd359b75a  usr/share/bug/php7.3-cli/control
+bd079450b7181d93423d2b1a44e6bc05  usr/share/bug/php7.3-cli/script
+72f83ceeeb266286ca0e6ab141310abd  usr/share/lintian/overrides/php7.3-cli
+5cb52b99ebed3e1055572300de9c9c48  usr/share/man/man1/phar.phar7.3.1.gz
+9159b96d78ff6ff81d9e7872b359acde  usr/share/man/man1/phar7.3.1.gz
+280fbcef7c5edc5824fa0d64942f221c  usr/share/man/man1/php7.3.1.gz

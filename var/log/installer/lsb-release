@@ -1,0 +1,4 @@
+DISTRIB_ID=Debian
+DISTRIB_DESCRIPTION="Debian GNU/Linux installer"
+DISTRIB_RELEASE="10 (buster) - installer build 20190702+deb10u3"
+X_INSTALLATION_MEDIUM=cdrom

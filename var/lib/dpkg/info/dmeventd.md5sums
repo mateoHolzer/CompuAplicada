@@ -1,0 +1,13 @@
+48f91cba7947428fce69784db8defa0b  lib/systemd/system/dm-event.service
+51236e925b66f616904e73e9030b8d85  lib/systemd/system/dm-event.socket
+832a637c5c70406b83f248b5515a624e  lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2mirror.so
+fcde2cec3cb778d5508d72db024a18b2  lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2raid.so
+c8e55afe6dfdf6a5534d8ae65a726b11  lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2snapshot.so
+54c5b7725e285d237d8e769ebe5c32e7  lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2thin.so
+08b64a87dfaf774423675987254eff3b  lib/x86_64-linux-gnu/device-mapper/libdevmapper-event-lvm2vdo.so
+48f4e56169044b62d551ba08ddb15887  lib/x86_64-linux-gnu/libdevmapper-event-lvm2.so.2.03
+31b30c359e78ad9535531b7d33137cb1  sbin/dmeventd
+1f8dc9d1d0b25f138817061282b50200  usr/share/doc/dmeventd/changelog.Debian.gz
+26b3d54af63dcc7764db8bae9827a8ed  usr/share/doc/dmeventd/changelog.gz
+5f2a3645f7a6499605abfa058f55a3ac  usr/share/doc/dmeventd/copyright
+85c6a643e44d645cd82ca23946113d6b  usr/share/man/man8/dmeventd.8.gz

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/javascript-common
+/usr/share/javascript
+/usr/share/doc
+/usr/share/doc/javascript-common
+/usr/share/doc/javascript-common/copyright
+/usr/share/doc/javascript-common/changelog.gz
+/usr/share/doc/javascript-common/README.Debian
+/etc
+/etc/apache2/conf-available/javascript-common.conf
+/etc/lighttpd
+/etc/lighttpd/conf-available
+/etc/lighttpd/conf-available/90-javascript-alias.conf

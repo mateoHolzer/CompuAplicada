@@ -1,0 +1,5 @@
+735017a5f3563655d3f74af269669e8b  usr/lib/grub-legacy/update-grub
+8f481c9be1cf6f368f715a7e6857f740  usr/sbin/upgrade-from-grub-legacy
+8078b6f24767ff216eb390a997926d48  usr/share/bug/grub-pc/presubj
+0d5ead2e5fdc1dad9283d5a770980056  usr/share/bug/grub-pc/script
+20184cedb5fe09d824f0b701ae942976  usr/share/man/man8/grub-bios-setup.8.gz

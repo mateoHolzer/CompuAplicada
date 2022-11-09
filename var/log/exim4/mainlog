@@ -1,0 +1,143 @@
+2022-11-09 16:54:55 exim 4.92 daemon started: pid=14466, -q30m, listening for SMTP on [127.0.0.1]:25 [::1]:25
+2022-11-09 16:54:55 Start queue run: pid=14469
+2022-11-09 16:54:55 End queue run: pid=14469
+2022-11-09 17:24:55 Start queue run: pid=18880
+2022-11-09 17:24:55 End queue run: pid=18880
+2022-11-09 17:54:55 Start queue run: pid=19042
+2022-11-09 17:54:55 End queue run: pid=19042
+2022-11-09 18:03:20 1ossEC-0004xx-Kl <= root@debian.up U=root P=local S=495 id=20221109210320.GA19072@debian.up
+2022-11-09 18:03:20 1ossEC-0004xx-Kl ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:03:21 1ossED-0004y0-M6 <= <> R=1ossEC-0004xx-Kl U=Debian-exim P=local S=1695
+2022-11-09 18:03:21 1ossEC-0004xx-Kl Completed
+2022-11-09 18:03:23 1ossED-0004y0-M6 ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:03:23 1ossED-0004y0-M6 Frozen (delivery error message)
+2022-11-09 18:04:55 1ossFj-0004yf-5w <= root@debian.up U=root P=local S=487 id=20221109210455.GA19118@debian.up
+2022-11-09 18:04:55 1ossFj-0004yf-5w ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:04:55 1ossFj-0004yi-8d <= <> R=1ossFj-0004yf-5w U=Debian-exim P=local S=1687
+2022-11-09 18:04:55 1ossFj-0004yf-5w Completed
+2022-11-09 18:04:55 1ossFj-0004yi-8d ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:04:55 1ossFj-0004yi-8d Frozen (delivery error message)
+2022-11-09 18:07:31 1ossIF-0004zW-KE <= root@debian.up U=root P=local S=487 id=20221109210731.GA19171@debian.up
+2022-11-09 18:07:31 1ossIF-0004zW-KE ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:32 1ossIG-0004zZ-KV <= <> R=1ossIF-0004zW-KE U=Debian-exim P=local S=1682
+2022-11-09 18:07:32 1ossIF-0004zW-KE Completed
+2022-11-09 18:07:32 1ossIG-0004zZ-KV ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:32 1ossIG-0004zZ-KV Frozen (delivery error message)
+2022-11-09 18:07:33 1ossIH-0004zy-5W <= root@debian.up U=root P=local S=486 id=20221109210733.GA19199@debian.up
+2022-11-09 18:07:33 1ossIH-0004zy-5W ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:33 1ossIH-000501-8l <= <> R=1ossIH-0004zy-5W U=Debian-exim P=local S=1686
+2022-11-09 18:07:33 1ossIH-0004zy-5W Completed
+2022-11-09 18:07:33 1ossIH-000501-8l ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:33 1ossIH-000501-8l Frozen (delivery error message)
+2022-11-09 18:07:41 1ossIP-00050Q-Jf <= root@debian.up U=root P=local S=489 id=20221109210741.GA19227@debian.up
+2022-11-09 18:07:41 1ossIP-00050Q-Jf ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:42 1ossIQ-00050T-23 <= <> R=1ossIP-00050Q-Jf U=Debian-exim P=local S=1684
+2022-11-09 18:07:42 1ossIP-00050Q-Jf Completed
+2022-11-09 18:07:42 1ossIQ-00050T-23 ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:42 1ossIQ-00050T-23 Frozen (delivery error message)
+2022-11-09 18:07:43 1ossIR-00050s-My <= root@debian.up U=root P=local S=488 id=20221109210743.GA19255@debian.up
+2022-11-09 18:07:43 1ossIR-00050s-My ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:43 1ossIR-00050v-Pc <= <> R=1ossIR-00050s-My U=Debian-exim P=local S=1688
+2022-11-09 18:07:43 1ossIR-00050s-My Completed
+2022-11-09 18:07:43 1ossIR-00050v-Pc ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:07:43 1ossIR-00050v-Pc Frozen (delivery error message)
+2022-11-09 18:24:55 Start queue run: pid=20453
+2022-11-09 18:24:55 1ossIQ-00050T-23 Message is frozen
+2022-11-09 18:24:55 1ossIR-00050v-Pc Message is frozen
+2022-11-09 18:24:55 1ossIH-000501-8l Message is frozen
+2022-11-09 18:24:55 1ossED-0004y0-M6 Message is frozen
+2022-11-09 18:24:55 1ossIG-0004zZ-KV Message is frozen
+2022-11-09 18:24:55 1ossFj-0004yi-8d Message is frozen
+2022-11-09 18:24:55 End queue run: pid=20453
+2022-11-09 18:37:16 1ossl2-0005MC-PT <= root@debian.up U=root P=local S=545 id=20221109213716.GA20575@debian.up
+2022-11-09 18:37:16 1ossl2-0005MC-PT ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:16 1ossl2-0005MF-Sq <= <> R=1ossl2-0005MC-PT U=Debian-exim P=local S=1745
+2022-11-09 18:37:16 1ossl2-0005MC-PT Completed
+2022-11-09 18:37:16 1ossl2-0005MF-Sq ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:16 1ossl2-0005MF-Sq Frozen (delivery error message)
+2022-11-09 18:37:27 1osslD-0005Mo-QZ <= root@debian.up U=root P=local S=595 id=20221109213727.GA20613@debian.up
+2022-11-09 18:37:27 1osslD-0005Mo-QZ ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:27 1osslD-0005Mr-Tb <= <> R=1osslD-0005Mo-QZ U=Debian-exim P=local S=1790
+2022-11-09 18:37:27 1osslD-0005Mo-QZ Completed
+2022-11-09 18:37:27 1osslD-0005Mr-Tb ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:27 1osslD-0005Mr-Tb Frozen (delivery error message)
+2022-11-09 18:37:36 1osslM-0005NQ-G2 <= root@debian.up U=root P=local S=645 id=20221109213736.GA20651@debian.up
+2022-11-09 18:37:36 1osslM-0005NQ-G2 ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:36 1osslM-0005NT-J4 <= <> R=1osslM-0005NQ-G2 U=Debian-exim P=local S=1840
+2022-11-09 18:37:36 1osslM-0005NQ-G2 Completed
+2022-11-09 18:37:36 1osslM-0005NT-J4 ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:36 1osslM-0005NT-J4 Frozen (delivery error message)
+2022-11-09 18:37:50 1ossla-0005O7-JG <= root@debian.up U=root P=local S=699 id=20221109213750.GA20694@debian.up
+2022-11-09 18:37:50 1ossla-0005O7-JG ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:50 1ossla-0005OA-Lz <= <> R=1ossla-0005O7-JG U=Debian-exim P=local S=1899
+2022-11-09 18:37:50 1ossla-0005O7-JG Completed
+2022-11-09 18:37:50 1ossla-0005OA-Lz ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:37:50 1ossla-0005OA-Lz Frozen (delivery error message)
+2022-11-09 18:38:04 1osslo-0005OZ-HI <= root@debian.up U=root P=local S=487 id=20221109213804.GA20724@debian.up
+2022-11-09 18:38:04 1osslo-0005OZ-HI ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:38:04 1osslo-0005Oc-LP <= <> R=1osslo-0005OZ-HI U=Debian-exim P=local S=1682
+2022-11-09 18:38:04 1osslo-0005OZ-HI Completed
+2022-11-09 18:38:04 1osslo-0005Oc-LP ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:38:04 1osslo-0005Oc-LP Frozen (delivery error message)
+2022-11-09 18:38:08 1ossls-0005P1-FH <= root@debian.up U=root P=local S=489 id=20221109213808.GA20752@debian.up
+2022-11-09 18:38:08 1ossls-0005P1-FH ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:38:08 1ossls-0005P4-IO <= <> R=1ossls-0005P1-FH U=Debian-exim P=local S=1689
+2022-11-09 18:38:08 1ossls-0005P1-FH Completed
+2022-11-09 18:38:08 1ossls-0005P4-IO ** alumno@debian.up <root@debian.up>: Unrouteable address
+2022-11-09 18:38:08 1ossls-0005P4-IO Frozen (delivery error message)
+2022-11-09 18:54:55 Start queue run: pid=20858
+2022-11-09 18:54:55 1ossls-0005P4-IO Message is frozen
+2022-11-09 18:54:55 1ossIQ-00050T-23 Message is frozen
+2022-11-09 18:54:55 1ossIR-00050v-Pc Message is frozen
+2022-11-09 18:54:55 1ossIG-0004zZ-KV Message is frozen
+2022-11-09 18:54:55 1osslo-0005Oc-LP Message is frozen
+2022-11-09 18:54:55 1ossIH-000501-8l Message is frozen
+2022-11-09 18:54:55 1ossl2-0005MF-Sq Message is frozen
+2022-11-09 18:54:55 1osslM-0005NT-J4 Message is frozen
+2022-11-09 18:54:55 1ossED-0004y0-M6 Message is frozen
+2022-11-09 18:54:55 1ossFj-0004yi-8d Message is frozen
+2022-11-09 18:54:55 1osslD-0005Mr-Tb Message is frozen
+2022-11-09 18:54:55 1ossla-0005OA-Lz Message is frozen
+2022-11-09 18:54:55 End queue run: pid=20858
+2022-11-09 19:24:55 Start queue run: pid=21056
+2022-11-09 19:24:55 1ossls-0005P4-IO Message is frozen
+2022-11-09 19:24:55 1ossIQ-00050T-23 Message is frozen
+2022-11-09 19:24:55 1ossla-0005OA-Lz Message is frozen
+2022-11-09 19:24:55 1ossIR-00050v-Pc Message is frozen
+2022-11-09 19:24:55 1ossED-0004y0-M6 Message is frozen
+2022-11-09 19:24:55 1osslo-0005Oc-LP Message is frozen
+2022-11-09 19:24:55 1ossIH-000501-8l Message is frozen
+2022-11-09 19:24:55 1ossl2-0005MF-Sq Message is frozen
+2022-11-09 19:24:55 1osslM-0005NT-J4 Message is frozen
+2022-11-09 19:24:55 1ossIG-0004zZ-KV Message is frozen
+2022-11-09 19:24:55 1ossFj-0004yi-8d Message is frozen
+2022-11-09 19:24:55 1osslD-0005Mr-Tb Message is frozen
+2022-11-09 19:24:55 End queue run: pid=21056
+2022-11-09 19:54:55 Start queue run: pid=21215
+2022-11-09 19:54:55 1ossIR-00050v-Pc Message is frozen
+2022-11-09 19:54:55 1osslo-0005Oc-LP Message is frozen
+2022-11-09 19:54:55 1ossIH-000501-8l Message is frozen
+2022-11-09 19:54:55 1ossl2-0005MF-Sq Message is frozen
+2022-11-09 19:54:55 1osslM-0005NT-J4 Message is frozen
+2022-11-09 19:54:55 1ossED-0004y0-M6 Message is frozen
+2022-11-09 19:54:55 1ossIG-0004zZ-KV Message is frozen
+2022-11-09 19:54:55 1ossFj-0004yi-8d Message is frozen
+2022-11-09 19:54:55 1osslD-0005Mr-Tb Message is frozen
+2022-11-09 19:54:55 1ossla-0005OA-Lz Message is frozen
+2022-11-09 19:54:55 1ossIQ-00050T-23 Message is frozen
+2022-11-09 19:54:55 1ossls-0005P4-IO Message is frozen
+2022-11-09 19:54:55 End queue run: pid=21215
+2022-11-09 20:24:55 Start queue run: pid=21421
+2022-11-09 20:24:55 1ossla-0005OA-Lz Message is frozen
+2022-11-09 20:24:55 1ossFj-0004yi-8d Message is frozen
+2022-11-09 20:24:55 1ossIG-0004zZ-KV Message is frozen
+2022-11-09 20:24:55 1ossED-0004y0-M6 Message is frozen
+2022-11-09 20:24:55 1osslo-0005Oc-LP Message is frozen
+2022-11-09 20:24:55 1ossIH-000501-8l Message is frozen
+2022-11-09 20:24:55 1ossl2-0005MF-Sq Message is frozen
+2022-11-09 20:24:55 1osslM-0005NT-J4 Message is frozen
+2022-11-09 20:24:55 1ossIR-00050v-Pc Message is frozen
+2022-11-09 20:24:55 1osslD-0005Mr-Tb Message is frozen
+2022-11-09 20:24:55 1ossIQ-00050T-23 Message is frozen
+2022-11-09 20:24:55 1ossls-0005P4-IO Message is frozen
+2022-11-09 20:24:55 End queue run: pid=21421

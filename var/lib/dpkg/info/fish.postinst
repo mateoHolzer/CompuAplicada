@@ -1,0 +1,17 @@
+#! /bin/sh
+set -e
+
+add-shell /usr/bin/fish
+
+# Automatically added by dh_installmenu/12.1.1
+if [ "$1" = "configure" ] && [ -x "`which update-menus 2>/dev/null`" ]; then
+	update-menus
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/12.1.1
+dpkg-maintscript-helper rm_conffile /etc/fish/fish_inputrc 1.22.3-3 fish -- "$@"
+dpkg-maintscript-helper symlink_to_dir /usr/share/doc/fish /usr/share/doc/fish-common 2.1.2\+dfsg1-1\~ fish -- "$@"
+# End automatically added section
+
+
+exit 0

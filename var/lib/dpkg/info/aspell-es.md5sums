@@ -1,0 +1,10 @@
+4d3fe95a04ce0b3233a13ab1b010ea8b  usr/lib/aspell/es.dat
+eac430c0762ece5b3f6f08b5bc1e8850  usr/lib/aspell/es.multi
+90447c2426257fdc82f7333045406f99  usr/lib/aspell/es_affix.dat
+736152fb43b115677b338efaa124c872  usr/lib/aspell/spanish.alias
+17c033706f664ec38148cd1fcda9b8a8  usr/share/aspell/es.cwl.gz
+8208bfb6455e40aa71f69b9cf2ba3be9  usr/share/doc/aspell-es/LEAME.gz
+6b26cb311ed50cbf3fa93c993459b0bb  usr/share/doc/aspell-es/README.gz
+3b50a7ccf85fd984d5f703bf86180577  usr/share/doc/aspell-es/changelog.Debian.gz
+c452ebc189e103d784917cb8dacf508a  usr/share/doc/aspell-es/copyright
+70f2b1effadf512933571aa4ccb280d9  var/lib/dictionaries-common/aspell/aspell-es

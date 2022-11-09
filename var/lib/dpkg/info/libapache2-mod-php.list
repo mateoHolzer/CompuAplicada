@@ -1,0 +1,11 @@
+/.
+/etc
+/etc/php
+/etc/php/7.3
+/etc/php/7.3/mods-available
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libapache2-mod-php
+/usr/share/doc/libapache2-mod-php/changelog.gz
+/usr/share/doc/libapache2-mod-php/copyright

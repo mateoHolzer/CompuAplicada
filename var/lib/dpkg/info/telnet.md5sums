@@ -1,0 +1,9 @@
+f647f104f97573583daf301e29df827d  usr/bin/telnet.netkit
+8d1846a637fc6c5d73c9b9b91a3e63ab  usr/share/doc/telnet/README
+a8aa951b88ca4f4c4835d88865fb4ee8  usr/share/doc/telnet/README.old.gz
+58c8e990fc09e14511db5aab2f6f4164  usr/share/doc/telnet/changelog.Debian.gz
+40bf56de99b3770b9186dd30c03361e8  usr/share/doc/telnet/changelog.gz
+fb622cfdfebf11742ba07c5f8a4c0e48  usr/share/doc/telnet/copyright
+911004a24f40df624643ac0679c9f669  usr/share/lintian/overrides/telnet
+a40db5ee63525645b3187f10447dac0d  usr/share/man/man1/telnet.netkit.1.gz
+c4c7b74fe26fab1b2dfce7fe61758d97  usr/share/menu/telnet

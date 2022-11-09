@@ -1,0 +1,26 @@
+### This file is part of the dictionaries-common package.
+### It has been automatically generated.
+### DO NOT EDIT!
+
+package Debian::DictionariesCommon::dbfile;
+
+%dictionaries = (
+  'american (American English)' => {
+     'hash-name' => 'american-english',
+     'package' => 'wamerican'
+  },
+  'castellano (Spanish)' => {
+     'additionalchars' => 'áéíñóúüÁÉÍÑÓÚÜ',
+     'casechars' => '[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'spanish',
+     'extended-character-mode' => '~latin1',
+     'hash-name' => 'spanish',
+     'ispell-args' => '-B -d castellano',
+     'not-casechars' => '[^a-zñáéíóúüA-ZÑÁÉÍÓÚÜ]',
+     'otherchars' => '[-]',
+     'package' => 'wspanish'
+  }
+);
+
+1;

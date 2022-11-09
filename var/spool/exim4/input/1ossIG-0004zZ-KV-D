@@ -1,0 +1,43 @@
+1ossIG-0004zZ-KV-D
+--1668028051-eximdsn-815516729
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  alumno@debian.up
+    (generated from root@debian.up)
+    Unrouteable address
+
+--1668028051-eximdsn-815516729
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; debian.up
+
+Action: failed
+Final-Recipient: rfc822;alumno@debian.up
+Status: 5.0.0
+
+--1668028051-eximdsn-815516729
+Content-type: message/rfc822
+
+Return-path: <root@debian.up>
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1ossIF-0004zW-KE
+	for root@debian.up; Wed, 09 Nov 2022 18:07:31 -0300
+Date: Wed, 9 Nov 2022 18:07:31 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109210731.GA19171@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+
+El servicio sshd no esta en ejecucion.
+
+--1668028051-eximdsn-815516729--

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+rm -f /usr/share/guile/2.2/slib
+rm -f /usr/share/guile/2.2/slibcat
+
+

@@ -1,0 +1,5 @@
+root crontab 2755 /usr/bin/crontab
+root Debian-exim 640 /etc/exim4/passwd.client
+root root 1733 /var/lib/php/sessions
+root ssl-cert 710 /etc/ssl/private
+root messagebus 4754 /usr/lib/dbus-1.0/dbus-daemon-launch-helper

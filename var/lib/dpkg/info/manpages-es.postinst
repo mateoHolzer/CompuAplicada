@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+
+if [ -x /usr/sbin/chmanconfig ]; then
+	chmanconfig --add --lang=es
+fi
+
+

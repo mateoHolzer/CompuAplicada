@@ -1,0 +1,11 @@
+Language: castellano (Spanish)
+Hash-Name: spanish
+Emacsen-Name: spanish
+Casechars: [a-zñáéíóúüA-ZÑÁÉÍÓÚÜ]
+Not-Casechars: [^a-zñáéíóúüA-ZÑÁÉÍÓÚÜ]
+Otherchars: [-]
+Many-Otherchars:
+Additionalchars: áéíñóúüÁÉÍÑÓÚÜ
+Ispell-Args: -B -d castellano
+Extended-Character-Mode: ~latin1
+Coding-System: iso-8859-1

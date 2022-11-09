@@ -1,0 +1,8 @@
+cedea890616df705b054596a087389db  usr/bin/python3.7
+cedea890616df705b054596a087389db  usr/bin/python3.7m
+9d48bf1dd4dbda1a67180813849b4745  usr/share/binfmts/python3.7
+29cb8ac2c8d1b40a6524923aa99cc548  usr/share/doc/python3.7-minimal/README.Debian
+a3d3fcfc7093e73105a5bc83927861b6  usr/share/doc/python3.7-minimal/changelog.Debian.gz
+d8c47e21fcd8f5a22f90828d568b0084  usr/share/doc/python3.7-minimal/copyright
+7de6805a5fceecdf22b8024bb856cf7f  usr/share/lintian/overrides/python3.7-minimal
+b8367ada2f7e232b2f08cf526b12ca0e  usr/share/man/man1/python3.7.1.gz

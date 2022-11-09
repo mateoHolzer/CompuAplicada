@@ -1,0 +1,41 @@
+#!/bin/sh
+set -e
+# Automatically added by installdeb-aspell/UNDECLARED
+dico_class="aspell"
+dico_varlib_remove="es.compat es.remove es.rws"
+dico_varlib_rmfiles="es.remove"
+
+case "$1" in abort-install|remove)
+	if [ -d "/var/lib/$dico_class" ]; then
+	    ( cd "/var/lib/$dico_class" &&
+		for rmfile in $dico_varlib_rmfiles; do
+		    for i in $(grep -s -e ^/usr/lib/$class -e ^/var/lib/$class "$rmfile"); do
+			if [ -e "$i" ]; then
+			    if [ -d "$i" ]; then
+			        rmdir --ignore-fail-on-non-empty "$i"
+			    else
+			        rm -f "$i"
+			    fi
+			else
+			    echo "Ignoring already removed file \"$i\"." >&2
+			fi
+		    done
+		done
+		rm -f $dico_varlib_remove )
+	    if ! dpkg-query -S "/var/lib/$dico_class"  > /dev/null 2>&1; then
+		rmdir --ignore-fail-on-non-empty "/var/lib/$dico_class"
+	    fi
+	fi
+esac
+# End automatically added section
+# Automatically added by installdeb-aspell/UNDECLARED
+rmscript="update-dictcommon-aspell"
+
+case "$1" in abort-install|remove)
+	if which $rmscript > /dev/null 2>&1; then
+	    $rmscript 
+	else
+	    echo "Warning: $rmscript not present or executable." >&2
+	fi
+esac
+# End automatically added section

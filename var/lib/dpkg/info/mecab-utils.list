@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/mecab
+/usr/lib/mecab/mecab-cost-train
+/usr/lib/mecab/mecab-dict-gen
+/usr/lib/mecab/mecab-dict-index
+/usr/lib/mecab/mecab-system-eval
+/usr/lib/mecab/mecab-test-gen
+/usr/share
+/usr/share/doc
+/usr/share/doc/mecab-utils
+/usr/share/doc/mecab-utils/changelog.Debian.gz
+/usr/share/doc/mecab-utils/copyright

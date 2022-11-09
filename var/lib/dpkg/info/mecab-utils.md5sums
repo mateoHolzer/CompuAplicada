@@ -1,0 +1,7 @@
+e52ec1f2390f92e9968aef3c320642f5  usr/lib/mecab/mecab-cost-train
+245fceca4dc082bf90c0cd990231f42a  usr/lib/mecab/mecab-dict-gen
+90c1a8eccdd49a545a3a5154ab970f44  usr/lib/mecab/mecab-dict-index
+ba6d96c9c229f3003fa8a55877e52dd0  usr/lib/mecab/mecab-system-eval
+f8c6d45910392e1d3db13eda60b76b23  usr/lib/mecab/mecab-test-gen
+e68f5eb9add42c610fee6e41d2a0abc1  usr/share/doc/mecab-utils/changelog.Debian.gz
+1dbda1dce43cc0cbfad269ee118902d5  usr/share/doc/mecab-utils/copyright

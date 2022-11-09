@@ -1,0 +1,421 @@
+Package: libmysqlcppconn-dev
+Source: mysql-connector-c++
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 29415
+Depends: libmysqlcppconn9 (= 8.0.31-1debian10), libmysqlcppconn8-2 (= 8.0.31-1debian10)
+Multi-Arch: same
+Homepage: https://dev.mysql.com/doc/connector-cpp/en/
+Priority: optional
+Section: libdevel
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn-dev_8.0.31-1debian10_amd64.deb
+Size: 3559204
+SHA256: b8163273362f191b1fb583a4e14cdbd7e1d6060360f1479bb7cd80d7f3278631
+SHA1: a61d95fc2691167466e2d8b33c721d9a26383340
+MD5sum: 54d9553c45370271e8f17333e64db357
+Description: Development header files and libraries for MySQL C++ client applications
+ This package contains the development header files and libraries necessary
+ to develop MySQL client applications in C++.
+
+Package: libmysqlcppconn7
+Source: mysql-connector-c++
+Version: 8.0.22-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 8111
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2)
+Breaks: libmysqlcppconn7v5
+Replaces: libmysqlcppconn7v5
+Multi-Arch: same
+Homepage: https://dev.mysql.com/doc/connector-cpp/en/
+Priority: optional
+Section: libs
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn7_8.0.22-1debian10_amd64.deb
+Size: 1546760
+SHA256: c8b75ca72122c858b14ba1c07e7f555ae47105cf0f58bb869acdad704bf96e55
+SHA1: 90ed8c6cea879e4c8167af4cc2a255c26d30701f
+MD5sum: 7478f350b0a9a9a7b4b580fc422d9474
+Description: MySQL Driver for C++ which mimics the JDBC 4.0 API
+ This MySQL Driver for C++ mimics the JDBC 4.0 API.
+
+Package: libmysqlcppconn7-dbgsym
+Source: mysql-connector-c++
+Version: 8.0.22-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 3252
+Depends: libmysqlcppconn7 (= 8.0.22-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn7-dbgsym_8.0.22-1debian10_amd64.deb
+Size: 2908364
+SHA256: 893b1cc89c422205f0869337a478e952699c6d0f6a9337d9cecdfbe64150fd5a
+SHA1: 4ef77c4366c94f4ea120fab98e76c60256546cf5
+MD5sum: 7abd21932666b2e0a907aa94e3f199e2
+Description: debug symbols for libmysqlcppconn7
+Build-Ids: 56af891c0bd50f6654d4f999f4f5a36cfb39c482
+
+Package: libmysqlcppconn8-2
+Source: mysql-connector-c++
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 3325
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), mysql-community-client-plugins
+Multi-Arch: same
+Homepage: https://dev.mysql.com/doc/connector-cpp/en/
+Priority: optional
+Section: libs
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn8-2_8.0.31-1debian10_amd64.deb
+Size: 932700
+SHA256: ccab4985ceffafc5f1f5c91d77cfefa78e02645e865cc481f669d59be2b020ea
+SHA1: 722f655b8ff8e3c646b684506a62a143946aa2fe
+MD5sum: 73e885ccddeb9148bd7cd184a815ab5b
+Description: MySQL database connector for C++
+ A C++ interface for communicating with MySQL servers.
+
+Package: libmysqlcppconn8-2-dbgsym
+Source: mysql-connector-c++
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 25543
+Depends: libmysqlcppconn8-2 (= 8.0.31-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn8-2-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 22759036
+SHA256: fef0a539db5dcdd3120c7da9b95e4b0741682438f2e4cdee4185dfbda7a857a5
+SHA1: 3d3c745d3deed93871cd0cbee31789a8e936a20f
+MD5sum: 501a791312628ec078f7b55223a0386c
+Description: debug symbols for libmysqlcppconn8-2
+Build-Ids: 6727225ebfd82fc96e17528f78c02f9f4f9610e4
+
+Package: libmysqlcppconn9
+Source: mysql-connector-c++
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 8462
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2)
+Breaks: libmysqlcppconn9v5
+Replaces: libmysqlcppconn9v5
+Multi-Arch: same
+Homepage: https://dev.mysql.com/doc/connector-cpp/en/
+Priority: optional
+Section: libs
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn9_8.0.31-1debian10_amd64.deb
+Size: 1640620
+SHA256: c045a2df790a770178eb53be847287fdae760bc718797a900533b86abe677ca0
+SHA1: c2a4680c3583b625b4e5939a4a262e4f235d5013
+MD5sum: 974785e91a84b52009e23f320095811e
+Description: MySQL Driver for C++ which mimics the JDBC 4.0 API
+ This MySQL Driver for C++ mimics the JDBC 4.0 API.
+
+Package: libmysqlcppconn9-dbgsym
+Source: mysql-connector-c++
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 3380
+Depends: libmysqlcppconn9 (= 8.0.31-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-connector-c++/libmysqlcppconn9-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 3021316
+SHA256: af1df1772a8ddc15c87737186e19002620f6d916dcabb61b563189077dbf75bd
+SHA1: a511663037ee8b8b6ecb4a16f100fc384215b6e6
+MD5sum: 61195fe3aa6839db2282050ef7b2b9d5
+Description: debug symbols for libmysqlcppconn9
+Build-Ids: 1f78bd7d0080d04a1ce3ac18bf5558894104c98a
+
+Package: mysql-connector-j
+Version: 8.0.31-1debian10
+Architecture: all
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 2584
+Breaks: mysql-connector-java (<< 8.0.31)
+Replaces: mysql-connector-java (<< 8.0.31)
+Provides: mysql-connector-java
+Homepage: http://dev.mysql.com/downloads/connector/j/
+Priority: optional
+Section: database
+Filename: pool/mysql-tools/m/mysql-connector-j/mysql-connector-j_8.0.31-1debian10_all.deb
+Size: 2475756
+SHA256: b053af6880b4e89bba6cdc83c5e1465c1513b4bca62a55bf7ab25fb7cc552942
+SHA1: e35ec5d8db26f6dcde6eb3461f73f5a4a2ca7e7d
+MD5sum: c852b2cba4d40fd59c1e587c3162c735
+Description: MySQL Connector/J
+ Standardized MySQL database driver for Java
+
+Package: mysql-connector-odbc
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 22742
+Depends: dpkg-dev, mysql-community-client-plugins, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libgcc1 (>= 1:3.0), libodbc1 (>= 2.3.1), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), odbcinst1debian2 (>= 2.3.1)
+Conflicts: mysql-connector-odbc-commercial
+Breaks: libiodbc2 (<< 3.52.7-2~), odbcinst1debian2 (<< 2.2.14p2-3), unixodbc (<< 2.2.14p2-3)
+Multi-Arch: same
+Homepage: http://dev.mysql.com/downloads/connector/odbc/
+Priority: optional
+Section: libs
+Filename: pool/mysql-tools/m/mysql-connector-odbc/mysql-connector-odbc_8.0.31-1debian10_amd64.deb
+Size: 1686044
+SHA256: d9080f055b64438eba7752b856fcd121cf7d2d971c79eed10f032adfcc3e73f6
+SHA1: 4ade091a8444ff6e5d0aa50e75806ac614531a22
+MD5sum: 85c00b3f293b6829a145c3bbbbdcc654
+Description: MySQL ODBC driver
+ This package allows you to connect to MySQL database servers using
+ ODBC, the Open Database Connectivity abstraction layer which is
+ understood by a variety of database tools that cannot talk to MySQL
+ databases directly.
+
+Package: mysql-connector-odbc-dbgsym
+Source: mysql-connector-odbc
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 4956
+Depends: mysql-connector-odbc (= 8.0.31-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-connector-odbc/mysql-connector-odbc-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 4110696
+SHA256: 71806e01d4fbe28bd46e82a5af6ce228007931f357318b1cb83496da8291b7b8
+SHA1: e510d0dcdd4bb6e52278c49d7ba2fb83fd6c5ac8
+MD5sum: d5771b9bb9b34c30342fdabdc7135174
+Description: debug symbols for mysql-connector-odbc
+Build-Ids: 599011919686d9de3e12656465c3581bad870518 c4b1eac8ad695a58876c86a61c8660e8f281e66f fe7b30e5606dcfabd68657075f1bed0f587ca3d3
+
+Package: mysql-connector-odbc-setup
+Source: mysql-connector-odbc
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 13578
+Depends: dpkg-dev, libgtk-3-0 (>= 3.0.0), mysql-connector-odbc (= 8.0.31-1debian10), libc6 (>= 2.28), libgcc1 (>= 1:3.0), libgtk2.0-0 (>= 2.14.0), libodbc1 (>= 2.3.1), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), odbcinst1debian2 (>= 2.3.1)
+Conflicts: mysql-connector-odbc-commercial-setup
+Multi-Arch: same
+Homepage: http://dev.mysql.com/downloads/connector/odbc/
+Priority: optional
+Section: libs
+Filename: pool/mysql-tools/m/mysql-connector-odbc/mysql-connector-odbc-setup_8.0.31-1debian10_amd64.deb
+Size: 1101396
+SHA256: 8563f7487232bd1750b23b96fd57a845c6ff11355b3981665c0d825282de86fe
+SHA1: b49d54387fd39ad621cafe8d588a01c4282755b5
+MD5sum: 9155c6438760bbaa64f0ad47de95f696
+Description: MySQL ODBC driver setup GUI
+ This package allows you use a graphical interface to specify
+ This package is the setup library for the MySQL ODBC package, it
+ handles the optional GUI dialog for configuring the driver.
+
+Package: mysql-connector-odbc-setup-dbgsym
+Source: mysql-connector-odbc
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 1030
+Depends: mysql-connector-odbc-setup (= 8.0.31-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-connector-odbc/mysql-connector-odbc-setup-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 724700
+SHA256: 3d47814ed62ec527d489df12aa5c1b478b2be1f6bb6d487226d89081f4084bda
+SHA1: 36fb64c34c8b7d2f7a14cbcdc6d09d1ca9c59cd5
+MD5sum: a37837c8e65dbceff9e66c5e56080f2c
+Description: debug symbols for mysql-connector-odbc-setup
+Build-Ids: 5a3ebd873aabb77b7fb9c6925b407df8579d6d1b 681dd9b8650863b7ba19bab89aeb80e9ec96a955 e3e0cd2a07f35fe9fc2cc7583bbad5933842f2a9
+
+Package: mysql-connector-python-py3
+Source: mysql-connector-python
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 11086
+Depends: python3-protobuf (<< 4), python3-distutils
+Recommends: python3-dnspython (>= 1.16.0)
+Conflicts: mysql-connector-python-commercial-py3, python3-mysql.connector
+Breaks: mysql-connector-python-cext-py3 (<< 8.0.22)
+Replaces: mysql-connector-python-cext-py3 (<< 8.0.22)
+Homepage: http://dev.mysql.com/downloads/connector/python/
+Priority: extra
+Section: python
+Filename: pool/mysql-tools/m/mysql-connector-python/mysql-connector-python-py3_8.0.31-1debian10_amd64.deb
+Size: 2073488
+SHA256: e2451e7e9f6a2b0b758c66b61ba5876694f5cd842304895354b3aecd64d73ffd
+SHA1: 0943cfac418cf11302775a4d7659ef4c8306820a
+MD5sum: 054f29234b178e1a971f0002e5fe0024
+Description: MySQL database driver written in pure Python 3
+  This is a release of MySQL Connector/Python, Oracle's dual-
+ license Python Driver for MySQL. For the avoidance of
+ doubt, this particular copy of the software is released
+ under the version 2 of the GNU General Public License.
+ MySQL Connector/Python is brought to you by Oracle.
+ .
+ Copyright (c) 2009, 2022, Oracle and/or its affiliates.
+ .
+ License information can be found in the COPYING file.
+ .
+ MySQL FOSS License Exception
+ We want free and open source software applications under
+ certain licenses to be able to use the GPL-licensed MySQL
+ Connector/Python (specified GPL-licensed MySQL client libraries)
+ despite the fact that not all such FOSS licenses are
+ compatible with version 2 of the GNU General Public License.
+ Therefore there are special exceptions to the terms and
+ conditions of the GPLv2 as applied to these client libraries,
+ which are identified and described in more detail in the
+ FOSS License Exception at
+ <http://www.mysql.com/about/legal/licensing/foss-exception.html>
+ .
+ This software is OSI Certified Open Source Software.
+ OSI Certified is a certification mark of the Open Source Initiative.
+ .
+ This distribution may include materials developed by third
+ parties. For license and attribution notices for these
+ materials, please refer to the documentation that accompanies
+ this distribution (see the "Licenses for Third-Party Components"
+ appendix) or view the online documentation at
+ <http://dev.mysql.com/doc/>
+ A copy of the license/notices is also reproduced below.
+ .
+ GPLv2 Disclaimer
+ For the avoidance of doubt, except that if any license choice
+ other than GPL or LGPL is available it will apply instead,
+ Oracle elects to use only the General Public License version 2
+ (GPLv2) at this time for any software where a choice of GPL
+ license versions is made available with the language indicating
+ that GPLv2 or any later version may be used, or where a choice
+ of which version of the GPL is applied is otherwise unspecified.
+
+Package: mysql-connector-python-py3-dbgsym
+Source: mysql-connector-python
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 9998
+Depends: mysql-connector-python-py3 (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-connector-python/mysql-connector-python-py3-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 9350168
+SHA256: 5378c79e07b91259976c6defbfe33d931eb32fd2690840dd839504ef3a0aa2d1
+SHA1: 9b1f48e2191cbe42c91e118609a52172c9eb879f
+MD5sum: 3def28882b90d297c3e0260564568f56
+Description: debug symbols for mysql-connector-python-py3
+Build-Ids: 5d038968291d7b24a1ba4cf9e2fb65d1ada5021a 798a5fb5ed0413b9f139b3d0e3ddf5e53ce10a9f
+
+Package: mysql-router
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 40
+Depends: mysql-router-community
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-tools/m/mysql-community/mysql-router_8.0.31-1debian10_amd64.deb
+Size: 32124
+SHA256: fd18ac6c8f34e6e5e5966d7ba3d5526511bdb698ebcb92dc8ef77b2bee8f01ac
+SHA1: 359d6b7b8b65c61e02b502a71aa2decf33e4dc01
+MD5sum: b35ff724f24ece3e725f64a8da4fc222
+Description: MySQL Router Metapackage
+ The MySQL(TM) Router software delivers a fast, multi-threaded way of
+ routing connections from MySQL Clients to MySQL Servers. MySQL is a
+ trademark of Oracle. This is the shared router metapackage, used for
+ dependency handling.
+
+Package: mysql-router-community
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 30830
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.0), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7)
+Conflicts: mysql-router (<< 8.0.3), mysql-router-commercial
+Breaks: mysql-router-community
+Replaces: mysql-router-community
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-tools/m/mysql-community/mysql-router-community_8.0.31-1debian10_amd64.deb
+Size: 6019924
+SHA256: 07de95e642569e03bd64d281799387bd7059b1d5d6a2014d4d2ea77a2240a17a
+SHA1: 4a0a46ebe5a47bae7dc6d0c1527ae73f5dcf78b6
+MD5sum: 385adea6471f1f23230f29abc0ecea9e
+Description: MySQL Router
+ The MySQL(TM) Router software delivers a fast, multi-threaded way of
+ routing connections from MySQL Clients to MySQL Servers. MySQL is a
+ trademark of Oracle.
+
+Package: mysql-router-community-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 53438
+Depends: mysql-router-community (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-community/mysql-router-community-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 52155184
+SHA256: 98f50905b0321472262c3789db9f688632784fecbc685b7e8d3f873d72538681
+SHA1: ca0ad376d3af5de2efbec4e0b0e67bead20ce9ad
+MD5sum: 72f23fd004a6988bfede988b508cafdf
+Description: debug symbols for mysql-router-community
+Build-Ids: 05f4d6629969cfd033160e2a155f1ca6a7542d83 1933ba5901eb365f40a37435db21676b635e7690 1b5b42da7112f7a5433466c201bb0dc155bc42b9 298d78e72eda2e845b361f25c06746525f602f4a 29f37c01e782b81ccd35caf96f0300145fac0b0b 2fcef9cb49e72691b714d9e97909f36ca2fe9fd0 3290ea585d3fb90917c4dfd0da4b132d55090ad6 3513268f76fb6cb709d7aa628d248ea1a9160ef3 35a7ee22f0c3194d0c85bb3a0abb62e207b212b1 52cda0c6d9301853b493f025fdbd3a392b807c54 55a346520c570699de35c36c2d212102a23ae690 5d0a6b59510d02babd336518e3101ce55b6fb66c 68c328de2d2908ffdce9ba422568b1a84a4db597 69de0a998e942d05d9de3446664b856626425509 7ad189a5832536421d3653ca0ab6031805b9d1f1 7ca0e0c1b47b3e869464ef5b342bc87ac9a03de7 93f469d3e304f00c39950d24c4c4fa878181fe7f 988597485f5b700b8023995f96a470d213fc335b 9f2049682835b1f2d4ecb15dd2fb8cab36f82101 a9fae2a2856699d3ab68885b7ca3aac948201d36 b61baa7525be3aecc0b9a3025461b8c85f4f4b97 b823e1a9c24411218018cc417c28af9485b389cb c189b4d50f9f4a41beec3270474126d81c4e733d c90d105c4cf8bbc374a903663d6197ba62ce19e0 cae58ec6d3bd4b0e434c5f57b5696b4a6a905740 d6541ad8db9c938338496b5e5632887a994986ca e32c2da3d30688220aae7d33cc1a61deefb5fcb5 e37a35dc7413c8f345030b4ea48ba616cc324b9a e9019333b826d2cc4fca00f798be58fbb23cd554 ee472927ce2e6bb0085cc9ff9ef05de8dead292d f329467d68e03966a37dca91cdfb65bf610bfd22
+
+Package: mysql-shell
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 197229
+Depends: libbz2-1.0, libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.17), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libncursesw6 (>= 6.1), libreadline7 (>= 7.0~beta), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7), libtinfo6 (>= 6), libuuid1 (>= 2.20.1), zlib1g (>= 1:1.2.0)
+Conflicts: mysql-shell-commercial
+Replaces: mysql-shell-commercial
+Multi-Arch: same
+Homepage: http://dev.mysql.com/downloads/shell
+Priority: optional
+Section: database
+Filename: pool/mysql-tools/m/mysql-shell/mysql-shell_8.0.31-1debian10_amd64.deb
+Size: 28060760
+SHA256: 2e6f7a1c9084b9fcc6e1db4157d82122b5f81a1197580192a30c79afcdc379c0
+SHA1: 2491d6174c067693073b080b0f577ef9e3555343
+MD5sum: 13837423757b80c35afc2354549ddb12
+Description: MySQL Shell (part of MySQL Server) 8.0
+ MySQL query and administration shell client and framework.
+
+Package: mysql-shell-dbgsym
+Source: mysql-shell
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 567152
+Depends: mysql-shell (= 8.0.31-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-tools/m/mysql-shell/mysql-shell-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 560906688
+SHA256: 001d3eb8150863882c309c7d9c5cfba03151ee2cadd58c15eee1dfe1be7f282e
+SHA1: d77795383c1ea6f939266dffab25dcc5ca66e33f
+MD5sum: 99d707facbc07e7f27457fa3b3862799
+Description: debug symbols for mysql-shell
+Build-Ids: 01c574c03507071382692d03690b2210f0a45e9d 07e8c7c47046acdd4a841a21058dcc2f9429416c 09cd6c7e765bdcba902f282ef46a818b9100d23b 0b18f5245b449e73f82683c95f976b5bcc245e76 10c943a7bd27656fb58ad8753b3bd17f524742b4 11759ccbe7c8177c93b1272ccc73513343ee5021 1305bb6d574656ee450c53547ba228a4bde8b661 15a921d2dca6cba201b76298f6d4af86e1e929bd 1929fa496c08711ad3b47ca01253693471099b35 286b8949b7f39ee2ed55d81d3dc245082328bbf5 293423477563bc16990145093847a571a2a1f2ee 2f319db42dfc1cd90af2e0c64fbd3523ea993c54 33164ef800c099873ba6340c4b0099f190025710 3561f0892f9053b25454e3e7eeddee7409b61b9e 35fead16e4b6803c93f56fe3685769709442ebf8 396909de98c87f150833ed2173ffd2995eb198d1 3ca0d61f0ea24f718f56606c471a3bb8f980ca79 3d8d3e29979d5726fc78800a32983edc7d0b2c05 3f1e4dd66a5f26345afca9ba8c579c54ee20c751 404a7dc36887391037fff0ed944490423273a12a 40c3371af6f2c8c42182602076f5ef7d2e040c42 42d033e7dadfb6dc8d5712bebd12d7e8a7048860 4ec8968316ff841ab98b7177226d46926f2f6df9 5098a7ff24409034152f29cc819e2ff6f0896e77 5259115d8b69336fa2388eab9db477a69bdbf29f 5370354581a7fff6b206c55323d0fea8e4b26e97 57d414f902aba63a10049f412ac254d8e9d880ab 58730422c8412dd6798ff7183e8c314c4e6dd911 58e27ba7410044348de300332ec60db3db66416e 5d9371d4e3a275462e30569fd9efbd1f24270bdd 5f4b066b884c457a0d0f11c377a261f75abb5451 67f645129a9bfde1b3d77d04b88fc06579b24546 6ae1aae32ab77b9505368e2fde274366575f7320 6b195358f441e06a4f6b3831c8cdfc7b55735dec 6ca8220954482a2c2bc61453f4c0417ff9ba7ff7 6f5e0f304467cccc7bfe59cc663499d929d344a8 7370dabaafc3352276fedcdf84f1e2fa6443ee1c 758b401eabac37065ec9f9399ebbdc1bedd4261c 842e02ed90d5411816e8f2bc00492102c8ca8c1e 84385d307b072a905c59d3ef02f7d53dafacbf60 85e1efd84d793494d504304c714fa792b1373d88 884a1f7ea99d3b102c582542bcaa9ce0505bb707 886f334ffd8b2cb366334eb95c309534efa1d8a7 8a6659be71b11f2bb8fc6e818297a511d4b5073b 8a72a616dee7c6d21fd983f3239d493d5f4f64c1 8d880f809dd30cdc1688f581100b3fde60b45df0 9517e10441e378dcc2686f643dc35024d1a858a5 97eccd505cd6eb8d9124e0d8a4fd85f848dd9302 9af9378b6d084e309de13651e6bb64c631a0e93e 9afa79732c872d8c454273cd72d185268c81455f 9bf46bace878505953f5e11b52d0f4fd18db01a0 a2895493f6bbfee0e353a9371ff3ea9d390b05b0 a41cb59c8c46d541d22779effd99b367814f7068 a7b05a7a0ec1f31414cdd11866fdc73441e64a51 a8fb08636a777f3d078b6a84fa56f81552994d4c aa2254c5c44a8e1c826b592e86b70770bb8cb58d adfc88bf415dd898462f8b67c238f97d6df392ef aecf845fbfcdd96d8b55277232534bddcc7df30f b06035e3fb0bdbe3991c21fce85187718b9d1d14 b15f827981c4e9eeeb925789367fe860f939e8d4 b54b1ecbce8d2277b6290350b32358a3df3426c0 b9ec06d3e10f7950125e2cd800642a744960df88 ba5cfa34930cb6a9dd7ef29f51ecbfa5a0e56501 ba8114625924ff848329cfc3817cee03b1862edf bb2f630e6bc413c6651774d6e6faae4dbc86ab07 bdc2d060feb960bc4e556e5c71558875db1189ff be2963dc3f220b99170f7daf674a48291a988c16 c17fa6181cb6242aa201f659f14ae13122b32650 c285bd6d6038bf92547e8ca988c23ff76156325e c2df4f2bc45e4873ef18527b817ef1d7466a2fcd c463e1bcd68c1a2d1ba33577a5585beb182d269b cd1acf9c21d002ebb02df345fccc6f7b7f58cf8c d0d4546967274cb04c3f41710720309a138752c6 d502ed0debe5e6b068e1c940a0b35540f67e209d db1050acc74213dab128a323566b797ba69f0adb dc670aa1417fd33fc48f79950ad564d259fd56f2 e3ace2f7100b0de3022543bbfcb4baea46370ff3 e44504e974622c8788d7685243b48866b72f3c1e e96fad9366de8348a6a9a3cc47ecfc3bbf07e798 e979a7dd9e164294d8e49787948ca4bf3871fc5e ece9430368be657113e1a896c919841927fa2321 f30f7126267bccba43ea4df832b5d7f6d5bdc33a f7a3bb289614ba56fed9be2ec1749079393ce93f
+

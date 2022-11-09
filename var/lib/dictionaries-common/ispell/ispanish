@@ -1,0 +1,35 @@
+Language: castellano (Spanish Tex mode)
+Hash-Name: espa~nol
+Emacsen-Name: castellano
+Debconf-Display: no
+Casechars: [a-z\301\311\315\321\323\332\334A-Z\341\351\355\361\363\372\374]
+Not-Casechars: [^a-z\301\311\315\321\323\332\334A-Z\341\351\355\361\363\372\374]
+Otherchars:
+Many-Otherchars:
+Additionalchars: áéíñóúüÁÉÍÑÓÚÜ
+Ispell-Args: -B
+Extended-Character-Mode: ~tex
+Coding-System: iso-8859-1
+
+Language: castellano8 (Spanish 8 bit)
+Hash-Name: espa~nol
+Emacsen-Name: castellano8
+Auto-Compat: espa~nol
+Casechars: [a-z\340\341\350\351\354\355\362\363\371\372\374\347\361A-Z\300\301\310\311\314\315\322\323\331\332\334\307\321]
+Not-Casechars: [^a-z\340\341\350\351\354\355\362\363\371\372\374\347\361A-Z\300\301\310\311\314\315\322\323\331\332\334\307\321]
+Otherchars:
+Many-Otherchars:
+Additionalchars: ñáàéèíìóòúùüÑÁÀÉÈÍÌÓÒÚÙÜ
+Ispell-Args: -B
+Extended-Character-Mode: ~latin1
+Coding-System: iso-8859-1
+
+Language: castellano-utf8 (Spanish utf-8)
+Hash-Name: espa~nol
+Emacsen-Name: castellano-utf8
+Debconf-Display: no
+Emacs-Display: no
+Jed-Display: no
+Ispell-Args: -B
+Extended-Character-Mode: ~utf8
+Coding-System: utf-8

@@ -1,0 +1,1025 @@
+Package: apt
+Version: 1.8.2.3
+Installed-Size: 4064
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
+Provides: apt-transport-https (= 1.8.2.3)
+Depends: adduser, gpgv | gpgv2 | gpgv1, debian-archive-keyring, libapt-pkg5.0 (>= 1.7.0~alpha3~), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.6.6), libseccomp2 (>= 1.0.1), libstdc++6 (>= 5.2)
+Recommends: ca-certificates
+Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
+Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
+Description: commandline package manager
+Description-md5: 9fb97a88cb7383934ef963352b53b4a7
+Tag: admin::package-management, devel::lang:ruby, hardware::storage,
+ hardware::storage:cd, implemented-in::c++, implemented-in::perl,
+ implemented-in::ruby, interface::commandline, network::client,
+ protocol::ftp, protocol::http, protocol::ipv6, role::program,
+ scope::application, scope::utility, suite::debian, use::downloading,
+ use::organizing, use::playing, use::searching, works-with-format::html,
+ works-with::audio, works-with::software:package, works-with::text
+Section: admin
+Priority: required
+Filename: pool/main/a/apt/apt_1.8.2.3_amd64.deb
+Size: 1418424
+SHA256: 0bee9be69a65a5b0a1dd28322620779a2fc2e8b3420e4cbe292d4bfc4ba9268f
+
+Package: apt-doc
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 917
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: all
+Description: documentation for APT
+Description-md5: bc2b838ed28e60af95d78926380a3300
+Tag: admin::package-management, hardware::storage, hardware::storage:cd,
+ made-of::html, protocol::ftp, protocol::http, protocol::ipv6,
+ role::documentation, role::program, suite::debian, use::downloading,
+ use::searching, works-with-format::html, works-with-format::plaintext,
+ works-with::software:package, works-with::text
+Section: doc
+Priority: optional
+Filename: pool/main/a/apt/apt-doc_1.8.2.3_all.deb
+Size: 378660
+SHA256: c1b7d535894ab601e5701a108a0692110c96196bfad287fc998be2550a82d5a3
+
+Package: apt-transport-https
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 152
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: all
+Depends: apt (>= 1.5~alpha4)
+Description: transitional package for https support
+Description-md5: 42fb3fe23b1b826709a68809c25a3897
+Tag: role::shared-lib
+Section: oldlibs
+Priority: optional
+Filename: pool/main/a/apt/apt-transport-https_1.8.2.3_all.deb
+Size: 149384
+SHA256: d2a427d1738562641607603fe5d615499b7e118efb3923ae84fa36bb7ca54fb1
+
+Package: apt-utils
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 1127
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Depends: apt (= 1.8.2.3), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.3~rc2), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: package management related utility programs
+Description-md5: fa0295dc4e40dbbea6c84f614c570636
+Tag: admin::automation, admin::package-management, devel::debian,
+ hardware::storage, implemented-in::c++, implemented-in::perl,
+ implemented-in::shell, interface::commandline, interface::shell,
+ made-of::postscript, made-of::tex, network::client, protocol::ftp,
+ protocol::http, protocol::ipv6, role::documentation, role::program,
+ scope::utility, suite::debian, use::configuring, use::downloading,
+ use::organizing, use::searching, works-with::software:package
+Section: admin
+Priority: important
+Filename: pool/main/a/apt/apt-utils_1.8.2.3_amd64.deb
+Size: 421144
+SHA256: 7cc112b22683fe56a3af63a381e213c3b880cab77573b73775c0feeb24f1d99e
+
+Package: libapt-inst2.0
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 484
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Provides: libapt-inst (= 1.8.2.3)
+Depends: libapt-pkg5.0 (>= 1.1~exp9), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: deb package format runtime library
+Multi-Arch: same
+Description-md5: 5df05e67cb17e91ac56a732061d88850
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/apt/libapt-inst2.0_1.8.2.3_amd64.deb
+Size: 203784
+SHA256: 629b2200df804e987d33550d471e0985e96177464746351d975489054467e04e
+
+Package: libapt-pkg-dev
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 674
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Depends: libapt-inst (= 1.8.2.3), libapt-pkg (= 1.8.2.3), zlib1g-dev
+Description: development files for APT's libapt-pkg and libapt-inst
+Multi-Arch: same
+Description-md5: 8e463f77664788b23a47f5ac592f4595
+Tag: admin::package-management, devel::debian, devel::lang:c++,
+ devel::library, role::devel-lib, role::program, suite::debian,
+ works-with::software:package
+Section: libdevel
+Priority: optional
+Filename: pool/main/a/apt/libapt-pkg-dev_1.8.2.3_amd64.deb
+Size: 247780
+SHA256: 36bf601ac6e7afcffe07303ed92edcb82d67e807d23aee6df6e1d58332fcd403
+
+Package: libapt-pkg-doc
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 17101
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: all
+Description: documentation for APT development
+Description-md5: decce989b471f196cddabf52bee63592
+Tag: admin::package-management, devel::debian, devel::doc, devel::library,
+ made-of::html, role::documentation, role::program, suite::debian,
+ works-with::software:package
+Section: doc
+Priority: optional
+Filename: pool/main/a/apt/libapt-pkg-doc_1.8.2.3_all.deb
+Size: 1050984
+SHA256: 0e67a72339cab56d2c18c4422b27690bd56f6e5e2650f9f21d09f99727abe14b
+
+Package: libapt-pkg5.0
+Source: apt
+Version: 1.8.2.3
+Installed-Size: 3243
+Maintainer: APT Development Team <deity@lists.debian.org>
+Architecture: amd64
+Provides: libapt-pkg (= 1.8.2.3)
+Depends: libbz2-1.0, libc6 (>= 2.27), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), libsystemd0 (>= 221), libudev1 (>= 183), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.2.3)
+Recommends: apt (>= 1.8.2.3)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), libapt-inst1.5 (<< 0.9.9~)
+Description: package management runtime library
+Multi-Arch: same
+Description-md5: eaacd63db236f47bdcc19e3bea7026a7
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/apt/libapt-pkg5.0_1.8.2.3_amd64.deb
+Size: 966804
+SHA256: c509f7d345ee40fe64d1fbed193e8e041b05fbb989a790e065a1a2fffb1b414c
+
+Package: ca-certificates
+Version: 20200601~deb10u2
+Installed-Size: 402
+Maintainer: Julien Cristau <jcristau@debian.org>
+Architecture: all
+Depends: openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0
+Enhances: openssl
+Breaks: ca-certificates-java (<< 20121112+nmu1)
+Description: Common CA certificates
+Multi-Arch: foreign
+Description-md5: e867d2a359bea1800b5bff209fc65bd1
+Tag: protocol::ssl, role::app-data, security::authentication
+Section: misc
+Priority: optional
+Filename: pool/main/c/ca-certificates/ca-certificates_20200601~deb10u2_all.deb
+Size: 165572
+SHA256: a9e267a24088c793a9cf782455fd344db5fdced714f112a8857c5bfd07179387
+
+Package: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 778
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav-freshclam (>= 0.103.6+dfsg) | clamav-data, libc6 (>= 2.28), libclamav9 (>= 0.103.6), libcurl4 (>= 7.16.2), libjson-c3 (>= 0.10), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: libclamunrar, clamav-docs
+Description: anti-virus utility for Unix - command-line interface
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 180796
+SHA256: 46c04226209ee00036eb925facd2c42ff3f791911296e9d8656421e4bad693e5
+
+Package: clamav-base
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 177
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Description: anti-virus utility for Unix - base package
+Homepage: https://www.clamav.net/
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Tag: interface::commandline, role::app-data, role::program,
+ security::antivirus, use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-base_0.103.6+dfsg-0+deb10u1_all.deb
+Size: 128668
+SHA256: 28860b43e824e27643c271f3889591575fa31131961b7b8afcfa9fda07a3578a
+
+Package: clamav-daemon
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 1039
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamav-base (<< 0.98.1+dfsg-6)
+Depends: adduser, clamav-base (= 0.103.6+dfsg-0+deb10u1), clamav-freshclam (>= 0.103.6+dfsg) | clamav-data, dpkg (>= 1.16.1), lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libclamav9 (>= 0.103.6), libcurl4 (>= 7.18.2), libncurses6 (>= 6), libsystemd0, libtinfo6 (>= 6), zlib1g (>= 1:1.2.0.2)
+Recommends: clamdscan
+Suggests: libclamunrar, apparmor, clamav-docs, daemon
+Breaks: clamav-base (<< 0.98.1+dfsg-6)
+Description: anti-virus utility for Unix - scanner daemon
+Homepage: https://www.clamav.net/
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::server, role::program, security::antivirus,
+ uitoolkit::ncurses, use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-daemon_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 256788
+SHA256: 71ce450df634fd478d2a94d473f28ad573cc5bd73a847d17952ce1f370b1d373
+
+Package: clamav-docs
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 8963
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - documentation
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: af78818bbdf8851b6358c15693a31419
+Tag: made-of::html, made-of::pdf, mail::filters, role::documentation,
+ role::program, security::antivirus, works-with::file, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/c/clamav/clamav-docs_0.103.6+dfsg-0+deb10u1_all.deb
+Size: 2628268
+SHA256: 0846a4b67e0fe1232efed9421a20670d87c59b8d471342a6a49ab36d89f6b4f5
+
+Package: clamav-freshclam
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 371
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: clamav-data
+Depends: clamav-base (>= 0.103.6+dfsg-0+deb10u1), dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), libclamav9 (>= 0.103.6)
+Recommends: ca-certificates
+Suggests: apparmor, clamav-docs
+Conflicts: clamav-data, libclamav2, libclamav3
+Description: anti-virus utility for Unix - virus database update utility
+Homepage: https://www.clamav.net/
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ role::program, scope::utility, security::antivirus, use::downloading,
+ works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-freshclam_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 179948
+SHA256: 6aac143864c0155bc805516eb05d1e3a05fa1937a6259b9424fd7d5521b738f3
+
+Package: clamav-milter
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 551
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, clamav-base (>= 0.103.6+dfsg-0+deb10u1), clamav-freshclam (>= 0.103.6+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libclamav9 (>= 0.103.6), libmilter1.0.1
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Description: anti-virus utility for Unix - sendmail integration
+Homepage: https://www.clamav.net/
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Tag: implemented-in::c, interface::daemon, mail::filters, network::server,
+ role::program, security::antivirus, use::scanning, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-milter_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 232844
+SHA256: 083c1f1687b21ea36c15d578d68356b2eb1c1317a6db48d415925edfec93a702
+
+Package: clamav-testfiles
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 6542
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - test files
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Tag: devel::testing-qa, interface::commandline, made-of::dictionary,
+ role::app-data, role::program, security::antivirus, use::checking
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-testfiles_0.103.6+dfsg-0+deb10u1_all.deb
+Size: 2886052
+SHA256: 4d1afdfb8f11264422b14a03fb077c6d3100f5848d4e0bec7d5a6daa86935399
+
+Package: clamdscan
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 252
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamd (<< 0.98.5~beta1+dfsg-3)
+Depends: clamav-base (= 0.103.6+dfsg-0+deb10u1), libc6 (>= 2.28), libclamav9 (>= 0.103.6)
+Suggests: clamav-daemon, clamav-docs
+Breaks: clamd (<< 0.98.5~beta1+dfsg-3)
+Description: anti-virus utility for Unix - scanner client
+Homepage: https://www.clamav.net/
+Description-md5: ad077e4c74b9870b6e7bb55aef11c547
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamdscan_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 104916
+SHA256: 3f96a45172b11c9ffba5e0cdfe4c48ac217fa0df6deaee5948ca9210b3eef7e9
+
+Package: libclamav-dev
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 164
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-dev, libc6-dev | libc-dev, libclamav9 (= 0.103.6+dfsg-0+deb10u1), libidn11-dev, libssl-dev, libtommath-dev, zlib1g-dev
+Description: anti-virus utility for Unix - development files
+Homepage: https://www.clamav.net/
+Description-md5: 3dc197b6ebfb15522a4b7913ea796763
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ role::program, security::antivirus, use::scanning
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/clamav/libclamav-dev_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 74232
+SHA256: 2760b0dc528766fd2e7d032f96f322443d5564453250155eae9e369dffb068af
+
+Package: libclamav9
+Source: clamav
+Version: 0.103.6+dfsg-0+deb10u1
+Installed-Size: 2371
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-1.0, libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libltdl7 (>= 2.4.6), libmspack0 (>= 0.4), libpcre2-8-0 (>= 10.32), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.1.1), libtfm1 (>= 0.13), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.3.4)
+Suggests: libclamunrar, libclamunrar9
+Description: anti-virus utility for Unix - library
+Multi-Arch: same
+Homepage: https://www.clamav.net/
+Description-md5: bf2e797d0e7e410776d9200761e01bd6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/c/clamav/libclamav9_0.103.6+dfsg-0+deb10u1_amd64.deb
+Size: 888356
+SHA256: 994988df834b0063a774b2dd34ff47a6e543ffcca4edc19d8a00d32da7fd7de4
+
+Package: libhttp-parser-dev
+Source: http-parser
+Version: 2.8.1-1+deb10u2
+Installed-Size: 76
+Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Architecture: amd64
+Depends: libhttp-parser2.8 (= 2.8.1-1+deb10u2)
+Description: parser for HTTP messages: development libraries and header files
+Homepage: https://github.com/joyent/http-parser
+Description-md5: d2a0cdebaa9f4f47d2b54faf0b215f83
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/h/http-parser/libhttp-parser-dev_2.8.1-1+deb10u2_amd64.deb
+Size: 19696
+SHA256: 1f36d56c0850a4407fbc89d4cd0f60b6cafcc1070ca3ea5435f340b0979501d7
+
+Package: libhttp-parser2.8
+Source: http-parser
+Version: 2.8.1-1+deb10u2
+Installed-Size: 65
+Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5)
+Description: parser for HTTP messages written in C
+Multi-Arch: same
+Homepage: https://github.com/joyent/http-parser
+Description-md5: 71568011c2fa676ccd1abdf1461d51d6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/h/http-parser/libhttp-parser2.8_2.8.1-1+deb10u2_amd64.deb
+Size: 20244
+SHA256: 7a01543762cdb427bb6b651aff1e33b27bdb697b3346b97ddc28e04655a78c17
+
+Package: libdatetime-timezone-perl
+Version: 1:2.23-1+2022b
+Installed-Size: 6734
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl, libclass-singleton-perl, libmodule-runtime-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libscalar-list-utils-perl (>= 1:1.33), libspecio-perl, libtry-tiny-perl
+Recommends: libdatetime-perl
+Description: framework exposing the Olson time zone database to Perl
+Homepage: http://datetime.perl.org/
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Tag: devel::lang:perl, devel::library, implemented-in::perl, use::timekeeping
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdatetime-timezone-perl/libdatetime-timezone-perl_2.23-1+2022b_all.deb
+Size: 272600
+SHA256: 0faa44b017a2b96fb4a243a36fae51f70fabd2cfab01b56c16b40f6b5e0ab6a6
+
+Package: libnx-x11-6
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 1633
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: libnx-xau6, libnx-xcomposite1, libnx-xdamage1, libnx-xdmcp6, libnx-xext6, libnx-xfixes3, libnx-xinerama1, libnx-xpm4, libnx-xrandr2, libnx-xrender1, libnx-xtst6, nxlibs
+Depends: libx11-data, libxcomp3 (= 2:3.5.99.19-3+deb10u2), nx-x11-common (<< 2:3.5.99.19-3+deb10u2.1), nx-x11-common (>= 2:3.5.99.19-3+deb10u2), libc6 (>= 2.15)
+Breaks: libnx-x11 (<< 2:3.5.0.29-1~), libnx-xau6 (<< 2:3.6.0.0), libnx-xcomposite1 (<< 2:3.6.0.0), libnx-xdamage1 (<< 2:3.6.0.0), libnx-xdmcp6 (<< 2:3.6.0.0), libnx-xext6 (<< 2:3.6.0.0), libnx-xfixes3 (<< 2:3.6.0.0), libnx-xinerama1 (<< 2:3.6.0.0), libnx-xpm4 (<< 2:3.6.0.0), libnx-xrandr2 (<< 2:3.6.0.0), libnx-xrender1 (<< 2:3.6.0.0), libnx-xtst6 (<< 2:3.6.0.0), nxlibs (<= 3.5.1)
+Description: nxagent's libNX_X11 client-part library
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: fde12ec89f69b45155aa3fbb34f081c6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nx-libs/libnx-x11-6_3.5.99.19-3+deb10u2_amd64.deb
+Size: 730980
+SHA256: 4c6521759c30ec9a5d9884476d415096815a93867622c5e3920bd4a3311fccd2
+
+Package: libnx-x11-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 2730
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: libnx-xau-dev, libnx-xcomposite-dev, libnx-xdamage-dev, libnx-xdmcp-dev, libnx-xext-dev, libnx-xfixes-dev, libnx-xinerama-dev, libnx-xpm-dev, libnx-xrandr-dev, libnx-xrender-dev, libnx-xtst-dev, nxlibs-dev
+Provides: libnx-x11-6-dev
+Depends: libnx-x11-6 (= 2:3.5.99.19-3+deb10u2)
+Breaks: libnx-xau-dev (<< 2:3.6.0.0), libnx-xcomposite-dev (<< 2:3.6.0.0), libnx-xdamage-dev (<< 2:3.6.0.0), libnx-xdmcp-dev (<< 2:3.6.0.0), libnx-xext-dev (<< 2:3.6.0.0), libnx-xfixes-dev (<< 2:3.6.0.0), libnx-xinerama-dev (<< 2:3.6.0.0), libnx-xpm-dev (<< 2:3.6.0.0), libnx-xrandr-dev (<< 2:3.6.0.0), libnx-xrender-dev (<< 2:3.6.0.0), libnx-xtst-dev (<< 2:3.6.0.0), nxlibs-dev (<= 3.5.1)
+Description: nxagent's libNX_X11 client-part library (development headers)
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: bb6ec802cfe36a04708b9d1a7af555b5
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/libnx-x11-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 813748
+SHA256: fd1efd14f7b93ad29a26c6c783ae8df6c8e9014725616e9e750dcd98b407d721
+
+Package: libxcomp-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 3292
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcomp-dev
+Provides: libxcomp3-dev
+Depends: libxcomp3 (= 2:3.5.99.19-3+deb10u2)
+Breaks: nxcomp-dev (<= 3.5.1)
+Description: NX compression library (development headers)
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 43a042e61e714cf0eb43b333d5430db2
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcomp-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 552436
+SHA256: 08154fbf2a8933a100c30045f81a51ef71dc31fecb7bcde6a7f85a359b6a7b0f
+
+Package: libxcomp3
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 1535
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcomp, qvd-libxcomp3
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Breaks: nxcomp (<= 3.5.1), qvd-libxcomp3
+Description: NX compression library
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 4c74a78bb6e9350290b346de36b2cbff
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcomp3_3.5.99.19-3+deb10u2_amd64.deb
+Size: 588096
+SHA256: 5c98594f2639858e017faf1294eb41b3ef2e3a757fa9775889a64079172895eb
+
+Package: libxcompshad-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 385
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcompshad-dev
+Provides: libxcompshad3-dev
+Depends: libxcompshad3 (= 2:3.5.99.19-3+deb10u2)
+Breaks: nxcompshad-dev (<= 3.5.1)
+Description: NX shadowing library (development headers)
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 054ef92929d469c3af75e55fa1ec0494
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcompshad-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 179544
+SHA256: 007a7078fb9c7d8228bcf6dde3f282166ffb2f730174476c6552318b5d4ea19d
+
+Package: libxcompshad3
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 355
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxcompshad
+Depends: libnx-x11-6 (= 2:3.5.99.19-3+deb10u2), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2, libxtst6
+Breaks: nxcompshad (<= 3.5.1)
+Description: NX shadowing library
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 8c553b25dba2dbcfab51648e90c6f00d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/n/nx-libs/libxcompshad3_3.5.99.19-3+deb10u2_amd64.deb
+Size: 177672
+SHA256: 8b63c14e09fc4737faef048a8c82b80c52760a335a02d4ec568893e4ecb3ff43
+
+Package: nx-x11-common
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 341
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: all
+Breaks: libnx-x11 (<< 2:3.5.0.29-1~), nxagent (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 (common files)
+Multi-Arch: foreign
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 0f6a6249e30d3d81043f7dce2e77290d
+Section: x11
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11-common_3.5.99.19-3+deb10u2_all.deb
+Size: 169056
+SHA256: 7b991f1372c0dbd2f20d291db8971b582e1780b6f6d92ec1b1463ec561040b68
+
+Package: nx-x11proto-composite-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 303
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 Composite extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: d7d14ffab71a13191236443f2f468ed6
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-composite-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 161056
+SHA256: 9ec887cab654ae7a36e27f25d57407719f5a880ea40c4fe077cc06a942e9cc71
+
+Package: nx-x11proto-core-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 674
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 core wire protocol and auxiliary headers
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 071c816849f1b6bbd0468600d7aa8445
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-core-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 216536
+SHA256: 9b098a7d8357ab864069cb5f6183a3cf51339da765aefcd1a1c5f8ffa77e543b
+
+Package: nx-x11proto-damage-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 302
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 Damage extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 660ea609f01936937badb51478e6b05f
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-damage-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 161120
+SHA256: 40878907b3b72e5dc056ba2b437417cc72096f5118ef18744efda6f2b193336f
+
+Package: nx-x11proto-randr-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 330
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 RandR extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 227a74a2c21ee02a87b0b0b70becb0ed
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-randr-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 164400
+SHA256: 6fbddce734ccf98539911cb00f3c35b7b6fa24c462a64e793615b85fc6f14683
+
+Package: nx-x11proto-render-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 317
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 Render extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 2bdda02d6c05d81c070a1f1027f6b1cc
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-render-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 163268
+SHA256: 036fbf813eeb9c891a5956d2cfb6c5904524afb4eed8900842b5c1a7cc84cafe
+
+Package: nx-x11proto-scrnsaver-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 309
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 Screen Saver extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 2d1a950b3cac1ba4c7ffeaa9c1ea9ce3
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-scrnsaver-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 162084
+SHA256: 94c19b502511b9a041e24d7665b1574ad6790065c2926f7ffb54f8bcf9da8b5a
+
+Package: nx-x11proto-xext-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 394
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), libnx-xext-dev (<< 2:3.5.99.0~), nxlibs (<= 3.5.1)
+Description: nx-X11 miscellaneous extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 904971b878e80c2ed20a0dde8c1f7afe
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-xext-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 175164
+SHA256: 1562064bf86e0fccf8ce87a5149211993d5382b8e372728c8e20308a6ace1c52
+
+Package: nx-x11proto-xfixes-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 316
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Breaks: libnx-x11-dev (<< 2:3.5.0.29-1~), nxlibs (<= 3.5.1)
+Description: nx-X11 'xfixes' extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: bc306b8de2bc581d62e109b3d72b10b5
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-xfixes-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 162496
+SHA256: d48cebe0f6c2af7883632f328c207a98076d769088254ee147ab2ccd40bcee15
+
+Package: nx-x11proto-xinerama-dev
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 305
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Description: nx-X11 Xinerama extension wire protocol
+Multi-Arch: same
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 116ba2a3837132e5f0d55af6485d1808
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/n/nx-libs/nx-x11proto-xinerama-dev_3.5.99.19-3+deb10u2_amd64.deb
+Size: 161356
+SHA256: d909d6fb76ab0d368c4e7df9311b46fd880db856e598008bd99fd5f1e3b864a4
+
+Package: nxagent
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 4904
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: libxcompext3, nxauth
+Depends: libnx-x11-6 (= 2:3.5.99.19-3+deb10u2), libxcomp3 (= 2:3.5.99.19-3+deb10u2), libxcompshad3 (= 2:3.5.99.19-3+deb10u2), python3, python3-gi, gir1.2-gtk-3.0, x11-xkb-utils, libc6 (>= 2.28), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.13.2), libpng16-16 (>= 1.6.2-1), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxdmcp6, libxext6, libxfixes3, libxfont2 (>= 1:2.0.1), libxinerama1, libxml2 (>= 2.7.4), libxpm4, libxrender1, zlib1g (>= 1:1.1.4)
+Recommends: xfonts-base, xkb-data
+Breaks: libxcompext3 (<< 2:3.5.99.3~), nxauth
+Description: Nested Xserver (aka NX Agent) supporting the NX compression protocol
+Multi-Arch: foreign
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 6901a02eeae40dada3699e11a76435ed
+Section: x11
+Priority: optional
+Filename: pool/main/n/nx-libs/nxagent_3.5.99.19-3+deb10u2_amd64.deb
+Size: 1627104
+SHA256: 878acd556944541acbec9d8adbc443b2f49bcdd86f201b1c4505d8098820b422
+
+Package: nxproxy
+Source: nx-libs
+Version: 2:3.5.99.19-3+deb10u2
+Installed-Size: 320
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Architecture: amd64
+Replaces: nxauth, qvd-nxproxy
+Depends: libxcomp3 (= 2:3.5.99.19-3+deb10u2), libc6 (>= 2.3.4)
+Breaks: nxauth, qvd-nxproxy
+Description: NX proxy
+Multi-Arch: foreign
+Homepage: https://github.com/ArcticaProject/nx-libs/
+Description-md5: 535efe982dd954a773c0924b9bd58a62
+Tag: implemented-in::c++, interface::commandline, network::client,
+ role::program
+Section: x11
+Priority: optional
+Filename: pool/main/n/nx-libs/nxproxy_3.5.99.19-3+deb10u2_amd64.deb
+Size: 167648
+SHA256: 85b509a3a39443923619b0a7559f784cf2ea3070b05fbec3346a2fc327515018
+
+Package: libafsauthent2
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 581
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libafsrpc2 (>= 1.8.0~pre1), libc6 (>= 2.14), libhcrypto4-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.7~git20150920)
+Description: AFS distributed file system runtime library (authentication)
+Homepage: http://www.openafs.org/
+Description-md5: a0feedf62f2fa5d341102110cd7a1d2b
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/o/openafs/libafsauthent2_1.8.2-1+deb10u1_amd64.deb
+Size: 255332
+SHA256: a322f4be51efea9d26c93cd43de09f80a976ccddda8ac6764c741d56c8827d02
+
+Package: libafsrpc2
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 466
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libhcrypto4-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.4.0+git20110226)
+Description: AFS distributed file system runtime library (RPC layer)
+Homepage: http://www.openafs.org/
+Description-md5: 7523708cbcd58ca51ccd0bb131f7807a
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/o/openafs/libafsrpc2_1.8.2-1+deb10u1_amd64.deb
+Size: 234984
+SHA256: 1ff8e717b4c162828e92e8b3a560f5fca8d3f21ade0c0610ae29ae12633d91e2
+
+Package: libkopenafs2
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 159
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: AFS distributed file system runtime library (PAGs)
+Homepage: http://www.openafs.org/
+Description-md5: 0f99201d0fae91ddb99faa36485b802d
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/o/openafs/libkopenafs2_1.8.2-1+deb10u1_amd64.deb
+Size: 122760
+SHA256: 38267ae53849c0d98ac26ebe9551d0bd2cfdbd00d147582392c08d3f4e525aa7
+
+Package: libopenafs-dev
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 12644
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libroken18-heimdal (>= 1.4.0+git20110226), libafsauthent2 (= 1.8.2-1+deb10u1), libafsrpc2 (= 1.8.2-1+deb10u1), libkopenafs2 (= 1.8.2-1+deb10u1)
+Suggests: openafs-doc
+Conflicts: arla-dev, liblwp-dev
+Description: AFS distributed filesystem development libraries
+Homepage: http://www.openafs.org/
+Description-md5: b6f316eebfa1cc038bb9afed528de9fc
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/o/openafs/libopenafs-dev_1.8.2-1+deb10u1_amd64.deb
+Size: 1610152
+SHA256: 747a9dcf43cf033e9b2380079f64240e32a5af634463683d01465964e175077b
+
+Package: openafs-client
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 8628
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libhcrypto4-heimdal (>= 1.4.0+git20110226), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-26-heimdal (>= 1.4.0+git20110226), libkrb5support0 (>= 1.7dfsg~beta2), libncurses6 (>= 6), libroken18-heimdal (>= 1.7~git20150920), libtinfo6 (>= 6), debconf (>= 0.5) | debconf-2.0, lsb-base (>= 3.0-6)
+Recommends: lsof, openafs-modules-dkms (>= 1.8.2-1+deb10u1) | openafs-modules-source (>= 1.8.2-1+deb10u1) | openafs-modules3
+Suggests: openafs-doc, openafs-krb5
+Conflicts: arla
+Breaks: openafs-modules1, openafs-modules2
+Description: AFS distributed filesystem client support
+Homepage: http://www.openafs.org/
+Description-md5: 2d948f9c8a661ee8bc5d31e3f8cd9962
+Tag: admin::filesystem, implemented-in::c, interface::commandline,
+ interface::text-mode, network::client, protocol::kerberos,
+ role::program, uitoolkit::ncurses, use::storing, works-with::file
+Section: net
+Priority: optional
+Filename: pool/main/o/openafs/openafs-client_1.8.2-1+deb10u1_amd64.deb
+Size: 2099420
+SHA256: cd6834b14443cafd7001136c764bbac4daa5106e49096d56397eac613a690cfb
+
+Package: openafs-dbserver
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 2017
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libhcrypto4-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.7~git20150920), perl, openafs-fileserver
+Recommends: openafs-client
+Suggests: openafs-doc
+Description: AFS distributed filesystem database server
+Homepage: http://www.openafs.org/
+Description-md5: 900518e8d991aca7a295eb31861c8d53
+Tag: admin::filesystem, implemented-in::c, interface::daemon,
+ network::server, protocol::kerberos, role::program, works-with::db,
+ works-with::file
+Section: net
+Priority: optional
+Filename: pool/main/o/openafs/openafs-dbserver_1.8.2-1+deb10u1_amd64.deb
+Size: 615504
+SHA256: 42b29996a271a3807262570ccf2ee06f848d0d1e900f54e4b89a2dfffde15512
+
+Package: openafs-doc
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 11421
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: all
+Description: AFS distributed filesystem documentation
+Multi-Arch: foreign
+Homepage: http://www.openafs.org/
+Description-md5: dfed3aa1cb0c1548af7ed6d6191c122f
+Tag: admin::filesystem, made-of::html, made-of::pdf, role::documentation
+Section: doc
+Priority: optional
+Filename: pool/main/o/openafs/openafs-doc_1.8.2-1+deb10u1_all.deb
+Size: 3980032
+SHA256: 889e975ed0bdb9233e980f17996c90b2fdf9aba51fef2eddf6be1704577b3387
+
+Package: openafs-fileserver
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 7663
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libhcrypto4-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.7~git20150920), debconf (>= 0.5) | debconf-2.0, lsb-base (>= 3.0-6), openafs-client
+Recommends: ntp | time-daemon
+Suggests: openafs-doc
+Description: AFS distributed filesystem file server
+Homepage: http://www.openafs.org/
+Description-md5: 6f505856f48ff78dd8989e4474f85129
+Tag: admin::backup, admin::filesystem, implemented-in::c, interface::daemon,
+ network::server, protocol::kerberos, role::program, use::storing,
+ works-with::file
+Section: net
+Priority: optional
+Filename: pool/main/o/openafs/openafs-fileserver_1.8.2-1+deb10u1_amd64.deb
+Size: 1404484
+SHA256: 438438c23fdea003c36afb4eefcf92565b2107f7f6c610733df08d382a19793b
+
+Package: openafs-fuse
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 695
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.28), libfuse2 (>= 2.6), libhcrypto4-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.4.0+git20110226), openafs-client (= 1.8.2-1+deb10u1)
+Description: AFS distributed file system experimental FUSE client
+Homepage: http://www.openafs.org/
+Description-md5: 5b93a5360d9c82b3edf7a7962b3ba594
+Section: net
+Priority: optional
+Filename: pool/main/o/openafs/openafs-fuse_1.8.2-1+deb10u1_amd64.deb
+Size: 282668
+SHA256: 3f5f73a345932c532fe82b5a0b28afb9f2f813e4c08723cb4c7311b3d419c6aa
+
+Package: openafs-krb5
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 1290
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libhcrypto4-heimdal (>= 1.4.0+git20110226), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libkrb5support0 (>= 1.7dfsg~beta2), libroken18-heimdal (>= 1.4.0+git20110226)
+Breaks: openafs-client (<< 1.4.7.dfsg1-1)
+Description: AFS distributed filesystem Kerberos 5 integration
+Homepage: http://www.openafs.org/
+Description-md5: f601778f8cbfe2c4f9aa8e886d6408dc
+Tag: admin::filesystem, implemented-in::c, interface::commandline,
+ protocol::kerberos, role::program, security::authentication
+Section: net
+Priority: optional
+Filename: pool/main/o/openafs/openafs-krb5_1.8.2-1+deb10u1_amd64.deb
+Size: 364180
+SHA256: 4508e95f9870d4864dcc3fb177f4530e86fd41c8522b3093804e3a9928a9caa8
+
+Package: openafs-modules-dkms
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 6866
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: all
+Depends: dkms (>= 2.1.0.0), perl:any, libc6-dev
+Recommends: openafs-client (>= 1.8.2-1+deb10u1)
+Description: AFS distributed filesystem kernel module DKMS source
+Homepage: http://www.openafs.org/
+Description-md5: 959c8c641c8855622b3e660d47f8f210
+Tag: admin::filesystem, admin::kernel, devel::lang:c, devel::library,
+ implemented-in::c, role::devel-lib, role::source
+Section: kernel
+Priority: optional
+Filename: pool/main/o/openafs/openafs-modules-dkms_1.8.2-1+deb10u1_all.deb
+Size: 1030372
+SHA256: 08dbc8e8eab29024f0f1de517ad5025ce78c46f975b212205476d146690c8057
+
+Package: openafs-modules-source
+Source: openafs
+Version: 1.8.2-1+deb10u1
+Installed-Size: 1250
+Maintainer: Benjamin Kaduk <kaduk@mit.edu>
+Architecture: all
+Depends: debhelper (>= 8), module-assistant | kernel-package, perl
+Recommends: openafs-client (>= 1.8.2-1+deb10u1)
+Description: AFS distributed filesystem kernel module source
+Homepage: http://www.openafs.org/
+Description-md5: 01e11a95da0fec3f0bbe15d0a3897346
+Tag: admin::filesystem, admin::kernel, devel::lang:c, devel::library,
+ implemented-in::c, network::client, protocol::kerberos,
+ role::devel-lib, role::program, role::source, use::storing,
+ works-with::file
+Section: kernel
+Priority: optional
+Filename: pool/main/o/openafs/openafs-modules-source_1.8.2-1+deb10u1_all.deb
+Size: 1254256
+SHA256: 6725fe702da08cf58f24d8fe5f49b99131644835b91c66028051e4ed0c552084
+
+Package: pagekite
+Version: 0.5.9.3-2+deb10u1
+Installed-Size: 553
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Architecture: all
+Depends: python-socksipychain (>= 2.0.15), python:any (<< 2.8), python:any (>= 2.7~), ca-certificates, daemon (>= 0.6), python-openssl
+Description: Make localhost servers publicly visible
+Homepage: https://pagekite.net/
+Description-md5: 6ac3b9f649af620bc24cc357d58a580f
+Tag: implemented-in::python, interface::commandline, interface::daemon,
+ network::client, network::server, network::vpn, protocol::finger,
+ protocol::http, protocol::irc, protocol::ssh, role::program,
+ use::proxying, use::transmission
+Section: net
+Priority: optional
+Filename: pool/main/p/pagekite/pagekite_0.5.9.3-2+deb10u1_all.deb
+Size: 138448
+SHA256: baadfbc6639efe2e01c6d2f06ef7a8d36544134505eb9caf5fcf2666f0dc0c8c
+
+Package: tzdata
+Version: 2021a-0+deb10u6
+Installed-Size: 3036
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Replaces: libc0.1, libc0.3, libc6, libc6.1
+Provides: tzdata-buster
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: https://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2021a-0+deb10u6_all.deb
+Size: 265296
+SHA256: 04de4f660350c8a8345291c0222bcb4248bf3754f0074649b85b72d1e80070fc
+

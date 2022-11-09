@@ -1,0 +1,36 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ]; then
+    if [ -e /etc/emacs/site-start.d/50ispanish.el ]; then
+        echo "Removing obsolete /etc/emacs/site-start.d/50ispanish.el" >&2
+	rm -f /etc/emacs/site-start.d/50ispanish.el
+        echo "...Done" >&2
+    fi
+fi
+
+# Automatically added by installdeb-ispell/UNDECLARED
+. /usr/share/debconf/confmodule
+SCRIPT="update-default-ispell"
+
+if [ "$1" = "configure" ] ; then
+    if which $SCRIPT > /dev/null 2>&1; then
+	$SCRIPT  --rebuild
+    else
+	echo "Error: $SCRIPT not present or executable. Missing dependency on dictionaries-common?" >&2
+	exit 1
+    fi
+fi
+# End automatically added section
+# Automatically added by installdeb-ispell/UNDECLARED
+dico_class="ispell"
+dico_vardir="/var/lib/$dico_class"
+dico_compat="espa~nol.compat"
+
+mkdir -p "$dico_vardir"
+for i in $dico_compat; do
+    >"/var/lib/$dico_class/$i"
+done
+# End automatically added section
+

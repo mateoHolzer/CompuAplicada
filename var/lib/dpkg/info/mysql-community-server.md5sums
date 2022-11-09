@@ -1,0 +1,14 @@
+c8bfc3a044a34712aa9171acac8ea807  lib/systemd/system/mysql.service
+b9995f9526ee6974d3191f3920de0bef  lib/systemd/system/mysql@.service
+c79010a99f286bf3f3ae66e8ab80f85d  usr/lib/tmpfiles.d/mysql.conf
+f8d620bb4290b0c1db84dce8e7925872  usr/share/doc/mysql-community-server/LICENSE.gz
+09bc1fece296b7cd538320adb503f5fb  usr/share/doc/mysql-community-server/README
+235291c4e4c667e0468f1626e4dd748a  usr/share/doc/mysql-community-server/changelog.Debian.gz
+c76c8f5d6991bec6402d06d9ce38b4bc  usr/share/doc/mysql-community-server/copyright
+b7e3c6bc511d370d1b9b9148f22763db  usr/share/lintian/overrides/mysql-community-server
+2518fbda74919c5fce9e326e355dd067  usr/share/mysql-8.0/innodb_memcached_config.sql
+52a7f2daef7757aaf2e74d26a2cecf36  usr/share/mysql-8.0/install_rewriter.sql
+cbe0eaa13630a0a49b8c949558816868  usr/share/mysql-8.0/mysql-helpers
+fe2209422c7a25fed92e8d03443754c8  usr/share/mysql-8.0/mysql-systemd-start
+9fb583174a401ca21c46f51432b803b4  usr/share/mysql-8.0/mysqld_multi.server
+addbc380fbe8a3fe2ebeddeaab44e088  usr/share/mysql-8.0/uninstall_rewriter.sql

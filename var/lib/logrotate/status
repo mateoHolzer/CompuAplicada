@@ -1,0 +1,14 @@
+logrotate state -- version 2
+"/var/log/syslog" 2022-11-9-16:15:38
+"/var/log/dpkg.log" 2022-11-9-16:15:38
+"/var/log/auth.log" 2022-11-9-16:15:38
+"/var/log/apt/term.log" 2022-11-9-16:15:38
+"/var/log/apt/history.log" 2022-11-9-16:15:38
+"/var/log/alternatives.log" 2022-11-9-16:15:38
+"/var/log/debug" 2022-11-9-16:15:38
+"/var/log/kern.log" 2022-11-9-16:15:38
+"/var/log/daemon.log" 2022-11-9-16:15:38
+"/var/log/wtmp" 2020-4-4-8:0:0
+"/var/log/btmp" 2022-11-9-16:15:38
+"/var/log/user.log" 2022-11-9-16:15:38
+"/var/log/messages" 2022-11-9-16:15:38

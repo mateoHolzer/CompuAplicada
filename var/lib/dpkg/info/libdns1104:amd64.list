@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdns-pkcs11.so.1104.0.2
+/usr/lib/x86_64-linux-gnu/libdns.so.1104.0.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdns1104
+/usr/share/doc/libdns1104/changelog.Debian.gz
+/usr/share/doc/libdns1104/changelog.gz
+/usr/share/doc/libdns1104/copyright
+/usr/lib/x86_64-linux-gnu/libdns-pkcs11.so.1104
+/usr/lib/x86_64-linux-gnu/libdns.so.1104

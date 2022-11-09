@@ -1,0 +1,33 @@
+#!/bin/sh
+# vim:set fileencoding=utf-8 et ts=4 sts=4 sw=4:
+
+set -e
+
+HOOK=/etc/apt/apt.conf.d/20listchanges
+PREFERENCES=/etc/apt/listchanges.conf
+DBFILE=/var/lib/apt/listchanges
+
+if [ "$1" = "remove" ] && [ -e "$HOOK" ]; then
+    mv $HOOK $HOOK.disabled
+fi
+
+if [ "$1" = "purge" ]; then
+    rm -f $HOOK.disabled
+    rm -f ${DBFILE}.db ${DBFILE}-old.db ${DBFILE}-new.db
+
+    if which ucf > /dev/null 2>&1; then
+        ucf -p "$PREFERENCES"
+        ucfr -p apt-listchanges "$PREFERENCES"
+    fi
+    rm -f "$PREFERENCES"
+fi
+
+# Automatically added by dh_installdebconf/12.1.1
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+
+
+exit 0

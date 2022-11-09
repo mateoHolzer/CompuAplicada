@@ -1,0 +1,202 @@
+From root@debian.up Wed Nov  9 18:03:20 2022
+Date: Wed, 9 Nov 2022 18:03:20 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: backup
+Message-ID: <20221109210320.GA19072@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 50
+Lines: 1
+
+ - Estoy realizando un backup de la carpeta /etc/
+
+From root@debian.up Wed Nov  9 18:04:55 2022
+Date: Wed, 9 Nov 2022 18:04:55 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109210455.GA19118@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 39
+Lines: 1
+
+El servicio sshd no esta en ejecucion.
+
+From root@debian.up Wed Nov  9 18:07:31 2022
+Date: Wed, 9 Nov 2022 18:07:31 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109210731.GA19171@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 39
+Lines: 1
+
+El servicio sshd no esta en ejecucion.
+
+From root@debian.up Wed Nov  9 18:07:33 2022
+Date: Wed, 9 Nov 2022 18:07:33 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109210733.GA19199@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 38
+Lines: 1
+
+El servicio ssh no esta en ejecucion.
+
+From root@debian.up Wed Nov  9 18:07:41 2022
+Date: Wed, 9 Nov 2022 18:07:41 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109210741.GA19227@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 41
+Lines: 1
+
+El servicio mysqld no esta en ejecucion.
+
+From root@debian.up Wed Nov  9 18:07:43 2022
+Date: Wed, 9 Nov 2022 18:07:43 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109210743.GA19255@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 40
+Lines: 1
+
+El servicio mysql no esta en ejecucion.
+
+From root@debian.up Wed Nov  9 18:37:16 2022
+Date: Wed, 9 Nov 2022 18:37:16 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: backup
+Message-ID: <20221109213716.GA20575@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 100
+Lines: 2
+
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /etc/
+
+From root@debian.up Wed Nov  9 18:37:27 2022
+Date: Wed, 9 Nov 2022 18:37:27 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: backup
+Message-ID: <20221109213727.GA20613@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 150
+Lines: 3
+
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /u01/
+
+From root@debian.up Wed Nov  9 18:37:36 2022
+Date: Wed, 9 Nov 2022 18:37:36 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: backup
+Message-ID: <20221109213736.GA20651@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 200
+Lines: 4
+
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /u01/
+ - Estoy realizando un backup de la carpeta /u02/
+
+From root@debian.up Wed Nov  9 18:37:50 2022
+Date: Wed, 9 Nov 2022 18:37:50 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: backup
+Message-ID: <20221109213750.GA20694@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 254
+Lines: 5
+
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /u01/
+ - Estoy realizando un backup de la carpeta /u02/
+ - Estoy realizando un backup de la carpeta /var/log/
+
+From root@debian.up Wed Nov  9 18:38:04 2022
+Date: Wed, 9 Nov 2022 18:38:04 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109213804.GA20724@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 39
+Lines: 1
+
+El servicio sshd no esta en ejecucion.
+
+From root@debian.up Wed Nov  9 18:38:08 2022
+Date: Wed, 9 Nov 2022 18:38:08 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: Servicios
+Message-ID: <20221109213808.GA20752@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+Status: RO
+Content-Length: 41
+Lines: 1
+
+El servicio mysqld no esta en ejecucion.
+

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmariadb.so.3
+/usr/lib/x86_64-linux-gnu/mariadb19
+/usr/lib/x86_64-linux-gnu/mariadb19/plugin
+/usr/lib/x86_64-linux-gnu/mariadb19/plugin/caching_sha2_password.so
+/usr/lib/x86_64-linux-gnu/mariadb19/plugin/client_ed25519.so
+/usr/lib/x86_64-linux-gnu/mariadb19/plugin/dialog.so
+/usr/lib/x86_64-linux-gnu/mariadb19/plugin/mysql_clear_password.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmariadb3
+/usr/share/doc/libmariadb3/changelog.Debian.gz
+/usr/share/doc/libmariadb3/copyright

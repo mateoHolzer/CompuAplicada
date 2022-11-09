@@ -1,0 +1,10 @@
+Package: intel-microcode
+Description-md5: 3edb9824276886579313f0e847f6bb14
+Description-en: Processor microcode firmware for Intel CPUs
+ This package contains updated system processor microcode for
+ Intel i686 and Intel X86-64 processors.  Intel releases microcode
+ updates to correct processor behavior as documented in the
+ respective processor specification updates.
+ .
+ For AMD processors, please refer to the amd64-microcode package.
+

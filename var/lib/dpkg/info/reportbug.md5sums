@@ -1,0 +1,17 @@
+79d00387617a910aa99aba202bc43e52  usr/bin/querybts
+a098c2446bed6b5c686b010c499265c7  usr/bin/reportbug
+54c1b1a4726a98803418a393c5050d31  usr/share/bug/reportbug/control
+47cc384155c0052d9725adb00bb60e6e  usr/share/bug/reportbug/presubj
+23c7309c07599f8e5e755845d213decc  usr/share/bug/reportbug/script
+6d74ed4da8504ac503a808cfadad2c7d  usr/share/doc/reportbug/HowToReportGoodBugs.txt
+dadbfc6f2571813cca6a0ae3f8c7c578  usr/share/doc/reportbug/NEWS.Debian.gz
+fd5548bace326ab55252ae8ef0ed91e5  usr/share/doc/reportbug/README.Users.gz
+7b4db03b893b4dd5fc154265eb20b133  usr/share/doc/reportbug/README.developers.gz
+416c8dcb07c016934212e83b109887c7  usr/share/doc/reportbug/README.source
+2f66aa206895a417e1de4ec3ba7e6037  usr/share/doc/reportbug/changelog.gz
+9768d152b5d6945cdb33c9768fff1f25  usr/share/doc/reportbug/copyright
+080c25336e7bfa26a7ea7f4297c792fa  usr/share/man/man1/querybts.1.gz
+bc932ba6359d8ab64e803705f02dab02  usr/share/man/man1/reportbug.1.gz
+54e483ca6d9268b49a1f0f724e20031d  usr/share/man/man5/reportbug.conf.5.gz
+12a28c87cc5a8f7c29b0c95713407b4a  usr/share/reportbug/handle_bugscript
+9f0363cd660a0e141a3454a02b231f85  usr/share/reportbug/reportbug.el

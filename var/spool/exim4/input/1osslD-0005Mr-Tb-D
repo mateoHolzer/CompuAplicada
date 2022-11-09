@@ -1,0 +1,45 @@
+1osslD-0005Mr-Tb-D
+--1668029847-eximdsn-557049968
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  alumno@debian.up
+    (generated from root@debian.up)
+    Unrouteable address
+
+--1668029847-eximdsn-557049968
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; debian.up
+
+Action: failed
+Final-Recipient: rfc822;alumno@debian.up
+Status: 5.0.0
+
+--1668029847-eximdsn-557049968
+Content-type: message/rfc822
+
+Return-path: <root@debian.up>
+Received: from root by debian.up with local (Exim 4.92)
+	(envelope-from <root@debian.up>)
+	id 1osslD-0005Mo-QZ
+	for root@debian.up; Wed, 09 Nov 2022 18:37:27 -0300
+Date: Wed, 9 Nov 2022 18:37:27 -0300
+From: root <root@debian.up>
+To: root <root@debian.up>
+Subject: backup
+Message-ID: <20221109213727.GA20613@debian.up>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.10.1 (2018-07-13)
+
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /etc/
+ - Estoy realizando un backup de la carpeta /u01/
+
+--1668029847-eximdsn-557049968--

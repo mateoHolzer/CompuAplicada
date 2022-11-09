@@ -1,0 +1,36 @@
+lease {
+  interface "enp0s3";
+  fixed-address 10.0.2.15;
+  filename "Linux CA.pxe";
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 86400;
+  option routers 10.0.2.2;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.2.2;
+  option domain-name-servers 10.0.2.3;
+  renew 1 2020/05/18 23:12:26;
+  rebind 2 2020/05/19 09:59:01;
+  expire 2 2020/05/19 12:59:01;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.102;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 1 2020/05/18 13:19:42;
+  rebind 1 2020/05/18 13:24:05;
+  expire 1 2020/05/18 13:25:20;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.102;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 4 2020/08/27 22:11:28;
+  rebind 4 2020/08/27 22:15:46;
+  expire 4 2020/08/27 22:17:01;
+}

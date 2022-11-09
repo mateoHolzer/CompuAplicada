@@ -1,0 +1,52 @@
+#!/bin/sh
+
+set -e
+
+
+php_enable() { return 0; }
+
+if [ "$1" = "purge" ]; then
+    phpini=/etc/php/7.3/apache2/php.ini
+    # remove the flag to remember the original state
+    if [ -e /etc/php/7.3/apache2/.start ]; then
+	rm -f /etc/php/7.3/apache2/.start
+    fi
+    for ext in '~' '%' .bak .ucf-new .ucf-old .ucf-dist;  do
+	rm -f $phpini$ext
+    done
+    rm -f $phpini
+    if which ucf >/dev/null; then
+	ucf --purge $phpini
+    fi
+    if which ucfr >/dev/null; then
+	ucfr --purge libapache2-mod-php7.3 $phpini
+    fi
+
+    for dir in \
+	/etc/php/7.3/apache2/conf.d \
+	/etc/php/7.3/apache2 \
+	/etc/php/7.3 \
+	/etc/php;
+    do
+	if [ -d $dir ]; then
+	    rmdir --ignore-fail-on-non-empty $dir
+	fi
+    done
+fi
+
+# Automatically added by dh_apache2/UNDECLARED
+if [ "$1" = "purge" ] ; then
+	if php_enable; then
+		if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+			. /usr/share/apache2/apache2-maintscript-helper
+
+			for conf in php7.3  ; do
+				apache2_invoke dismod $conf  || exit 1
+			done
+		fi
+	fi
+fi
+# End automatically added section
+
+
+exit 0

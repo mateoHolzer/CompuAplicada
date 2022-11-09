@@ -1,0 +1,74 @@
+Template: mysql-apt-config/select-product
+Type: select
+Choices: MySQL Server & Cluster (Currently selected: ${selected_server}), MySQL Tools & Connectors (Currently selected: ${selected_tools}), MySQL Preview Packages (Currently selected: ${selected_preview}), Ok
+Description: Which MySQL product do you wish to configure?
+ MySQL APT Repo features MySQL Server along with a variety of MySQL components.
+ You may select the appropriate product to choose the version that you wish to
+ receive.
+ .
+ Once you are satisfied with the configuration then select last option 'Ok'
+ to save the configuration, then run 'apt-get update' to load package list.
+ Advanced users can always change the configurations later, depending on
+ their own needs.
+
+Template: mysql-apt-config/select-server
+Type: select
+Choices: ${server_versions}, None
+Description: Which server version do you wish to receive?
+ This configuration program has determined that ${installed_server} is configured 
+ on your system, and has highlighted the most appropriate repository package.
+ If you are not sure which version to install, do not change the auto-selected 
+ version. Advanced users can always change the version as needed later.
+ Note that MySQL Cluster also contains MySQL Server.
+
+Template: mysql-apt-config/select-tools
+Type: select
+Choices: Enabled, Disabled
+Default: Enabled
+Description: Enable or disable MySQL tools and utilities
+ This is a collection of tools for the MySQL suite, including connectors, 
+ MySQL Workbench, MySQL Utilities and MySQL router.
+
+Template: mysql-apt-config/tools-component
+Type: string
+Description: Name of repo component for tools and utilities:
+ Stores the actual repo component name, as opposed to Enabled/Disabled
+
+Template: mysql-apt-config/select-preview
+Type: select
+Choices: Enabled, Disabled
+Default: Disabled
+Description: Enable or disable MySQL preview packages
+ This is a collection of preview packages for the MySQL suite, including connectors, 
+ MySQL Shell, MySQL Workbench, MySQL Utilities and MySQL router. These packages are meant for testing
+ upcoming features and products, and may contain instabilities.
+
+Template: mysql-apt-config/preview-component
+Type: string
+Description: Name of repo component for preview packages:
+ Stores the actual repo component name, as opposed to Enabled/Disabled
+
+Template: mysql-apt-config/unsupported-platform
+Type: select
+Choices:  debian buster, ubuntu bionic, ubuntu focal, ubuntu hirsute, ubuntu impish, debian bullseye, abort
+Default: abort
+Description: Add repository to unsupported system? 
+ The detected system (${platform}) is not supported by MySQL.
+ If you believe the platform is compatible with one of the supported systems, 
+ one of the corresponding repositories may be selected.
+
+Template: mysql-apt-config/repo-distro
+Type: select
+Choices: ubuntu debian
+Description: Not manual
+
+Template: mysql-apt-config/repo-codename
+Type: select
+Choices: none
+Description: Not manual
+
+Template: mysql-apt-config/repo-url
+Default: http://repo.mysql.com/apt
+Type: string
+Description: Provide MySQL repo location:
+ Please provide the URL to the MySQL APT repository.

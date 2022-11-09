@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/mecab-ipadic-utf8
+/usr/share/doc/mecab-ipadic-utf8/changelog.Debian.gz
+/usr/share/doc/mecab-ipadic-utf8/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/mecab-ipadic-utf8
+/var
+/var/lib
+/var/lib/mecab
+/var/lib/mecab/dic
+/var/lib/mecab/dic/ipadic-utf8

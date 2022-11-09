@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+# Automatically added by installdeb-aspell/UNDECLARED
+SCRIPT="update-dictcommon-aspell"
+
+if [ "$1" = "configure" ] ; then
+    if which $SCRIPT > /dev/null 2>&1; then
+	$SCRIPT  
+    else
+	echo "Error: $SCRIPT not present or executable. Missing dependency on dictionaries-common?" >&2
+	exit 1
+    fi
+fi
+# End automatically added section
+# Automatically added by installdeb-aspell/UNDECLARED
+dico_class="aspell"
+dico_vardir="/var/lib/$dico_class"
+dico_compat="es.compat"
+
+mkdir -p "$dico_vardir"
+for i in $dico_compat; do
+    >"/var/lib/$dico_class/$i"
+done
+# End automatically added section

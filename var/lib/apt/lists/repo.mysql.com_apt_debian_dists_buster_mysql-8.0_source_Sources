@@ -1,0 +1,42 @@
+Package: mysql-community
+Format: 3.0 (quilt)
+Binary: mysql-server, mysql-community-server, mysql-community-server-core, mysql-client, mysql-community-client, mysql-community-client-plugins, mysql-community-client-core, libmysqlclient21, mysql-common, libmysqlclient-dev, mysql-testsuite, mysql-community-test, mysql-community-server-debug, mysql-community-test-debug, mysql-router-community, mysql-router
+Architecture: any
+Version: 8.0.31-1debian10
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Homepage: http://www.mysql.com/
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9.0.0), libaio-dev [linux-any], libncurses5-dev (>= 5.0-6), libjson-perl, libldap2-dev, libsasl2-dev, perl, zlib1g-dev (>= 1:1.1.3-5), po-debconf, psmisc, bison, elfutils, lsb-release, cmake, fakeroot, libnuma-dev, libmecab-dev, libssl-dev
+Package-List:
+ libmysqlclient-dev deb libdevel optional arch=any
+ libmysqlclient21 deb libs optional arch=any
+ mysql-client deb database optional arch=any
+ mysql-common deb database optional arch=any
+ mysql-community-client deb database optional arch=any
+ mysql-community-client-core deb database optional arch=any
+ mysql-community-client-plugins deb database optional arch=any
+ mysql-community-server deb database optional arch=any
+ mysql-community-server-core deb database optional arch=any
+ mysql-community-server-debug deb debug optional arch=any
+ mysql-community-test deb database optional arch=any
+ mysql-community-test-debug deb debug optional arch=any
+ mysql-router deb database optional arch=any
+ mysql-router-community deb database optional arch=any
+ mysql-server deb database optional arch=any
+ mysql-testsuite deb database optional arch=any
+Priority: optional
+Section: database
+Directory: pool/mysql-8.0/m/mysql-community
+Files: 
+ d9a52978b36df8b5be48dbba11003d47 3233 mysql-community_8.0.31-1debian10.dsc
+ a6ae947b3c757c7cee2f934e768091ba 326758167 mysql-community_8.0.31.orig.tar.gz
+ dfbb12c20cf0f04547374207da6c1084 21924 mysql-community_8.0.31-1debian10.debian.tar.xz
+Checksums-Sha1: 
+ 804b3dacb64342d826156f66d4d5d501db91998f 3233 mysql-community_8.0.31-1debian10.dsc
+ 2400012102ff5af8c15da8669b9e6fef4e690e51 326758167 mysql-community_8.0.31.orig.tar.gz
+ 1e387629429ef1e43a962a4927f9882766fad8a2 21924 mysql-community_8.0.31-1debian10.debian.tar.xz
+Checksums-Sha256: 
+ 6a96180706a17bed88963618f8ad58bb61ceab7a3d1794eb96cd937339c989a9 3233 mysql-community_8.0.31-1debian10.dsc
+ 67bb8cba75b28e95c7f7948563f01fb84528fcbb1a35dba839d4ce44fe019baa 326758167 mysql-community_8.0.31.orig.tar.gz
+ 6a2dd1f769e434a70b2a90925a7c19e7f36942a5312a9cb6f1c4b9c50addfcc3 21924 mysql-community_8.0.31-1debian10.debian.tar.xz
+

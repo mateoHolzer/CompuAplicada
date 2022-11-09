@@ -1,0 +1,156 @@
+Nov  9 16:18:09 debian kernel: [    0.003715] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  9 16:18:09 debian kernel: [    0.003718] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  9 16:18:09 debian kernel: [    0.003749] MTRR default type: uncachable
+Nov  9 16:18:09 debian kernel: [    0.003750] MTRR variable ranges disabled:
+Nov  9 16:18:09 debian kernel: [    0.079956] BRK [0x8f401000, 0x8f401fff] PGTABLE
+Nov  9 16:18:09 debian kernel: [    0.079960] BRK [0x8f402000, 0x8f402fff] PGTABLE
+Nov  9 16:18:09 debian kernel: [    0.079961] BRK [0x8f403000, 0x8f403fff] PGTABLE
+Nov  9 16:18:09 debian kernel: [    0.079979] BRK [0x8f404000, 0x8f404fff] PGTABLE
+Nov  9 16:18:09 debian kernel: [    0.079980] BRK [0x8f405000, 0x8f405fff] PGTABLE
+Nov  9 16:18:09 debian kernel: [    0.081225] ACPI: Local APIC address 0xfee00000
+Nov  9 16:18:09 debian kernel: [    0.084836] On node 0 totalpages: 1048462
+Nov  9 16:18:09 debian kernel: [    0.084838]   DMA zone: 64 pages used for memmap
+Nov  9 16:18:09 debian kernel: [    0.084838]   DMA zone: 21 pages reserved
+Nov  9 16:18:09 debian kernel: [    0.084839]   DMA zone: 3998 pages, LIFO batch:0
+Nov  9 16:18:09 debian kernel: [    0.084906]   DMA32 zone: 14272 pages used for memmap
+Nov  9 16:18:09 debian kernel: [    0.084906]   DMA32 zone: 913392 pages, LIFO batch:63
+Nov  9 16:18:09 debian kernel: [    0.138128]   Normal zone: 2048 pages used for memmap
+Nov  9 16:18:09 debian kernel: [    0.138131]   Normal zone: 131072 pages, LIFO batch:31
+Nov  9 16:18:09 debian kernel: [    0.148557] ACPI: Local APIC address 0xfee00000
+Nov  9 16:18:09 debian kernel: [    0.148629] ACPI: IRQ0 used by override.
+Nov  9 16:18:09 debian kernel: [    0.148630] ACPI: IRQ9 used by override.
+Nov  9 16:18:09 debian kernel: [    0.255017] pcpu-alloc: s144408 r8192 d31720 u1048576 alloc=1*2097152
+Nov  9 16:18:09 debian kernel: [    0.255018] pcpu-alloc: [0] 0 1 
+Nov  9 16:18:09 debian kernel: [    0.298660] Calgary: detecting Calgary via BIOS EBDA area
+Nov  9 16:18:09 debian kernel: [    0.298664] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  9 16:18:09 debian kernel: [    0.483639] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  9 16:18:09 debian kernel: [    0.484277] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  9 16:18:09 debian kernel: [    0.484939] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Nov  9 16:18:09 debian kernel: [    0.485271] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Nov  9 16:18:09 debian kernel: [    0.485361] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Nov  9 16:18:09 debian kernel: [    0.485776] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Nov  9 16:18:09 debian kernel: [    0.489709] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Nov  9 16:18:09 debian kernel: [    0.493353] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Nov  9 16:18:09 debian kernel: [    0.501361] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Nov  9 16:18:09 debian kernel: [    0.501505] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Nov  9 16:18:09 debian kernel: [    0.509361] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Nov  9 16:18:09 debian kernel: [    0.517101] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Nov  9 16:18:09 debian kernel: [    0.517586] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Nov  9 16:18:09 debian kernel: [    0.521503] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Nov  9 16:18:09 debian kernel: [    0.525048] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Nov  9 16:18:09 debian kernel: [    0.533361] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Nov  9 16:18:09 debian kernel: [    0.533413] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Nov  9 16:18:09 debian kernel: [    0.533492] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Nov  9 16:18:09 debian kernel: [    0.534194] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Nov  9 16:18:09 debian kernel: [    0.537275] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Nov  9 16:18:09 debian kernel: [    0.549361] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Nov  9 16:18:09 debian kernel: [    0.550098] pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Nov  9 16:18:09 debian kernel: [    0.553141] pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Nov  9 16:18:09 debian kernel: [    0.557013] pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Nov  9 16:18:09 debian kernel: [    0.565139] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Nov  9 16:18:09 debian kernel: [    0.568081] pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Nov  9 16:18:09 debian kernel: [    0.569544] pci 0000:00:0d.0: reg 0x14: [io  0xd250-0xd253]
+Nov  9 16:18:09 debian kernel: [    0.572372] pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Nov  9 16:18:09 debian kernel: [    0.573533] pci 0000:00:0d.0: reg 0x1c: [io  0xd260-0xd263]
+Nov  9 16:18:09 debian kernel: [    0.577361] pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Nov  9 16:18:09 debian kernel: [    0.577536] pci 0000:00:0d.0: reg 0x24: [mem 0xf0840000-0xf0841fff]
+Nov  9 16:18:09 debian kernel: [    0.582832] PCI: pci_cache_line_size set to 64 bytes
+Nov  9 16:18:09 debian kernel: [    0.582832] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  9 16:18:09 debian kernel: [    0.582832] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Nov  9 16:18:09 debian kernel: [    0.596345] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  9 16:18:09 debian kernel: [    0.596415] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Nov  9 16:18:09 debian kernel: [    0.610891] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  9 16:18:09 debian kernel: [    0.610892] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  9 16:18:09 debian kernel: [    0.610894] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  9 16:18:09 debian kernel: [    0.610895] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Nov  9 16:18:09 debian kernel: [    0.612575] PCI: CLS 0 bytes, default 64
+Nov  9 16:18:09 debian kernel: [    1.506008] libata version 3.00 loaded.
+Nov  9 16:18:09 debian kernel: [    1.508852] ata_piix 0000:00:01.1: version 2.13
+Nov  9 16:18:09 debian kernel: [    1.528394] ahci 0000:00:0d.0: version 3.0
+Nov  9 16:18:09 debian kernel: [    3.272321] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Nov  9 16:18:09 debian kernel: [    3.273899] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+Nov  9 16:18:09 debian kernel: [    3.275114] sd 4:0:0:0: [sdc] Mode Sense: 00 3a 00 00
+Nov  9 16:18:09 debian kernel: [    3.275324] sd 5:0:0:0: [sdd] Mode Sense: 00 3a 00 00
+Nov  9 16:18:09 debian kernel: [    3.390991] PM: Image not found (code -22)
+Nov  9 16:30:40 debian php7.3-common: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:40 debian php7.3-common: php_invoke calendar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke ctype: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke exif: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke ftp: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke gettext: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke iconv: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke pdo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke phar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke posix: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke shmop: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke sockets: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:46 debian php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:46 debian php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:46 debian php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:46 debian php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:46 debian php7.3-json: php_invoke json: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:46 debian php7.3-json: php_invoke json: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:47 debian php7.3-readline: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-readline: php_invoke readline: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke json: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke gettext: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke iconv: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke phar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke fileinfo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke calendar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke ctype: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke readline: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sysvsem: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sysvmsg: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke exif: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke ftp: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sockets: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke pdo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke tokenizer: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke opcache: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke shmop: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke json: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sysvshm: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke posix: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqlnd: already enabled for PHP 7.3 cli sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqlnd: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqli: already enabled for PHP 7.3 cli sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqli: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:31:37 debian php7.3-mysql: php_invoke pdo_mysql: already enabled for PHP 7.3 cli sapi
+Nov  9 16:31:37 debian php7.3-mysql: php_invoke pdo_mysql: already enabled for PHP 7.3 apache2 sapi

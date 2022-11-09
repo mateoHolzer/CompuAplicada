@@ -1,0 +1,17 @@
+[Wed Nov 09 16:30:05.249323 2022] [mpm_event:notice] [pid 1800:tid 140380469355648] AH00489: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Nov 09 16:30:05.249465 2022] [core:notice] [pid 1800:tid 140380469355648] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 09 16:30:19.505847 2022] [mpm_event:notice] [pid 1800:tid 140380469355648] AH00493: SIGUSR1 received.  Doing graceful restart
+[Wed Nov 09 16:30:19.511147 2022] [mpm_event:notice] [pid 1800:tid 140380469355648] AH00489: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Nov 09 16:30:19.511167 2022] [core:notice] [pid 1800:tid 140380469355648] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 09 16:30:49.663137 2022] [mpm_event:notice] [pid 1800:tid 140380469355648] AH00491: caught SIGTERM, shutting down
+[Wed Nov 09 16:30:49.769914 2022] [mpm_prefork:notice] [pid 8250] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Nov 09 16:30:49.770058 2022] [core:notice] [pid 8250] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 09 16:30:50.286935 2022] [mpm_prefork:notice] [pid 8250] AH00169: caught SIGTERM, shutting down
+[Wed Nov 09 16:30:50.421731 2022] [mpm_prefork:notice] [pid 8307] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Nov 09 16:30:50.421796 2022] [core:notice] [pid 8307] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 09 16:34:36.272270 2022] [mpm_prefork:notice] [pid 8307] AH00169: caught SIGTERM, shutting down
+[Wed Nov 09 16:34:36.401553 2022] [mpm_prefork:notice] [pid 9177] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Nov 09 16:34:36.401617 2022] [core:notice] [pid 9177] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Nov 09 17:12:44.140041 2022] [mpm_prefork:notice] [pid 9177] AH00169: caught SIGTERM, shutting down
+[Wed Nov 09 17:12:44.288085 2022] [mpm_prefork:notice] [pid 18761] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Nov 09 17:12:44.288143 2022] [core:notice] [pid 18761] AH00094: Command line: '/usr/sbin/apache2'

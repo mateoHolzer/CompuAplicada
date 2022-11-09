@@ -1,0 +1,5 @@
+a7d6dc47d1f3d1db30ed87d76c278a68  usr/lib/apache2/modules/libphp7.3.so
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/php/7.3/sapi/apache2
+5c4fdd1a55e80a29728b04fbd359b75a  usr/share/bug/libapache2-mod-php7.3/control
+78a3adf4376c426754b3c27553b18c9f  usr/share/bug/libapache2-mod-php7.3/script
+03f8d69958fd4274907440183a396c52  usr/share/lintian/overrides/libapache2-mod-php7.3

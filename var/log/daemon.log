@@ -1,0 +1,679 @@
+Nov  9 16:15:38 debian systemd[1]: logrotate.service: Succeeded.
+Nov  9 16:15:38 debian systemd[1]: Started Rotate log files.
+Nov  9 16:15:38 debian systemd[1]: man-db.service: Succeeded.
+Nov  9 16:15:38 debian systemd[1]: Started Daily man-db regeneration.
+Nov  9 16:15:39 debian systemd[1]: apt-daily.service: Succeeded.
+Nov  9 16:15:39 debian systemd[1]: Started Daily apt download activities.
+Nov  9 16:15:39 debian systemd[1]: Starting Daily apt upgrade and clean activities...
+Nov  9 16:15:39 debian systemd[1]: apt-daily-upgrade.service: Succeeded.
+Nov  9 16:15:39 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Nov  9 16:15:39 debian systemd[1]: Startup finished in 2.657s (kernel) + 2.583s (userspace) = 5.241s.
+Nov  9 16:15:45 debian systemd[1]: Created slice User Slice of UID 0.
+Nov  9 16:15:45 debian systemd[1]: Starting User Runtime Directory /run/user/0...
+Nov  9 16:15:45 debian systemd[1]: Started User Runtime Directory /run/user/0.
+Nov  9 16:15:45 debian systemd[1]: Starting User Manager for UID 0...
+Nov  9 16:15:45 debian systemd[616]: Reached target Paths.
+Nov  9 16:15:45 debian systemd[616]: Reached target Timers.
+Nov  9 16:15:45 debian systemd[616]: Reached target Sockets.
+Nov  9 16:15:45 debian systemd[616]: Reached target Basic System.
+Nov  9 16:15:45 debian systemd[1]: Started User Manager for UID 0.
+Nov  9 16:15:45 debian systemd[1]: Started Session 2 of user root.
+Nov  9 16:15:45 debian systemd[616]: Reached target Default.
+Nov  9 16:15:45 debian systemd[616]: Startup finished in 37ms.
+Nov  9 16:16:04 debian systemd[1]: Stopped target Timers.
+Nov  9 16:16:04 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Nov  9 16:16:04 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+Nov  9 16:16:04 debian systemd[1]: apt-daily.timer: Succeeded.
+Nov  9 16:16:04 debian systemd[1]: Stopped Daily apt download activities.
+Nov  9 16:16:04 debian systemd[1]: man-db.timer: Succeeded.
+Nov  9 16:16:04 debian systemd[1]: Stopped Daily man-db regeneration.
+Nov  9 16:16:04 debian systemd[1]: Stopped target Sound Card.
+Nov  9 16:16:04 debian systemd[1]: logrotate.timer: Succeeded.
+Nov  9 16:16:04 debian systemd[1]: Stopped Daily rotation of log files.
+Nov  9 16:16:04 debian systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Nov  9 16:16:04 debian systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Nov  9 16:16:04 debian systemd[1]: Stopped target Graphical Interface.
+Nov  9 16:16:04 debian systemd[1]: Stopped target Multi-User System.
+Nov  9 16:16:04 debian systemd[1]: Stopped target Login Prompts.
+Nov  9 16:16:04 debian systemd[1]: Stopping Getty on tty1...
+Nov  9 16:16:04 debian systemd[1]: Stopping Run anacron jobs...
+Nov  9 16:16:04 debian systemd[1]: Stopping Regular background program processing daemon...
+Nov  9 16:18:09 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov  9 16:18:09 debian systemd[1]: Started udev Kernel Device Manager.
+Nov  9 16:18:09 debian systemd[1]: Started Set the console keyboard layout.
+Nov  9 16:18:09 debian systemd[1]: Reached target Local File Systems (Pre).
+Nov  9 16:18:09 debian systemd[1]: Started Flush Journal to Persistent Storage.
+Nov  9 16:18:09 debian systemd-udevd[284]: Using default interface naming scheme 'v240'.
+Nov  9 16:18:09 debian systemd-udevd[284]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  9 16:18:09 debian systemd-udevd[286]: Using default interface naming scheme 'v240'.
+Nov  9 16:18:09 debian systemd-udevd[286]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  9 16:18:09 debian systemd-udevd[277]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  9 16:18:09 debian systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+Nov  9 16:18:09 debian systemd[1]: Found device VBOX_HARDDISK 5.
+Nov  9 16:18:09 debian systemd[1]: Found device VBOX_HARDDISK 1.
+Nov  9 16:18:09 debian systemd[1]: Reached target Sound Card.
+Nov  9 16:18:09 debian systemd[1]: Mounting /home...
+Nov  9 16:18:09 debian systemd[1]: Activating swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3...
+Nov  9 16:18:09 debian systemd[1]: Activated swap /dev/disk/by-uuid/e550cf9e-dc94-442c-b9c4-9c12f05024b3.
+Nov  9 16:18:09 debian systemd[1]: Mounted /home.
+Nov  9 16:18:09 debian systemd[1]: Reached target Local File Systems.
+Nov  9 16:18:09 debian systemd[1]: Starting Load AppArmor profiles...
+Nov  9 16:18:09 debian systemd[1]: Starting Set console font and keymap...
+Nov  9 16:18:09 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov  9 16:18:09 debian systemd[1]: Starting Create Volatile Files and Directories...
+Nov  9 16:18:09 debian systemd[1]: Reached target Swap.
+Nov  9 16:18:09 debian systemd[1]: Started Set console font and keymap.
+Nov  9 16:18:09 debian apparmor.systemd[378]: Restarting AppArmor
+Nov  9 16:18:09 debian apparmor.systemd[378]: Reloading AppArmor profiles
+Nov  9 16:18:09 debian systemd[1]: Started Create Volatile Files and Directories.
+Nov  9 16:18:09 debian systemd[1]: Starting Network Time Synchronization...
+Nov  9 16:18:09 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov  9 16:18:09 debian systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Nov  9 16:18:09 debian systemd[1]: Started Load AppArmor profiles.
+Nov  9 16:18:09 debian systemd[1]: Started ifup for enp0s3.
+Nov  9 16:18:09 debian systemd[1]: Starting Raise network interfaces...
+Nov  9 16:18:09 debian dhclient[432]: Internet Systems Consortium DHCP Client 4.4.1
+Nov  9 16:18:09 debian sh[399]: Internet Systems Consortium DHCP Client 4.4.1
+Nov  9 16:18:09 debian sh[399]: Copyright 2004-2018 Internet Systems Consortium.
+Nov  9 16:18:09 debian sh[399]: All rights reserved.
+Nov  9 16:18:09 debian sh[399]: For info, please visit https://www.isc.org/software/dhcp/
+Nov  9 16:18:09 debian dhclient[432]: Copyright 2004-2018 Internet Systems Consortium.
+Nov  9 16:18:09 debian dhclient[432]: All rights reserved.
+Nov  9 16:18:09 debian dhclient[432]: For info, please visit https://www.isc.org/software/dhcp/
+Nov  9 16:18:09 debian dhclient[432]: 
+Nov  9 16:18:09 debian systemd[1]: Started Raise network interfaces.
+Nov  9 16:18:09 debian dhclient[432]: Listening on LPF/enp0s3/08:00:27:ec:98:dc
+Nov  9 16:18:09 debian sh[399]: Listening on LPF/enp0s3/08:00:27:ec:98:dc
+Nov  9 16:18:09 debian sh[399]: Sending on   LPF/enp0s3/08:00:27:ec:98:dc
+Nov  9 16:18:09 debian sh[399]: Sending on   Socket/fallback
+Nov  9 16:18:09 debian sh[399]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3
+Nov  9 16:18:09 debian dhclient[432]: Sending on   LPF/enp0s3/08:00:27:ec:98:dc
+Nov  9 16:18:09 debian dhclient[432]: Sending on   Socket/fallback
+Nov  9 16:18:09 debian dhclient[432]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3
+Nov  9 16:18:09 debian dhclient[432]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Nov  9 16:18:09 debian sh[399]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Nov  9 16:18:09 debian sh[399]: DHCPREQUEST for 10.0.2.15 on enp0s3 to 255.255.255.255 port 67
+Nov  9 16:18:09 debian dhclient[432]: DHCPREQUEST for 10.0.2.15 on enp0s3 to 255.255.255.255 port 67
+Nov  9 16:18:09 debian dhclient[432]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  9 16:18:09 debian sh[399]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  9 16:18:09 debian systemd[1]: Started Network Time Synchronization.
+Nov  9 16:18:09 debian systemd[1]: Reached target System Initialization.
+Nov  9 16:18:09 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov  9 16:18:09 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov  9 16:18:09 debian systemd[1]: Reached target Sockets.
+Nov  9 16:18:09 debian systemd[1]: Reached target Basic System.
+Nov  9 16:18:09 debian systemd[1]: Starting System Logging Service...
+Nov  9 16:18:09 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov  9 16:18:09 debian systemd[1]: Starting Login Service...
+Nov  9 16:18:09 debian systemd[1]: Started D-Bus System Message Bus.
+Nov  9 16:18:09 debian systemd[1]: Starting WPA supplicant...
+Nov  9 16:18:09 debian systemd[1]: Started Regular background program processing daemon.
+Nov  9 16:18:09 debian systemd[1]: Reached target System Time Synchronized.
+Nov  9 16:18:09 debian systemd[1]: Started Daily apt download activities.
+Nov  9 16:18:09 debian systemd[1]: Started Daily man-db regeneration.
+Nov  9 16:18:09 debian systemd[1]: Started Trigger anacron every hour.
+Nov  9 16:18:09 debian systemd[1]: Started Run anacron jobs.
+Nov  9 16:18:09 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Nov  9 16:18:09 debian systemd[1]: Started Daily rotation of log files.
+Nov  9 16:18:09 debian systemd[1]: Reached target Timers.
+Nov  9 16:18:09 debian dhclient[432]: bound to 10.0.2.15 -- renewal in 38975 seconds.
+Nov  9 16:18:09 debian sh[399]: bound to 10.0.2.15 -- renewal in 38975 seconds.
+Nov  9 16:18:09 debian systemd[1]: Started System Logging Service.
+Nov  9 16:18:09 debian systemd[1]: Started WPA supplicant.
+Nov  9 16:18:09 debian wpa_supplicant[460]: Successfully initialized wpa_supplicant
+Nov  9 16:18:09 debian systemd[1]: Reached target Network.
+Nov  9 16:18:09 debian systemd[1]: Starting Permit User Sessions...
+Nov  9 16:18:09 debian sh[399]: enp0s3=enp0s3
+Nov  9 16:18:09 debian systemd[1]: Started Permit User Sessions.
+Nov  9 16:18:09 debian systemd[1]: Started Login Service.
+Nov  9 16:18:09 debian systemd[1]: Started Getty on tty1.
+Nov  9 16:18:09 debian systemd[1]: Reached target Login Prompts.
+Nov  9 16:18:09 debian systemd[1]: Reached target Multi-User System.
+Nov  9 16:18:09 debian systemd[1]: Reached target Graphical Interface.
+Nov  9 16:18:09 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov  9 16:18:09 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov  9 16:18:09 debian systemd[1]: Started Update UTMP about System Runlevel Changes.
+Nov  9 16:18:09 debian systemd[1]: Startup finished in 3.689s (kernel) + 1.385s (userspace) = 5.074s.
+Nov  9 16:18:26 debian systemd[1]: Created slice User Slice of UID 0.
+Nov  9 16:18:26 debian systemd[1]: Starting User Runtime Directory /run/user/0...
+Nov  9 16:18:26 debian systemd[1]: Started User Runtime Directory /run/user/0.
+Nov  9 16:18:26 debian systemd[1]: Starting User Manager for UID 0...
+Nov  9 16:18:26 debian systemd[490]: Reached target Timers.
+Nov  9 16:18:26 debian systemd[490]: Reached target Sockets.
+Nov  9 16:18:26 debian systemd[490]: Reached target Paths.
+Nov  9 16:18:26 debian systemd[490]: Reached target Basic System.
+Nov  9 16:18:26 debian systemd[490]: Reached target Default.
+Nov  9 16:18:26 debian systemd[490]: Startup finished in 35ms.
+Nov  9 16:18:26 debian systemd[1]: Started User Manager for UID 0.
+Nov  9 16:18:26 debian systemd[1]: Started Session 2 of user root.
+Nov  9 16:19:08 debian dhclient[529]: Internet Systems Consortium DHCP Client 4.4.1
+Nov  9 16:19:08 debian dhclient[529]: Copyright 2004-2018 Internet Systems Consortium.
+Nov  9 16:19:08 debian dhclient[529]: All rights reserved.
+Nov  9 16:19:08 debian dhclient[529]: For info, please visit https://www.isc.org/software/dhcp/
+Nov  9 16:19:08 debian dhclient[529]: 
+Nov  9 16:19:08 debian dhclient[529]: Listening on LPF/enp0s8/08:00:27:4a:4d:cf
+Nov  9 16:19:08 debian dhclient[529]: Sending on   LPF/enp0s8/08:00:27:4a:4d:cf
+Nov  9 16:19:08 debian dhclient[529]: Sending on   Socket/fallback
+Nov  9 16:19:08 debian dhclient[529]: DHCPDISCOVER on enp0s8 to 255.255.255.255 port 67 interval 5
+Nov  9 16:19:08 debian dhclient[529]: DHCPOFFER of 192.168.56.101 from 192.168.56.100
+Nov  9 16:19:08 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 255.255.255.255 port 67
+Nov  9 16:19:08 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:19:08 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 252 seconds.
+Nov  9 16:20:29 debian systemd[1]: Reloading.
+Nov  9 16:20:29 debian systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Nov  9 16:20:29 debian systemd[1]: Reloading.
+Nov  9 16:20:29 debian systemd[1]: Reloading.
+Nov  9 16:20:29 debian systemd[1]: Reloading.
+Nov  9 16:20:30 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Nov  9 16:20:30 debian systemd[1]: Started OpenBSD Secure Shell server.
+Nov  9 16:20:30 debian systemd[1]: Reloading.
+Nov  9 16:21:03 debian systemd[1]: Reloading.
+Nov  9 16:21:03 debian systemd[990]: /usr/lib/systemd/system-generators/lvm2-activation-generator failed with exit status 1.
+Nov  9 16:21:03 debian systemd[1]: Reloading.
+Nov  9 16:21:03 debian systemd[1006]: /usr/lib/systemd/system-generators/lvm2-activation-generator failed with exit status 1.
+Nov  9 16:21:03 debian systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Nov  9 16:21:03 debian systemd[1]: Reloading.
+Nov  9 16:21:03 debian systemd[1]: Reloading.
+Nov  9 16:21:04 debian systemd[1]: Reloading.
+Nov  9 16:21:04 debian systemd[1]: Reloading.
+Nov  9 16:21:04 debian systemd[1]: Listening on LVM2 poll daemon socket.
+Nov  9 16:21:04 debian systemd[1]: Started LVM2 poll daemon.
+Nov  9 16:21:04 debian systemd[1]: Reloading.
+Nov  9 16:21:04 debian systemd[1]: Reloading.
+Nov  9 16:21:05 debian systemd[1]: Reloading.
+Nov  9 16:21:05 debian systemd[1]: Starting Availability of block devices...
+Nov  9 16:21:05 debian systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Nov  9 16:21:05 debian systemd[1]: Started Availability of block devices.
+Nov  9 16:21:05 debian systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Nov  9 16:21:05 debian systemd[1]: Reloading.
+Nov  9 16:21:05 debian systemd[1]: Reloading.
+Nov  9 16:22:07 debian systemd[1]: lvm2-lvmpolld.service: Succeeded.
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:02 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:03 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:04 debian systemd[1]: Reexecuting.
+Nov  9 16:23:04 debian systemd[1]: Stopping Network Time Synchronization...
+Nov  9 16:23:04 debian systemd[1]: systemd-timesyncd.service: Succeeded.
+Nov  9 16:23:04 debian systemd[1]: Stopped Network Time Synchronization.
+Nov  9 16:23:04 debian systemd[1]: Starting Network Time Synchronization...
+Nov  9 16:23:05 debian systemd[1]: Started Network Time Synchronization.
+Nov  9 16:23:05 debian systemd[1]: systemd-journal-flush.service: Succeeded.
+Nov  9 16:23:05 debian systemd[1]: Stopped Flush Journal to Persistent Storage.
+Nov  9 16:23:05 debian systemd[1]: Stopping Flush Journal to Persistent Storage...
+Nov  9 16:23:05 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov  9 16:23:05 debian systemd[1]: Started Flush Journal to Persistent Storage.
+Nov  9 16:23:07 debian systemd[1]: Reloading.
+Nov  9 16:23:07 debian systemd[1]: Reloading.
+Nov  9 16:23:07 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Nov  9 16:23:07 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+Nov  9 16:23:07 debian systemd[1]: Stopping Daily apt upgrade and clean activities.
+Nov  9 16:23:07 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Nov  9 16:23:07 debian systemd[1]: apt-daily.timer: Succeeded.
+Nov  9 16:23:07 debian systemd[1]: Stopped Daily apt download activities.
+Nov  9 16:23:07 debian systemd[1]: Stopping Daily apt download activities.
+Nov  9 16:23:07 debian systemd[1]: Started Daily apt download activities.
+Nov  9 16:23:10 debian systemd[1]: Reloading.
+Nov  9 16:23:20 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:23:20 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:23:20 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 284 seconds.
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:44 debian systemd[1]: Reloading.
+Nov  9 16:23:44 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:23:57 debian systemd[1]: Mounting FUSE Control File System...
+Nov  9 16:23:57 debian systemd[1]: Mounted FUSE Control File System.
+Nov  9 16:24:10 debian systemd[1]: Reloading.
+Nov  9 16:24:10 debian systemd[1]: Reloading.
+Nov  9 16:24:10 debian systemd[1]: Reloading.
+Nov  9 16:24:11 debian systemd[1]: Stopping System Logging Service...
+Nov  9 16:24:11 debian systemd[1]: rsyslog.service: Succeeded.
+Nov  9 16:24:11 debian systemd[1]: Stopped System Logging Service.
+Nov  9 16:24:11 debian systemd[1]: Starting System Logging Service...
+Nov  9 16:24:11 debian systemd[1]: Started System Logging Service.
+Nov  9 16:24:14 debian systemd[1]: Reloading.
+Nov  9 16:24:14 debian systemd[1]: Reloading.
+Nov  9 16:24:14 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:24:15 debian systemd[1]: Reloading.
+Nov  9 16:24:15 debian systemd[1]: Reloading.
+Nov  9 16:24:15 debian systemd[1]: Stopping udev Kernel Device Manager...
+Nov  9 16:24:15 debian systemd[1]: systemd-udevd.service: Succeeded.
+Nov  9 16:24:15 debian systemd[1]: Stopped udev Kernel Device Manager.
+Nov  9 16:24:15 debian systemd[1]: Starting udev Kernel Device Manager...
+Nov  9 16:24:15 debian systemd[1]: Started udev Kernel Device Manager.
+Nov  9 16:24:15 debian systemd[1]: Reloading.
+Nov  9 16:24:15 debian systemd[1]: Reloading.
+Nov  9 16:24:15 debian systemd[1]: Reloading.
+Nov  9 16:24:18 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:24:18 debian systemd[1]: Reloading.
+Nov  9 16:24:18 debian systemd[1]: Stopping WPA supplicant...
+Nov  9 16:24:18 debian systemd[1]: wpa_supplicant.service: Succeeded.
+Nov  9 16:24:18 debian systemd[1]: Stopped WPA supplicant.
+Nov  9 16:24:18 debian systemd[1]: Starting WPA supplicant...
+Nov  9 16:24:18 debian systemd[1]: Started WPA supplicant.
+Nov  9 16:24:18 debian wpa_supplicant[20513]: Successfully initialized wpa_supplicant
+Nov  9 16:24:20 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:24:20 debian systemd[1]: Reloading.
+Nov  9 16:24:21 debian systemd[1]: Reloading D-Bus System Message Bus.
+Nov  9 16:24:21 debian dbus-daemon[458]: [system] Reloaded configuration
+Nov  9 16:24:21 debian dbus-send[24211]: method return time=1668021861.129519 sender=org.freedesktop.DBus -> destination=:1.23 serial=3 reply_serial=2
+Nov  9 16:24:21 debian systemd[1]: Reloaded D-Bus System Message Bus.
+Nov  9 16:24:21 debian systemd[1]: Reloading.
+Nov  9 16:24:21 debian systemd[1]: Reloading.
+Nov  9 16:24:21 debian systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Nov  9 16:25:12 debian systemd[1]: Reloading.
+Nov  9 16:27:06 debian systemd[1]: Reloading.
+Nov  9 16:27:07 debian systemd[1]: Reloading.
+Nov  9 16:27:07 debian systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Nov  9 16:27:07 debian systemd[1]: Reloading.
+Nov  9 16:27:07 debian systemd[1]: Reloading.
+Nov  9 16:28:04 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:28:04 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:28:04 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 282 seconds.
+Nov  9 16:30:04 debian systemd[1]: Reloading.
+Nov  9 16:30:04 debian systemd[1]: Reloading.
+Nov  9 16:30:04 debian systemd[1]: Reloading.
+Nov  9 16:30:05 debian systemd[1]: Reloading.
+Nov  9 16:30:05 debian systemd[1]: Starting The Apache HTTP Server...
+Nov  9 16:30:05 debian systemd[1]: Started The Apache HTTP Server.
+Nov  9 16:30:05 debian systemd[1]: Reloading.
+Nov  9 16:30:05 debian systemd[1]: Reloading.
+Nov  9 16:30:05 debian systemd[1]: Reloading.
+Nov  9 16:30:05 debian systemd[1]: Reloading.
+Nov  9 16:30:05 debian systemd[1]: Reloading.
+Nov  9 16:30:19 debian apache2-doc: apache2_invoke: Enable configuration apache2-doc
+Nov  9 16:30:19 debian systemd[1]: Reloading.
+Nov  9 16:30:19 debian systemd[1]: Reloading The Apache HTTP Server.
+Nov  9 16:30:19 debian systemd[1]: Reloaded The Apache HTTP Server.
+Nov  9 16:30:40 debian systemd[1]: Reloading.
+Nov  9 16:30:40 debian systemd[1]: Reloading.
+Nov  9 16:30:40 debian systemd[1]: Started Clean PHP session files every 30 mins.
+Nov  9 16:30:40 debian php7.3-common: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:40 debian php7.3-common: php_invoke calendar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke ctype: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:41 debian php7.3-common: php_invoke exif: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke ftp: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:42 debian php7.3-common: php_invoke gettext: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke iconv: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke pdo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:43 debian php7.3-common: php_invoke phar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke posix: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke shmop: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:44 debian php7.3-common: php_invoke sockets: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:45 debian php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:46 debian php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:46 debian php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:46 debian php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:46 debian php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:46 debian php7.3-json: php_invoke json: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:46 debian php7.3-json: php_invoke json: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:47 debian php7.3-readline: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-readline: php_invoke readline: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke json: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:47 debian php7.3-cli: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke gettext: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke iconv: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke phar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke fileinfo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke calendar: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke ctype: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke readline: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sysvsem: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sysvmsg: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke exif: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke ftp: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sockets: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke pdo: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke tokenizer: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke opcache: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke shmop: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke json: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke sysvshm: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:48 debian libapache2-mod-php7.3: php_invoke posix: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:30:49 debian libapache2-mod-php7.3: apache2_switch_mpm Switch to prefork
+Nov  9 16:30:49 debian systemd[1]: Reloading.
+Nov  9 16:30:49 debian systemd[1]: Stopping The Apache HTTP Server...
+Nov  9 16:30:49 debian systemd[1]: apache2.service: Succeeded.
+Nov  9 16:30:49 debian systemd[1]: Stopped The Apache HTTP Server.
+Nov  9 16:30:49 debian systemd[1]: Starting The Apache HTTP Server...
+Nov  9 16:30:49 debian systemd[1]: Started The Apache HTTP Server.
+Nov  9 16:30:49 debian libapache2-mod-php7.3: apache2_invoke: Enable module php7.3
+Nov  9 16:30:50 debian systemd[1]: Reloading.
+Nov  9 16:30:50 debian systemd[1]: Stopping The Apache HTTP Server...
+Nov  9 16:30:50 debian systemd[1]: apache2.service: Succeeded.
+Nov  9 16:30:50 debian systemd[1]: Stopped The Apache HTTP Server.
+Nov  9 16:30:50 debian systemd[1]: Starting The Apache HTTP Server...
+Nov  9 16:30:50 debian systemd[1]: Started The Apache HTTP Server.
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqlnd: already enabled for PHP 7.3 cli sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqlnd: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqli: already enabled for PHP 7.3 cli sapi
+Nov  9 16:31:36 debian php7.3-mysql: php_invoke mysqli: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:31:37 debian php7.3-mysql: php_invoke pdo_mysql: already enabled for PHP 7.3 cli sapi
+Nov  9 16:31:37 debian php7.3-mysql: php_invoke pdo_mysql: already enabled for PHP 7.3 apache2 sapi
+Nov  9 16:32:46 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:32:46 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:32:46 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 275 seconds.
+Nov  9 16:33:10 debian systemd[1]: anacron.service: Killing process 9162 (anacron) with signal SIGKILL.
+Nov  9 16:33:10 debian systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  9 16:33:10 debian systemd[1]: anacron.service: Succeeded.
+Nov  9 16:33:10 debian systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Nov  9 16:33:10 debian systemd[1]: Started Cleanup of Temporary Directories.
+Nov  9 16:34:36 debian systemd[1]: Stopping The Apache HTTP Server...
+Nov  9 16:34:36 debian systemd[1]: apache2.service: Succeeded.
+Nov  9 16:34:36 debian systemd[1]: Stopped The Apache HTTP Server.
+Nov  9 16:34:36 debian systemd[1]: Starting The Apache HTTP Server...
+Nov  9 16:34:36 debian systemd[1]: Started The Apache HTTP Server.
+Nov  9 16:37:21 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:37:21 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:37:21 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 270 seconds.
+Nov  9 16:38:28 debian systemd[1]: Reloading.
+Nov  9 16:38:28 debian systemd[1]: Reloading.
+Nov  9 16:38:28 debian systemd[1]: Starting MySQL Community Server...
+Nov  9 16:38:29 debian systemd[1]: Started MySQL Community Server.
+Nov  9 16:38:29 debian systemd[1]: Reloading.
+Nov  9 16:39:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 16:39:01 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 16:39:01 debian systemd[1]: Started Clean php session files.
+Nov  9 16:41:51 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:41:51 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:41:51 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 296 seconds.
+Nov  9 16:46:47 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:46:47 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:46:47 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 265 seconds.
+Nov  9 16:51:12 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:51:12 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:51:12 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 267 seconds.
+Nov  9 16:54:51 debian systemd[1]: Reloading.
+Nov  9 16:54:53 debian systemd[1]: Reloading.
+Nov  9 16:54:54 debian systemd[1]: Reloading.
+Nov  9 16:54:54 debian systemd[1]: Reloading.
+Nov  9 16:54:54 debian systemd[1]: Reloading.
+Nov  9 16:54:54 debian systemd[1]: Reloading.
+Nov  9 16:54:55 debian systemd[1]: Reloading.
+Nov  9 16:54:55 debian systemd[1]: Reached target Network is Online.
+Nov  9 16:54:55 debian systemd[1]: Starting LSB: exim Mail Transport Agent...
+Nov  9 16:54:55 debian exim4[14219]: Starting MTA: exim4.
+Nov  9 16:54:55 debian systemd[1]: Started LSB: exim Mail Transport Agent.
+Nov  9 16:54:55 debian systemd[1]: Reloading.
+Nov  9 16:55:39 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 16:55:39 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 16:55:39 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 300 seconds.
+Nov  9 17:00:39 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:00:39 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:00:39 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 273 seconds.
+Nov  9 17:01:00 debian systemd[1]: Started MD array monitor.
+Nov  9 17:01:00 debian systemd[1]: Created slice system-lvm2\x2dpvscan.slice.
+Nov  9 17:01:00 debian systemd[1]: Starting LVM event activation on device 9:0...
+Nov  9 17:01:00 debian systemd[1]: Started LVM event activation on device 9:0.
+Nov  9 17:05:12 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:05:12 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:05:12 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 236 seconds.
+Nov  9 17:09:02 debian systemd[1]: Starting Clean php session files...
+Nov  9 17:09:02 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 17:09:02 debian systemd[1]: Started Clean php session files.
+Nov  9 17:09:08 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:09:08 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:09:08 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 242 seconds.
+Nov  9 17:12:40 debian systemd[1]: Stopping OpenBSD Secure Shell server...
+Nov  9 17:12:40 debian systemd[1]: ssh.service: Succeeded.
+Nov  9 17:12:40 debian systemd[1]: Stopped OpenBSD Secure Shell server.
+Nov  9 17:12:40 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Nov  9 17:12:40 debian systemd[1]: Started OpenBSD Secure Shell server.
+Nov  9 17:12:44 debian systemd[1]: Stopping The Apache HTTP Server...
+Nov  9 17:12:44 debian systemd[1]: apache2.service: Succeeded.
+Nov  9 17:12:44 debian systemd[1]: Stopped The Apache HTTP Server.
+Nov  9 17:12:44 debian systemd[1]: Starting The Apache HTTP Server...
+Nov  9 17:12:44 debian systemd[1]: Started The Apache HTTP Server.
+Nov  9 17:12:51 debian systemd[1]: Started Session 7 of user root.
+Nov  9 17:13:00 debian systemd[1]: session-7.scope: Succeeded.
+Nov  9 17:13:10 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:13:10 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:13:10 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 285 seconds.
+Nov  9 17:17:56 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:17:56 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:17:56 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 299 seconds.
+Nov  9 17:20:35 debian systemd[1]: Started Session 9 of user root.
+Nov  9 17:20:37 debian systemd[1]: session-9.scope: Succeeded.
+Nov  9 17:22:55 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:22:55 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:22:55 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 258 seconds.
+Nov  9 17:25:32 debian systemd[1]: Stopping OpenBSD Secure Shell server...
+Nov  9 17:25:32 debian systemd[1]: ssh.service: Succeeded.
+Nov  9 17:25:32 debian systemd[1]: Stopped OpenBSD Secure Shell server.
+Nov  9 17:25:32 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Nov  9 17:25:32 debian systemd[1]: Started OpenBSD Secure Shell server.
+Nov  9 17:25:41 debian systemd[1]: Started Session 10 of user root.
+Nov  9 17:25:45 debian systemd[1]: session-10.scope: Succeeded.
+Nov  9 17:27:13 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:27:13 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:27:13 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 261 seconds.
+Nov  9 17:29:47 debian systemd[1]: Stopping OpenBSD Secure Shell server...
+Nov  9 17:29:47 debian systemd[1]: ssh.service: Succeeded.
+Nov  9 17:29:47 debian systemd[1]: Stopped OpenBSD Secure Shell server.
+Nov  9 17:29:47 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Nov  9 17:29:47 debian systemd[1]: Started OpenBSD Secure Shell server.
+Nov  9 17:30:03 debian systemd[1]: Started Session 12 of user root.
+Nov  9 17:30:06 debian systemd[1]: session-12.scope: Succeeded.
+Nov  9 17:31:34 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:31:34 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:31:34 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 240 seconds.
+Nov  9 17:32:23 debian systemd[1]: Started Run anacron jobs.
+Nov  9 17:32:23 debian systemd[1]: anacron.service: Succeeded.
+Nov  9 17:35:34 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:35:34 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:35:34 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 274 seconds.
+Nov  9 17:39:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 17:39:01 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 17:39:01 debian systemd[1]: Started Clean php session files.
+Nov  9 17:40:08 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:40:08 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:40:08 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 286 seconds.
+Nov  9 17:44:54 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:44:54 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:44:54 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 259 seconds.
+Nov  9 17:49:13 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:49:13 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:49:13 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 245 seconds.
+Nov  9 17:53:18 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:53:18 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:53:18 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 294 seconds.
+Nov  9 17:58:12 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 17:58:12 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 17:58:12 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 258 seconds.
+Nov  9 18:02:30 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:02:30 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:02:30 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 281 seconds.
+Nov  9 18:07:11 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:07:11 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:07:11 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 256 seconds.
+Nov  9 18:09:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 18:09:01 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 18:09:01 debian systemd[1]: Started Clean php session files.
+Nov  9 18:11:27 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:11:27 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:11:27 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 289 seconds.
+Nov  9 18:16:16 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:16:16 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:16:16 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 229 seconds.
+Nov  9 18:20:05 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:20:05 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:20:05 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 300 seconds.
+Nov  9 18:25:05 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:25:05 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:25:05 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 254 seconds.
+Nov  9 18:29:19 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:29:19 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:29:19 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 265 seconds.
+Nov  9 18:33:23 debian systemd[1]: Started Run anacron jobs.
+Nov  9 18:33:24 debian systemd[1]: anacron.service: Succeeded.
+Nov  9 18:33:44 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:33:47 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:33:51 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:33:51 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:33:51 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 233 seconds.
+Nov  9 18:37:44 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:37:44 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:37:44 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 264 seconds.
+Nov  9 18:39:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 18:39:01 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 18:39:01 debian systemd[1]: Started Clean php session files.
+Nov  9 18:42:08 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:42:08 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:42:08 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 287 seconds.
+Nov  9 18:46:55 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:46:55 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:46:55 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 258 seconds.
+Nov  9 18:51:13 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:51:13 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:51:13 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 237 seconds.
+Nov  9 18:55:10 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:55:10 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:55:10 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 230 seconds.
+Nov  9 18:59:00 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 18:59:00 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 18:59:00 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 265 seconds.
+Nov  9 19:03:25 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:03:25 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:03:25 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 239 seconds.
+Nov  9 19:07:24 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:07:26 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:07:26 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 234 seconds.
+Nov  9 19:09:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 19:09:01 debian systemd[1]: Starting Daily apt download activities...
+Nov  9 19:09:01 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 19:09:01 debian systemd[1]: Started Clean php session files.
+Nov  9 19:09:02 debian systemd[1]: apt-daily.service: Succeeded.
+Nov  9 19:09:02 debian systemd[1]: Started Daily apt download activities.
+Nov  9 19:11:20 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:11:20 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:11:20 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 252 seconds.
+Nov  9 19:15:32 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:15:32 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:15:32 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 228 seconds.
+Nov  9 19:19:20 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:19:20 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:19:20 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 248 seconds.
+Nov  9 19:23:28 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:23:28 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:23:28 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 297 seconds.
+Nov  9 19:28:25 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:28:25 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:28:25 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 279 seconds.
+Nov  9 19:33:04 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:33:04 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:33:04 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 231 seconds.
+Nov  9 19:33:24 debian systemd[1]: Started Run anacron jobs.
+Nov  9 19:33:24 debian systemd[1]: anacron.service: Succeeded.
+Nov  9 19:36:55 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:36:55 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:36:55 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 226 seconds.
+Nov  9 19:39:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 19:39:01 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 19:39:01 debian systemd[1]: Started Clean php session files.
+Nov  9 19:40:41 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:40:41 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:40:41 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 246 seconds.
+Nov  9 19:44:47 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:44:47 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:44:47 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 285 seconds.
+Nov  9 19:49:32 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:49:32 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:49:32 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 289 seconds.
+Nov  9 19:54:21 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:54:21 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:54:21 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 230 seconds.
+Nov  9 19:58:11 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 19:58:11 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 19:58:11 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 268 seconds.
+Nov  9 20:02:39 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:02:39 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:02:39 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 241 seconds.
+Nov  9 20:06:40 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:06:40 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:06:40 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 257 seconds.
+Nov  9 20:09:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 20:09:02 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 20:09:02 debian systemd[1]: Started Clean php session files.
+Nov  9 20:10:57 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:10:57 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:10:57 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 259 seconds.
+Nov  9 20:15:16 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:15:16 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:15:16 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 251 seconds.
+Nov  9 20:19:27 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:19:27 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:19:27 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 287 seconds.
+Nov  9 20:24:14 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:24:14 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:24:14 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 286 seconds.
+Nov  9 20:29:00 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:29:01 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:29:01 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 245 seconds.
+Nov  9 20:33:06 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:33:06 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:33:06 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 271 seconds.
+Nov  9 20:34:19 debian systemd[1]: Started Run anacron jobs.
+Nov  9 20:34:19 debian systemd[1]: anacron.service: Succeeded.
+Nov  9 20:37:38 debian dhclient[529]: DHCPREQUEST for 192.168.56.101 on enp0s8 to 192.168.56.100 port 67
+Nov  9 20:37:38 debian dhclient[529]: DHCPACK of 192.168.56.101 from 192.168.56.100
+Nov  9 20:37:38 debian dhclient[529]: bound to 192.168.56.101 -- renewal in 241 seconds.
+Nov  9 20:39:01 debian systemd[1]: Starting Clean php session files...
+Nov  9 20:39:02 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov  9 20:39:02 debian systemd[1]: Started Clean php session files.

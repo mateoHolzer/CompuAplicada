@@ -1,0 +1,122 @@
+Nov  9 16:15:44 debian login[468]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  9 16:15:45 debian systemd-logind[427]: New session 2 of user root.
+Nov  9 16:15:45 debian systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  9 16:15:45 debian login[621]: ROOT LOGIN  on '/dev/tty1'
+Nov  9 16:16:04 debian systemd-logind[427]: Power key pressed.
+Nov  9 16:16:04 debian systemd-logind[427]: Powering Off...
+Nov  9 16:16:04 debian systemd-logind[427]: System is powering down.
+Nov  9 16:18:09 debian systemd-logind[457]: New seat seat0.
+Nov  9 16:18:09 debian systemd-logind[457]: Watching system buttons on /dev/input/event3 (Power Button)
+Nov  9 16:18:09 debian systemd-logind[457]: Watching system buttons on /dev/input/event4 (Sleep Button)
+Nov  9 16:18:09 debian CRON[468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 16:18:09 debian systemd-logind[457]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Nov  9 16:18:09 debian CRON[468]: pam_unix(cron:session): session closed for user root
+Nov  9 16:18:26 debian login[483]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Nov  9 16:18:26 debian systemd-logind[457]: New session 2 of user root.
+Nov  9 16:18:26 debian systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  9 16:18:26 debian login[495]: ROOT LOGIN  on '/dev/tty1'
+Nov  9 16:20:29 debian useradd[733]: new user: name=sshd, UID=106, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Nov  9 16:20:29 debian usermod[739]: change user 'sshd' password
+Nov  9 16:20:29 debian chage[744]: changed password expiry for sshd
+Nov  9 16:20:30 debian sshd[838]: Server listening on 0.0.0.0 port 22.
+Nov  9 16:20:30 debian sshd[838]: Server listening on :: port 22.
+Nov  9 16:30:01 debian CRON[1431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 16:30:01 debian CRON[1431]: pam_unix(cron:session): session closed for user root
+Nov  9 16:38:12 debian groupadd[10640]: group added to /etc/group: name=mysql, GID=115
+Nov  9 16:38:12 debian groupadd[10640]: group added to /etc/gshadow: name=mysql
+Nov  9 16:38:12 debian groupadd[10640]: new group: name=mysql, GID=115
+Nov  9 16:38:12 debian useradd[10646]: new user: name=mysql, UID=107, GID=115, home=/var/lib/mysql, shell=/bin/false
+Nov  9 16:38:12 debian chage[10652]: changed password expiry for mysql
+Nov  9 16:38:12 debian chfn[10655]: changed user 'mysql' information
+Nov  9 16:39:01 debian CRON[11203]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 16:39:01 debian CRON[11203]: pam_unix(cron:session): session closed for user root
+Nov  9 16:39:04 debian groupadd[11255]: group added to /etc/group: name=guser, GID=1000
+Nov  9 16:39:04 debian groupadd[11255]: group added to /etc/gshadow: name=guser
+Nov  9 16:39:04 debian groupadd[11255]: new group: name=guser, GID=1000
+Nov  9 16:39:04 debian useradd[11259]: new user: name=guser, UID=1000, GID=1000, home=/home/guser, shell=/bin/bash
+Nov  9 16:39:11 debian passwd[11267]: pam_unix(passwd:chauthtok): password changed for guser
+Nov  9 16:39:14 debian chfn[11268]: changed user 'guser' information
+Nov  9 16:54:50 debian groupadd[12824]: group added to /etc/group: name=Debian-exim, GID=116
+Nov  9 16:54:50 debian groupadd[12824]: group added to /etc/gshadow: name=Debian-exim
+Nov  9 16:54:50 debian groupadd[12824]: new group: name=Debian-exim, GID=116
+Nov  9 16:54:50 debian useradd[12828]: new user: name=Debian-exim, UID=108, GID=116, home=/var/spool/exim4, shell=/usr/sbin/nologin
+Nov  9 16:54:50 debian chage[12834]: changed password expiry for Debian-exim
+Nov  9 17:09:01 debian CRON[18679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 17:09:02 debian CRON[18679]: pam_unix(cron:session): session closed for user root
+Nov  9 17:10:53 debian sshd[18740]: Connection reset by 192.168.56.1 port 51091 [preauth]
+Nov  9 17:12:06 debian sshd[18742]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=root
+Nov  9 17:12:08 debian sshd[18742]: Failed password for root from 192.168.56.1 port 51101 ssh2
+Nov  9 17:12:16 debian sshd[18742]: Failed password for root from 192.168.56.1 port 51101 ssh2
+Nov  9 17:12:18 debian sshd[18742]: Connection reset by authenticating user root 192.168.56.1 port 51101 [preauth]
+Nov  9 17:12:18 debian sshd[18742]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=root
+Nov  9 17:12:40 debian sshd[838]: Received signal 15; terminating.
+Nov  9 17:12:40 debian sshd[18748]: Server listening on 0.0.0.0 port 22.
+Nov  9 17:12:40 debian sshd[18748]: Server listening on :: port 22.
+Nov  9 17:12:51 debian sshd[18767]: Accepted password for root from 192.168.56.1 port 51103 ssh2
+Nov  9 17:12:51 debian sshd[18767]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  9 17:12:51 debian systemd-logind[457]: New session 7 of user root.
+Nov  9 17:13:00 debian sshd[18767]: Received disconnect from 192.168.56.1 port 51103:11: disconnected by user
+Nov  9 17:13:00 debian sshd[18767]: Disconnected from user root 192.168.56.1 port 51103
+Nov  9 17:13:00 debian sshd[18767]: pam_unix(sshd:session): session closed for user root
+Nov  9 17:13:00 debian systemd-logind[457]: Session 7 logged out. Waiting for processes to exit.
+Nov  9 17:13:00 debian systemd-logind[457]: Removed session 7.
+Nov  9 17:17:01 debian CRON[18793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 17:17:01 debian CRON[18793]: pam_unix(cron:session): session closed for user root
+Nov  9 17:20:35 debian sshd[18864]: Accepted password for root from 192.168.56.1 port 51121 ssh2
+Nov  9 17:20:35 debian sshd[18864]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  9 17:20:35 debian systemd-logind[457]: New session 9 of user root.
+Nov  9 17:20:37 debian sshd[18864]: Received disconnect from 192.168.56.1 port 51121:11: disconnected by user
+Nov  9 17:20:37 debian sshd[18864]: Disconnected from user root 192.168.56.1 port 51121
+Nov  9 17:20:37 debian sshd[18864]: pam_unix(sshd:session): session closed for user root
+Nov  9 17:20:37 debian systemd-logind[457]: Session 9 logged out. Waiting for processes to exit.
+Nov  9 17:20:37 debian systemd-logind[457]: Removed session 9.
+Nov  9 17:25:32 debian sshd[18748]: Received signal 15; terminating.
+Nov  9 17:25:32 debian sshd[18888]: Server listening on 0.0.0.0 port 22.
+Nov  9 17:25:32 debian sshd[18888]: Server listening on :: port 22.
+Nov  9 17:25:41 debian sshd[18890]: Accepted password for root from 192.168.56.1 port 51133 ssh2
+Nov  9 17:25:41 debian sshd[18890]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  9 17:25:41 debian systemd-logind[457]: New session 10 of user root.
+Nov  9 17:25:45 debian sshd[18890]: Received disconnect from 192.168.56.1 port 51133:11: disconnected by user
+Nov  9 17:25:45 debian sshd[18890]: Disconnected from user root 192.168.56.1 port 51133
+Nov  9 17:25:45 debian sshd[18890]: pam_unix(sshd:session): session closed for user root
+Nov  9 17:25:45 debian systemd-logind[457]: Session 10 logged out. Waiting for processes to exit.
+Nov  9 17:25:45 debian systemd-logind[457]: Removed session 10.
+Nov  9 17:29:47 debian sshd[18888]: Received signal 15; terminating.
+Nov  9 17:29:47 debian sshd[18928]: Server listening on 0.0.0.0 port 22.
+Nov  9 17:29:47 debian sshd[18928]: Server listening on :: port 22.
+Nov  9 17:30:01 debian CRON[18929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 17:30:01 debian CRON[18929]: pam_unix(cron:session): session closed for user root
+Nov  9 17:30:03 debian sshd[18931]: Accepted password for root from 192.168.56.1 port 51141 ssh2
+Nov  9 17:30:03 debian sshd[18931]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  9 17:30:03 debian systemd-logind[457]: New session 12 of user root.
+Nov  9 17:30:06 debian sshd[18931]: Received disconnect from 192.168.56.1 port 51141:11: disconnected by user
+Nov  9 17:30:06 debian sshd[18931]: Disconnected from user root 192.168.56.1 port 51141
+Nov  9 17:30:06 debian sshd[18931]: pam_unix(sshd:session): session closed for user root
+Nov  9 17:30:06 debian systemd-logind[457]: Session 12 logged out. Waiting for processes to exit.
+Nov  9 17:30:06 debian systemd-logind[457]: Removed session 12.
+Nov  9 17:39:01 debian CRON[18953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 17:39:01 debian CRON[18953]: pam_unix(cron:session): session closed for user root
+Nov  9 18:09:01 debian CRON[19317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 18:09:01 debian CRON[19317]: pam_unix(cron:session): session closed for user root
+Nov  9 18:17:01 debian CRON[20435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 18:17:01 debian CRON[20435]: pam_unix(cron:session): session closed for user root
+Nov  9 18:30:01 debian CRON[20537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 18:30:01 debian CRON[20537]: pam_unix(cron:session): session closed for user root
+Nov  9 18:39:01 debian CRON[20777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 18:39:01 debian CRON[20777]: pam_unix(cron:session): session closed for user root
+Nov  9 19:09:01 debian CRON[20909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 19:09:01 debian CRON[20909]: pam_unix(cron:session): session closed for user root
+Nov  9 19:17:01 debian CRON[21036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 19:17:01 debian CRON[21036]: pam_unix(cron:session): session closed for user root
+Nov  9 19:30:01 debian CRON[21089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 19:30:01 debian CRON[21089]: pam_unix(cron:session): session closed for user root
+Nov  9 19:39:01 debian CRON[21103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 19:39:01 debian CRON[21103]: pam_unix(cron:session): session closed for user root
+Nov  9 20:09:01 debian CRON[21318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 20:09:01 debian CRON[21318]: pam_unix(cron:session): session closed for user root
+Nov  9 20:17:01 debian CRON[21393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 20:17:01 debian CRON[21393]: pam_unix(cron:session): session closed for user root
+Nov  9 20:30:01 debian CRON[21461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 20:30:01 debian CRON[21461]: pam_unix(cron:session): session closed for user root
+Nov  9 20:39:01 debian CRON[21522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  9 20:39:01 debian CRON[21522]: pam_unix(cron:session): session closed for user root

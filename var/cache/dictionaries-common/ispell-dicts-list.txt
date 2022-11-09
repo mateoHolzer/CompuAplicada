@@ -1,0 +1,3 @@
+castellano (Spanish Tex mode)
+castellano-utf8 (Spanish utf-8)
+castellano8 (Spanish 8 bit)

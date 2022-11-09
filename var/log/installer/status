@@ -1,0 +1,1672 @@
+Package: acpi-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: acpi-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: ACPI support modules
+
+Package: anna
+Status: install ok installed
+Version: 1.71
+Depends: libc6-udeb (>= 2.28), libdebconfclient0-udeb, libdebian-installer4-udeb (>= 0.118), cdebconf-udeb
+Description: anna's not nearly apt, but for the Debian installer, it will do
+
+Package: archdetect
+Status: install ok installed
+Version: 1.137
+Depends: libc6-udeb (>= 2.28), libdebian-installer4-udeb (>= 0.118)
+Description: Hardware architecture detector
+
+Package: ata-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: ata-modules
+Depends: kernel-image-4.19.0-8-amd64-di, scsi-core-modules-4.19.0-8-amd64-di
+Description: ATA disk modules
+
+Package: bogl-bterm-udeb
+Status: install ok unpacked
+Version: 0.1.18-13
+Depends: libc6-udeb (>= 2.27)
+Description: Ben's Own Graphics Library - graphical terminal
+
+Package: brltty-udeb
+Status: install ok installed
+Version: 5.6-10
+Depends: libasound2-udeb (>= 1.1.7), libc6-udeb (>= 2.28), preseed-common
+Description: Access software for a blind person using a braille display
+Installer-Menu-Item: 1050
+
+Package: busybox-udeb
+Status: install ok unpacked
+Version: 1:1.30.1-4
+Depends: libc6-udeb (>= 2.28)
+Description: Tiny utilities for the debian-installer
+
+Package: ca-certificates-udeb
+Status: install ok unpacked
+Version: 20190110
+Description: Common CA certificates - udeb
+
+Package: cdebconf-newt-terminal
+Status: install ok unpacked
+Version: 0.36
+Provides: cdebconf-terminal
+Depends: cdebconf-newt-udeb (>= 0.146), libc6-udeb (>= 2.28), libnewt0.52-udeb (>= 0.52.20)
+Description: cdebconf newt plugin to provide a clean terminal
+
+Package: cdebconf-newt-udeb
+Status: install ok unpacked
+Version: 0.249
+Depends: cdebconf-udeb, di-utils-terminfo, libc6-udeb (>= 2.28), libnewt0.52-udeb (>= 0.52.20), libslang2-udeb (>= 2.3.2), libtextwrap1-udeb
+Description: Newt frontend for Debian Configuration Management System
+
+Package: cdebconf-priority
+Status: install ok unpacked
+Version: 0.249
+Depends: cdebconf-udeb
+Description: Change debconf priority
+Installer-Menu-Item: 93000
+
+Package: cdebconf-text-udeb
+Status: install ok unpacked
+Version: 0.249
+Depends: cdebconf-udeb, libc6-udeb (>= 2.28)
+Description: Plain text frontend for Debian Configuration Management System
+
+Package: cdebconf-udeb
+Status: install ok installed
+Version: 0.249
+Provides: debconf-2.0
+Depends: libc6-udeb (>= 2.28), libdebian-installer4-udeb (>= 0.118), libtextwrap1-udeb
+Description: Debian Configuration Management System (C-implementation)
+
+Package: cdrom-checker
+Status: install ok unpacked
+Version: 1.42
+Depends: cdrom-detect, cdebconf-udeb (>= 0.31)
+Description: Verify the cd contents
+Installer-Menu-Item: 94000
+
+Package: cdrom-core-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: cdrom-core-modules
+Depends: kernel-image-4.19.0-8-amd64-di, scsi-core-modules-4.19.0-8-amd64-di, isofs-modules-4.19.0-8-amd64-di
+Description: CDROM support
+
+Package: cdrom-detect
+Status: install ok installed
+Version: 1.83
+Depends: cdebconf-udeb, hw-detect, di-utils (>= 1.72)
+Description: Detect CDROM devices and mount the CD
+Installer-Menu-Item: 1300
+
+Package: cdrom-retriever
+Status: install ok installed
+Version: 1.45
+Provides: retriever
+Depends: cdebconf-udeb, cdrom-detect
+Description: Fetch modules from a CDROM
+
+Package: console-setup-pc-ekmap
+Status: install ok unpacked
+Version: 1.193~deb10u1
+Provides: console-setup-ekmap
+Description: encoded Linux keyboard layouts for PC keyboards
+
+Package: console-setup-udeb
+Status: install ok installed
+Version: 1.193~deb10u1
+Provides: keyboard-setup
+Depends: archdetect, cdebconf-udeb, kbd-udeb | kbdcontrol-udeb | hurd-udeb
+Description: Configure the keyboard
+Installer-Menu-Item: 1200
+
+Package: crc-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: crc-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: CRC modules
+
+Package: di-utils
+Status: install ok installed
+Version: 1.132
+Depends: libc6-udeb (>= 2.28), libdebian-installer4-udeb (>= 0.119), cdebconf-udeb
+Description: Miscellaneous utilities for the debian installer
+
+Package: di-utils-reboot
+Status: install ok unpacked
+Version: 1.132
+Depends: cdebconf-udeb
+Description: Reboot
+Installer-Menu-Item: 99500
+
+Package: di-utils-shell
+Status: install ok unpacked
+Version: 1.132
+Depends: cdebconf-udeb, di-utils (>= 1.62)
+Description: Execute a shell
+Installer-Menu-Item: 95000
+
+Package: di-utils-terminfo
+Status: install ok unpacked
+Version: 1.132
+Description: Terminfo entries needed by newt/slang in debian installer
+
+Package: env-preseed
+Status: install ok unpacked
+Version: 1.102
+Description: debconf preseeding via environment variables
+
+Package: fat-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: fat-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: FAT filesystem support
+
+Package: fb-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: fb-modules
+Depends: kernel-image-4.19.0-8-amd64-di, i2c-modules-4.19.0-8-amd64-di
+Description: Frame buffer support
+
+Package: file-preseed
+Status: install ok unpacked
+Version: 1.102
+Depends: cdebconf-udeb, di-utils, preseed-common
+Description: load debconf preseed file
+Installer-Menu-Item: 1400
+
+Package: firewire-core-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: firewire-core-modules
+Depends: kernel-image-4.19.0-8-amd64-di, scsi-core-modules-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Description: Core FireWire drivers
+
+Package: haveged-udeb
+Status: install ok unpacked
+Version: 1.9.1-7
+Depends: libc6-udeb (>= 2.28)
+Description: Linux entropy source using the HAVEGE algorithm -- udeb
+
+Package: hw-detect
+Status: install ok installed
+Version: 1.137
+Depends: rootskel (>= 1.30), archdetect, cdebconf-udeb (>= 0.75), di-utils (>= 1.73), pciutils-udeb, udpkg (>= 1.14)
+Description: Detect hardware and load kernel drivers for it
+
+Package: i2c-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: i2c-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: i2c support modules
+
+Package: initrd-preseed
+Status: install ok unpacked
+Version: 1.102
+Depends: preseed-common
+Description: load debconf preseed file from /preseed.cfg on the initrd
+
+Package: input-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: input-modules
+Depends: kernel-image-4.19.0-8-amd64-di, usb-modules-4.19.0-8-amd64-di, i2c-modules-4.19.0-8-amd64-di
+Description: Input devices support
+
+Package: installation-locale
+Status: install ok unpacked
+Version: 1.8
+Depends: rootskel
+Description: UTF-8 C locale
+
+Package: isofs-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: isofs-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: ISOFS filesystem support
+
+Package: kbd-udeb
+Status: install ok installed
+Version: 2.0.4-4
+Depends: libc6-udeb (>= 2.27)
+Description: Linux console keyboard setup utilities
+
+Package: kernel-image-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: kernel-image, zlib-modules
+Description: Linux kernel image and core modules for the Debian installer
+
+Package: libasound2-udeb
+Status: install ok installed
+Version: 1.1.8-1
+Depends: libc6-udeb (>= 2.28)
+Description: shared library for ALSA applications (udeb)
+
+Package: libblkid1-udeb
+Status: install ok installed
+Version: 2.33.1-0.1
+Depends: libc6-udeb (>= 2.28), libuuid1-udeb (>= 2.31)
+Description: stripped down block device ID library, for debian-installer
+
+Package: libc6-udeb
+Status: install ok installed
+Version: 2.28-10
+Provides: libc-udeb, libc6, libnss-dns-udeb, libnss-files-udeb
+Description: GNU C Library: Shared libraries - udeb
+
+Package: libcrypto1.1-udeb
+Status: install ok unpacked
+Version: 1.1.1d-0+deb10u2
+Depends: libc6-udeb (>= 2.28)
+Description: Secure Sockets Layer toolkit - libcrypto udeb
+
+Package: libdebconfclient0-udeb
+Status: install ok installed
+Version: 0.249
+Depends: libc6-udeb (>= 2.28), cdebconf-udeb
+Description: Debian Configuration Management System (C-implementation)
+
+Package: libdebian-installer4-udeb
+Status: install ok installed
+Version: 0.119
+Depends: libc6-udeb (>= 2.28)
+Description: Library of common debian-installer functions
+
+Package: libfribidi0-udeb
+Status: install ok unpacked
+Version: 1.0.5-3.1+deb10u1
+Depends: libc6-udeb (>= 2.28)
+Description: Free Implementation of the Unicode BiDi algorithm
+
+Package: libkmod2-udeb
+Status: install ok installed
+Version: 26-1
+Depends: libc6-udeb (>= 2.28)
+Description: libkmod shared library
+
+Package: libnewt0.52-udeb
+Status: install ok unpacked
+Version: 0.52.20-8
+Depends: libc6-udeb (>= 2.27), libslang2-udeb (>= 2.3.2)
+Description: Not Erik's Windowing Toolkit for Debian Installer
+
+Package: libpcre2-8-0-udeb
+Status: install ok unpacked
+Version: 10.32-5
+Depends: libc6-udeb (>= 2.28)
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files (udeb)
+
+Package: libslang2-udeb
+Status: install ok unpacked
+Version: 2.3.2-2
+Depends: libc6-udeb (>= 2.28)
+Description: S-Lang library for Debian Installer
+
+Package: libssl1.1-udeb
+Status: install ok unpacked
+Version: 1.1.1d-0+deb10u2
+Depends: libc6-udeb (>= 2.28), libcrypto1.1-udeb (>= 1.1.1d)
+Description: ssl shared library - udeb
+
+Package: libtextwrap1-udeb
+Status: install ok installed
+Version: 0.1-14.2
+Depends: libc6-udeb (>= 2.27)
+Description: text-wrapping library with i18n - runtime udeb
+
+Package: libtinfo6-udeb
+Status: install ok unpacked
+Version: 6.1+20181013-2+deb10u2
+Depends: libc6-udeb (>= 2.28)
+Description: shared low-level terminfo library for terminal handling - udeb
+
+Package: libudev1-udeb
+Status: install ok installed
+Version: 241-7~deb10u3
+Depends: libc6-udeb (>= 2.28)
+Description: libudev shared library
+
+Package: libuuid1-udeb
+Status: install ok installed
+Version: 2.33.1-0.1
+Depends: libc6-udeb (>= 2.28)
+Description: stripped down Universally Unique ID library, for debian-installer
+
+Package: load-cdrom
+Status: install ok installed
+Version: 1.45
+Depends: cdebconf-udeb, cdrom-retriever, anna (>= 1.07)
+Description: Load installer components from CD
+Installer-Menu-Item: 1600
+
+Package: localechooser
+Status: install ok installed
+Version: 2.84
+Depends: cdebconf-udeb (>= 0.129)
+Description: choose language/country/locale
+Installer-Menu-Item: 1000
+
+Package: lowmemcheck
+Status: install ok unpacked
+Version: 1.47
+Depends: libc6-udeb (>= 2.28), cdebconf-udeb (>= 0.75), main-menu (>= 1.03)
+Description: detect low-memory systems and enter lowmem mode
+
+Package: main-menu
+Status: install ok unpacked
+Version: 1.57
+Depends: libc6-udeb (>= 2.28), libdebconfclient0-udeb, libdebian-installer4-udeb (>= 0.118), cdebconf-udeb
+Description: Debian installer main menu
+
+Package: media-retriever
+Status: install ok unpacked
+Version: 1.50
+Provides: retriever
+Depends: cdebconf-udeb, mountmedia
+Description: Fetches modules from removable media
+
+Package: mmc-core-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: mmc-core-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: MMC/SD/SDIO core modules
+
+Package: mmc-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: mmc-modules
+Depends: kernel-image-4.19.0-8-amd64-di, mmc-core-modules-4.19.0-8-amd64-di, usb-modules-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Description: MMC/SD card modules
+
+Package: mountmedia
+Status: install ok unpacked
+Version: 0.25
+Depends: di-utils (>= 1.66)
+Description: Mounts media
+
+Package: nano-udeb
+Status: install ok unpacked
+Version: 3.2-3
+Depends: libc6-udeb (>= 2.28), libslang2-udeb (>= 2.3.2)
+Description: small, friendly text editor inspired by Pico - udeb
+
+Package: pata-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: pata-modules
+Depends: kernel-image-4.19.0-8-amd64-di, ata-modules-4.19.0-8-amd64-di
+Description: PATA drivers
+
+Package: pciutils-udeb
+Status: install ok installed
+Version: 1:3.5.2-1
+Depends: libc6-udeb (>= 2.24), libkmod2-udeb, libudev1-udeb, zlib1g-udeb (>= 1:1.2.3.3.dfsg-1)
+Description: Linux PCI Utilities (udeb)
+
+Package: pcmcia-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: pcmcia-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: Common PCMCIA drivers
+
+Package: pcmcia-storage-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: pcmcia-storage-modules
+Depends: kernel-image-4.19.0-8-amd64-di, cdrom-core-modules-4.19.0-8-amd64-di, pcmcia-modules-4.19.0-8-amd64-di, ata-modules-4.19.0-8-amd64-di
+Description: PCMCIA storage drivers
+
+Package: pcmciautils-udeb
+Status: install ok unpacked
+Version: 018-10
+Depends: udev-udeb, libc6-udeb (>= 2.27)
+Description: PCMCIA utilities for Linux 2.6
+
+Package: preseed-common
+Status: install ok installed
+Version: 1.102
+Depends: cdebconf-udeb, di-utils (>= 1.117)
+Description: common files for preseeding
+
+Package: rescue-check
+Status: install ok unpacked
+Version: 1.76
+Depends: cdebconf-udeb (>= 0.75), main-menu (>= 1.03), di-utils (>= 1.18)
+Description: enter d-i rescue mode if requested
+
+Package: rootskel
+Status: install ok installed
+Version: 1.131
+Depends: di-utils (>= 1.66), udev-udeb (>= 0.125-6), cdebconf-udeb
+Description: Skeleton root filesystem used by debian-installer
+
+Package: sata-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: sata-modules
+Depends: kernel-image-4.19.0-8-amd64-di, scsi-core-modules-4.19.0-8-amd64-di, ata-modules-4.19.0-8-amd64-di
+Description: SATA drivers
+
+Package: save-logs
+Status: install ok unpacked
+Version: 2.71
+Depends: cdebconf-udeb
+Description: save logs and configuration for debug purposes
+Installer-Menu-Item: 94000
+
+Package: screen-udeb
+Status: install ok unpacked
+Version: 4.6.2-3
+Depends: libc6-udeb (>= 2.27), libtinfo6-udeb (>= 6.1)
+Description: terminal multiplexer with VT100/ANSI terminal emulation - udeb
+
+Package: scsi-core-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: scsi-core-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: Core SCSI subsystem
+
+Package: scsi-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: scsi-modules
+Depends: kernel-image-4.19.0-8-amd64-di, scsi-core-modules-4.19.0-8-amd64-di, cdrom-core-modules-4.19.0-8-amd64-di, ata-modules-4.19.0-8-amd64-di
+Description: SCSI drivers
+
+Package: serial-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: serial-modules
+Depends: kernel-image-4.19.0-8-amd64-di, pcmcia-modules-4.19.0-8-amd64-di
+Description: Serial drivers
+
+Package: udev-udeb
+Status: install ok installed
+Version: 241-7~deb10u3
+Depends: libblkid1-udeb (>= 2.31), libc6-udeb (>= 2.28), libkmod2-udeb, util-linux-udeb
+Description: /dev/ and hotplug management daemon
+
+Package: udpkg
+Status: install ok installed
+Version: 1.19
+Depends: libc6-udeb (>= 2.27), libdebian-installer4-udeb (>= 0.116)
+Description: tiny dpkg clone
+
+Package: uinput-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: uinput-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: uinput support
+
+Package: usb-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: usb-modules
+Depends: kernel-image-4.19.0-8-amd64-di
+Description: USB support
+
+Package: usb-serial-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: usb-serial-modules
+Depends: kernel-image-4.19.0-8-amd64-di, usb-modules-4.19.0-8-amd64-di
+Description: USB serial drivers
+
+Package: usb-storage-modules-4.19.0-8-amd64-di
+Status: install ok unpacked
+Version: 4.19.98-1
+Provides: usb-storage-modules
+Depends: kernel-image-4.19.0-8-amd64-di, scsi-core-modules-4.19.0-8-amd64-di, usb-modules-4.19.0-8-amd64-di
+Description: USB storage support
+
+Package: util-linux-udeb
+Status: install ok installed
+Version: 2.33.1-0.1
+Depends: libc6-udeb (>= 2.28)
+Description: stripped down miscellaneous system utilities, for debian-installer
+
+Package: wget-udeb
+Status: install ok unpacked
+Version: 1.20.1-1.1
+Depends: libc6-udeb (>= 2.28), libcrypto1.1-udeb (>= 1.1.1b), libpcre2-8-0-udeb (>= 10.32), libssl1.1-udeb (>= 1.1.1b), libuuid1-udeb (>= 2.31), zlib1g-udeb (>= 1:1.2.3.3.dfsg-1)
+Description: retrieves files from the web
+
+Package: zlib1g-udeb
+Status: install ok installed
+Version: 1:1.2.11.dfsg-1
+Description: compression library - runtime for Debian installer
+
+Package: debian-installer
+Status: install ok installed
+Version: cdrom-isolinux-20190702+deb10u3
+Description: debian installation image
+
+Package: apt-cdrom-setup
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 322
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1:0.151~deb10u1
+Depends: cdrom-detect, cdebconf-udeb
+Provides: apt-mirror-setup
+Description: set up a CD in sources.list
+
+Package: apt-mirror-setup
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 195
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1:0.151~deb10u1
+Depends: choose-mirror-bin, cdebconf-udeb
+Description: set up a mirror in sources.list
+
+Package: apt-setup-udeb
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 252
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1:0.151~deb10u1
+Depends: apt-mirror-setup, installed-base, di-utils (>= 1.70), cdebconf-udeb
+Description: Configure apt
+Installer-Menu-Item: 7000
+
+Package: base-installer
+Status: install ok installed
+Priority: required
+Section: debian-installer
+Installed-Size: 159
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.189
+Depends: cdebconf-udeb, di-utils-mapdevfs, di-utils (>= 1.48), rootskel (>= 1.19)
+Description: base system installation framework
+
+Package: bootstrap-base
+Status: install ok installed
+Priority: required
+Section: debian-installer
+Installed-Size: 694
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.189
+Depends: libc6-udeb (>= 2.28), libdebconfclient0-udeb, libdebian-installer4-udeb (>= 0.119), mounted-partitions, created-fstab, base-installer, debootstrap-udeb (>= 1.0.7), gpgv-udeb, debian-archive-keyring-udeb, archdetect
+Provides: installed-base, kernel-installer
+Description: Install the base system
+Installer-Menu-Item: 6500
+
+Package: btrfs-progs-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1170
+Maintainer: Dimitri John Ledkov <xnox@debian.org>
+Version: 4.20.1-2
+Depends: libblkid1-udeb (>= 2.31), libc6-udeb (>= 2.28), liblzo2-2-udeb, libuuid1-udeb (>= 2.31), libzstd1-udeb (>= 1.3.8), zlib1g-udeb (>= 1:1.2.3.3.dfsg-1)
+Provides: btrfs-tools-udeb
+Description: Checksumming Copy on Write Filesystem utilities (udeb)
+
+Package: choose-mirror-bin
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 607
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 2.99
+Depends: libc6-udeb (>= 2.28), libdebconfclient0-udeb, libdebian-installer4-udeb (>= 0.118), cdebconf-udeb
+Description: Choose mirror to install from (program)
+
+Package: clock-setup
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 184
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 0.141
+Depends: libc6-udeb (>= 2.28), cdebconf-udeb, localechooser, tzsetup-udeb, di-utils (>= 1.66), configured-network, rdate-udeb
+Description: set up clock
+Installer-Menu-Item: 2600
+
+Package: debian-archive-keyring-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 105
+Maintainer: Debian Release Team <packages@release.debian.org>
+Version: 2019.1
+Recommends: gpgv-udeb
+Description: GnuPG keys of the Debian archive
+ The Debian project digitally signs its Release files. This package
+ contains the archive keys used for that, in a minimal form for use
+ in the installer.
+
+Package: di-utils-mapdevfs
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 17
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.132
+Depends: libc6-udeb (>= 2.28), libdebian-installer4-udeb (>= 0.119)
+Description: mapdevfs utility for the debian installer
+
+Package: debootstrap-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 236
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.0.114
+Depends: mounted-partitions
+Description: Bootstrap the Debian system
+
+Package: dmidecode-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 119
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Version: 3.2-1
+Depends: libc6-udeb (>= 2.27)
+Description: SMBIOS/DMI table decoder (udeb)
+
+Package: dosfstools-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 146
+Maintainer: Andreas Bombe <aeb@debian.org>
+Version: 4.1-2
+Depends: libc6-udeb (>= 2.27), libudev1-udeb
+Description: utilities for making and checking MS-DOS FAT filesystems (udeb)
+
+Package: e2fsprogs-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 957
+Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
+Version: 1.44.5-1+deb10u3
+Depends: libblkid1-udeb, libc6-udeb (>= 2.28), libuuid1-udeb
+Description: stripped-down versions of e2fsprogs, for debian-installer
+ This package is an e2fsprogs package built for a reduced size, so that
+ it can help to save space in debian-installer.
+ .
+ Don't attempt to install this package, it has no support for a couple of
+ features you surely want.  Anyway it should refuse to install.
+
+Package: eject-udeb
+Status: install ok unpacked
+Priority: optional
+Section: debian-installer
+Installed-Size: 191
+Maintainer: Frank Lichtenheld <djpig@debian.org>
+Version: 2.1.5+deb1+cvs20081104-13.2
+Depends: libc6-udeb (>= 2.24), cdebconf-udeb
+Description: ejects CDs from d-i menu
+Installer-Menu-Item: 96000
+
+Package: finish-install
+Status: install ok unpacked
+Priority: required
+Section: debian-installer
+Installed-Size: 80
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 2.100
+Depends: cdebconf-udeb, archdetect, installed-base, created-fstab, bootable-system
+Description: Finish the installation and reboot
+Installer-Menu-Item: 7800
+
+Package: fuse-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 66
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Version: 2.9.9-1
+Depends: libc6-udeb (>= 2.28), libfuse2-udeb (= 2.9.9-1)
+Description: Filesystem in Userspace
+
+Package: libfuse2-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 270
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Version: 2.9.9-1
+Depends: libc6-udeb (>= 2.28)
+Description: Filesystem in Userspace (library)
+
+Package: gpgv-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 431
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Version: 2.2.12-1+deb10u1
+Depends: libc6-udeb (>= 2.28), libgcrypt20-udeb (>= 1.8.0-0), libgpg-error0-udeb (>= 1.35), zlib1g-udeb (>= 1:1.2.3.3.dfsg-1)
+Description: minimal signature verification tool
+ GnuPG is GNU's tool for secure communication and data storage.
+ It can be used to encrypt data and to create digital signatures.
+ It includes an advanced key management facility and is compliant
+ with the proposed OpenPGP Internet standard as described in RFC 4880.
+ .
+ This is GnuPG's signature verification tool, gpgv, packaged in minimal
+ form for use in debian-installer.
+
+Package: grub-installer
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 776
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.165
+Depends: libc6-udeb (>= 2.28), libparted2-udeb, cdebconf-udeb, kernel-installer, created-fstab, di-utils (>= 1.15), di-utils-mapdevfs, os-prober, partman-utils
+Provides: bootable-system
+Description: Install GRUB on a hard disk
+Installer-Menu-Item: 7400
+
+Package: grub-mount-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1413
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Version: 2.02+dfsg1-20
+Depends: libc6-udeb (>= 2.28), libdevmapper1.02.1-udeb (>= 2:1.02.155), libfuse2-udeb
+Description: export GRUB filesystems using FUSE
+
+Package: disk-detect
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 67
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.137
+Depends: cdebconf-udeb (>= 0.38), hw-detect, di-utils (>= 1.13), pciutils-udeb
+Provides: harddrive-detection
+Description: Detect disk drives
+Installer-Menu-Item: 3500
+
+Package: ethdetect
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 92
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.137
+Depends: rootskel (>= 1.30), cdebconf-udeb (>= 0.38), hw-detect, di-utils (>= 1.13), pciutils-udeb
+Provides: ethernet-card-detection
+Description: Detect network hardware and load kernel drivers for it
+Installer-Menu-Item: 1700
+
+Package: jfsutils-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1512
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Version: 1.1.15-4
+Depends: libc6-udeb (>= 2.28), libuuid1-udeb (>= 2.31)
+Description: stripped-down version of jfsutils, for debian-installer
+ This package is a jfsutils package built for reduced size, so that it
+ can help to save space in debian-installer.
+ .
+ Don't attempt to install this package, it has no support for a couple of
+ features you surely want.  Anyway, it should fail to install.
+
+Package: kickseed-common
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 75
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 0.63
+Depends: di-utils (>= 1.20)
+Description: Common files for Kickstart compatibility
+ This package reads Kickstart files and preseeds an installation with them,
+ translating to the d-i preseeding infrastructure.
+
+Package: libbsd0-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 101
+Maintainer: Guillem Jover <guillem@debian.org>
+Version: 0.9.1-2
+Depends: libc6-udeb (>= 2.28)
+Description: utility functions from BSD systems - shared library
+ This library provides some C functions such as strlcpy() that are commonly
+ available on BSD systems but not on others like GNU systems.
+ .
+ For a detailed list of the provided functions, please see the libbsd-dev
+ package description.
+
+Package: libgcrypt20-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1145
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Version: 1.8.4-5
+Depends: libc6-udeb (>= 2.28), libgpg-error0-udeb (>= 1.33)
+Description: LGPL Crypto library - runtime library
+ libgcrypt contains cryptographic functions.  Many important free
+ ciphers, hash algorithms and public key signing algorithms have been
+ implemented:
+ .
+ Arcfour, Blowfish, CAST5, DES, AES, Twofish, Serpent, rfc2268 (rc2), SEED,
+ Poly1305, Camellia, ChaCha20, IDEA, Salsa, Blake-2, CRC, MD2, MD4, MD5,
+ RIPE-MD160, SHA-1, SHA-256, SHA-512, SHA3-224, SHA3-256, SHA3-384, SHA3-512,
+ SHAKE128, SHAKE256, Tiger, Whirlpool, DSA, DSA2, ElGamal, RSA, ECC
+ (Curve25519, sec256k1, GOST R 34.10-2001 and GOST R 34.10-2012, etc.)
+
+Package: libgpg-error0-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 139
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Version: 1.35-1
+Depends: libc6-udeb (>= 2.28)
+Description: library for common error values and messages in GnuPG components
+ Library that defines common error values for all GnuPG
+ components.  Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ pinentry, SmartCard Daemon and possibly more in the future.
+ .
+ It will likely be renamed "gpgrt" in the future.
+
+Package: libnl-3-200-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 136
+Maintainer: Heiko Stuebner <mmind@debian.org>
+Version: 3.4.0-1
+Depends: libc6-udeb (>= 2.27)
+Description: library for dealing with netlink sockets
+ This is a library for applications dealing with netlink sockets.
+ The library provides an interface for raw netlink messaging and various
+ netlink family specific interfaces.
+ .
+ This package is a udeb. It's only useful inside of debian-installer.
+
+Package: libnl-genl-3-200-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 29
+Maintainer: Heiko Stuebner <mmind@debian.org>
+Version: 3.4.0-1
+Depends: libnl-3-200-udeb (= 3.4.0-1), libc6-udeb (>= 2.27)
+Description: library for dealing with netlink sockets - generic netlink
+ This is a library for applications dealing with netlink sockets.
+ The library provides an interface for raw netlink messaging and various
+ netlink family specific interfaces.
+ .
+ This package is a udeb. It's only useful inside of debian-installer.
+
+Package: libzstd1-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 639
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Version: 1.3.8+dfsg-3
+Depends: libc6-udeb (>= 2.28)
+Description: fast lossless compression algorithm library for debian-installer
+
+Package: btrfs-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 2964
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di, compress-modules-4.19.0-8-amd64-di, md-modules-4.19.0-8-amd64-di
+Provides: btrfs-modules
+Description: BTRFS filesystem support
+ This package contains the BTRFS filesystem module for the kernel.
+
+Package: compress-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 129
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: compress-modules
+Description: lzo modules
+ This package contains lzo modules.
+
+Package: crypto-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 263
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: crypto-modules
+Description: crypto modules
+ This package contains crypto modules.
+
+Package: efi-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: efi-modules
+Description: EFI modules
+ This package contains EFI modules.
+
+Package: ext4-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 1744
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Provides: ext2-modules, ext3-modules, ext4-modules
+Description: ext2/ext3/ext4 filesystem support
+ This package contains the ext4 filesystem module for the kernel, which
+ also supports ext2 and ext3.
+
+Package: jfs-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 407
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: jfs-modules
+Description: JFS filesystem support
+ This package contains the JFS filesystem module for the kernel.
+
+Package: loop-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 79
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: loop-modules
+Description: Loopback filesystem support
+ This package contains loopback filesystem support for the kernel.
+
+Package: md-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 2375
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Provides: md-modules
+Description: RAID and LVM support
+ This package contains RAID and LVM modules for the kernel.
+
+Package: mtd-core-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 147
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: mtd-core-modules
+Description: MTD core
+ This package contains the MTD core.
+
+Package: nic-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 22184
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, nic-shared-modules-4.19.0-8-amd64-di, i2c-modules-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di, mtd-core-modules-4.19.0-8-amd64-di
+Provides: nic-extra-modules, nic-modules
+Description: NIC drivers
+ This package contains Ethernet and some paravirtualised network drivers
+ for the kernel.
+
+Package: nic-pcmcia-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 1242
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, nic-shared-modules-4.19.0-8-amd64-di, nic-wireless-modules-4.19.0-8-amd64-di, pcmcia-modules-4.19.0-8-amd64-di, mmc-core-modules-4.19.0-8-amd64-di
+Provides: nic-pcmcia-modules
+Description: Common PCMCIA NIC drivers
+ This package contains common PCMCIA NIC drivers for the kernel.
+
+Package: nic-shared-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 239
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: nic-shared-modules
+Description: Shared NIC drivers
+ This package contains NIC drivers needed by combinations of nic-modules,
+ nic-pcmcia-modules, nic-usb-modules and nic-wireless-modules.
+
+Package: nic-usb-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 1409
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, nic-shared-modules-4.19.0-8-amd64-di, nic-wireless-modules-4.19.0-8-amd64-di, usb-modules-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Provides: nic-usb-modules
+Description: USB NIC drivers
+ This package contains USB network adapter drivers for the kernel.
+
+Package: nic-wireless-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 25122
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, nic-shared-modules-4.19.0-8-amd64-di, usb-modules-4.19.0-8-amd64-di, mmc-core-modules-4.19.0-8-amd64-di, pcmcia-modules-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Provides: nic-wireless-modules
+Description: Wireless NIC drivers
+ This package contains wireless NIC drivers for the kernel.  Includes
+ crypto modules only needed for wireless (WEP, WPA).
+
+Package: xfs-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 2734
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di, crc-modules-4.19.0-8-amd64-di
+Provides: xfs-modules
+Description: XFS filesystem support
+ This package contains the XFS filesystem module for the kernel.
+
+Package: libdevmapper1.02.1-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 414
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Version: 2:1.02.155-3
+Depends: libblkid1-udeb (>= 2.31), libc6-udeb (>= 2.28)
+Description: Linux Kernel Device Mapper userspace library
+ This is a udeb, or a microdeb, for the debian-installer.
+ .
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+
+Package: liblzo2-2-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 140
+Maintainer: Peter Eisentraut <petere@debian.org>
+Version: 2.10-0.1
+Depends: libc6-udeb (>= 2.27)
+Description: data compression library
+
+Package: mdadm-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 914
+Maintainer: Debian mdadm maintainers <pkg-mdadm-devel@lists.alioth.debian.org>
+Version: 4.1-1
+Depends: libc6-udeb (>= 2.28)
+Description: tool to administer Linux MD arrays (software RAID)
+ The mdadm utility can be used to create, manage, and monitor MD
+ (multi-disk) arrays for software RAID or multipath I/O.
+ .
+ This is a minimal package used by the debian-installer.
+
+Package: ndisc6-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 25
+Maintainer: Bernhard Schmidt <berni@debian.org>
+Version: 1.0.4-1
+Depends: libc6-udeb (>= 2.28)
+Description: IPv6 diagnostic tools
+ ndisc6 gathers a few diagnostic tools for IPv6 networks including:
+  - rdisc6, which performs ICMPv6 Router Discovery in userland,
+ .
+ This is a udeb containing just the rdisc6 utility, for use by the
+ Debian installer.
+
+Package: rdnssd-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 29
+Maintainer: Bernhard Schmidt <berni@debian.org>
+Version: 1.0.4-1
+Depends: libc6-udeb (>= 2.28)
+Description: IPv6 recursive DNS server discovery daemon
+ rdnssd autoconfigures recursive DNS servers on IPv6 networks
+ using ICMPv6 Neighbor Discovery (RFC 5006), and can update the
+ DNS resolvers configuration (/etc/resolv.conf) accordingly.
+ .
+ This is a udeb of rdnssd, for use by the debian-installer.
+
+Package: netcfg
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1253
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.160
+Depends: libc6-udeb (>= 2.28), libdebconfclient0-udeb, libdebian-installer4-udeb (>= 0.118), libiw30-udeb (>= 30~pre1), ethernet-card-detection, wpasupplicant-udeb, crypto-modules, rdnssd-udeb, ndisc6-udeb, wide-dhcpv6-client-udeb
+Provides: configured-network
+Description: Configure the network
+ To install additional installer components or the Debian Base System over
+ the network, you need to configure the network in the installer. This
+ component will first try to configure your network with DHCP and ask
+ you for static network configuration if this fails. The configured
+ network settings will be copied to your newly installed system.
+Installer-Menu-Item: 1800
+
+Package: nobootloader
+Status: install ok unpacked
+Priority: standard
+Section: debian-installer
+Installed-Size: 215
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.56
+Depends: cdebconf-udeb, installed-base, di-utils-mapdevfs
+Provides: bootable-system
+Description: Don't install any bootloader
+ This package will skip installing a boot-loader
+Installer-Menu-Item: 7700
+
+Package: ntfs-3g-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 566
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Version: 1:2017.3.23AR.3-3
+Depends: libc6-udeb (>= 2.28), fuse-udeb
+Description: read/write NTFS driver for FUSE
+
+Package: open-iscsi-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1207
+Maintainer: Debian iSCSI Maintainers <open-iscsi@packages.debian.org>
+Version: 2.0.874-7.1
+Depends: scsi-modules, libc6-udeb (>= 2.28), libisns-nocrypto0-udeb
+Description: Configure iSCSI
+ Open-iSCSI is a high-performance, transport independent, multi-platform
+ implementation of the RFC3720 Internet Small Computer Systems Interface
+ (iSCSI).
+ .
+ This is the minimal package (udeb) used by debian-installer.
+
+Package: libisns-nocrypto0-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 476
+Maintainer: Debian iSCSI Maintainers <open-isns@packages.debian.org>
+Version: 0.97-3
+Depends: libc6-udeb (>= 2.27)
+Description: Internet Storage Name Service - shared libraries
+ Open-iSNS is an implementation of the Internet Storage Name Service
+ (iSNS), according to RFC 4171, which facilitates automated discovery,
+ management, and configuration of iSCSI and Fibre Channel devices on a
+ TCP/IP network.
+ .
+ This package provides the libisns shared library for use within the
+ Debian Installer. Do not install it on a normal system.
+
+Package: os-prober-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 87
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.77
+Depends: libc6-udeb (>= 2.28), di-utils-mapdevfs, anna (>= 1.16), grub-mount-udeb
+Provides: os-prober
+Description: utility to detect other OSes on a set of drives
+ This package is to be used by boot loader installers to detect other OSes
+ available on a system, in a generic format, which it can then adapt to its
+ own configuration format.
+
+Package: libparted-fs-resize0-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 90
+Maintainer: Parted Maintainer Team <parted-maintainers@alioth-lists.debian.net>
+Version: 3.2-25
+Depends: libc6-udeb (>= 2.28), libparted2-udeb (= 3.2-25)
+Description: disk partition manipulator - FS resizing library udeb
+ GNU Parted is a program that allows you to create, destroy, resize,
+ move, and copy disk partitions. This is useful for creating space
+ for new operating systems, reorganizing disk usage, and copying data
+ to new hard disks.
+ .
+ This is a cut-down library package for use in debian-installer.  It
+ contains the libparted-fs-resize shared library for resizing HFS+ and
+ FAT file systems.
+
+Package: libparted2-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 277
+Maintainer: Parted Maintainer Team <parted-maintainers@alioth-lists.debian.net>
+Version: 3.2-25
+Depends: libblkid1-udeb (>= 2.31), libc6-udeb (>= 2.28), libdevmapper1.02.1-udeb (>= 2:1.02.155), libuuid1-udeb (>= 2.31), dmidecode-udeb
+Description: disk partition manipulator - library udeb
+ GNU Parted is a program that allows you to create, destroy, resize,
+ move, and copy disk partitions. This is useful for creating space
+ for new operating systems, reorganizing disk usage, and copying data
+ to new hard disks.
+ .
+ This is a cut-down library package for use in debian-installer.
+
+Package: partman-auto
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 285
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 149
+Depends: cdebconf-udeb, di-utils, partman-base (>= 129), partman-basicfilesystems, partman-ext3
+Description: Automatically partition storage devices (partman)
+
+Package: partman-auto-raid
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 57
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 41
+Depends: cdebconf-udeb, partman-base (>= 114), partman-basicfilesystems, partman-ext3, partman-auto (>= 58), partman-md
+Description: Allow preseeded RAID installs
+
+Package: partman-base
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 646
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 208
+Depends: libc6-udeb (>= 2.28), libparted-fs-resize0-udeb, libparted2-udeb, cdebconf-udeb (>= 0.133), partman-utils, partman-partitioning (>= 54), partman-target, archdetect, harddrive-detection, di-utils-mapdevfs, di-utils (>= 1.66)
+Provides: created-fstab, made-filesystems, mounted-partitions, partitioned-harddrives
+Description: Partition the storage devices (partman)
+Installer-Menu-Item: 4200
+
+Package: partman-utils
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 32
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 208
+Depends: libc6-udeb (>= 2.28), libparted2-udeb
+Description: Utilities related to partitioning
+
+Package: partman-basicfilesystems
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 705
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 148
+Depends: cdebconf-udeb, e2fsprogs-udeb, ext2-modules, fat-modules, dosfstools-udeb
+Provides: partman-filesystem
+Description: Add to partman support for ext2, linux-swap, fat16, fat32 and ntfs
+
+Package: partman-basicmethods
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 85
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 69
+Depends: cdebconf-udeb
+Provides: partman-method
+Description: Basic partition usage methods for partman
+ This package provides partman with two methods to use partitions.
+ The first is to format the partition.  The second is to keep and use
+ the existing data in the partition as it is.
+
+Package: partman-btrfs
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 76
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 49
+Depends: cdebconf-udeb, btrfs-progs-udeb, btrfs-modules, partman-basicfilesystems (>= 59), partman-base (>= 124)
+Provides: partman-filesystem
+Description: Add to partman support for btrfs
+
+Package: partman-efi
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 134
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 80
+Depends: partman-base (>= 114), efi-modules, dosfstools-udeb, cdebconf-udeb
+Description: Add to partman support for EFI System Partitions
+
+Package: partman-ext3
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 260
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 103
+Depends: cdebconf-udeb, e2fsprogs-udeb, ext3-modules, ext4-modules, partman-basicfilesystems (>= 59), partman-base (>= 140)
+Provides: partman-filesystem
+Description: Add to partman support for ext3 and ext4
+
+Package: partman-iscsi
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 134
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 61
+Depends: cdebconf-udeb (>= 0.133), partman-base (>= 114), di-utils (>= 1.66), open-iscsi-udeb
+Description: Adds support for iSCSI to partman
+
+Package: partman-jfs
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 104
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 57
+Depends: cdebconf-udeb, jfsutils-udeb, jfs-modules, partman-basicfilesystems (>= 59), partman-base (>= 124)
+Provides: partman-filesystem
+Description: Add support for jfs to partman
+
+Package: partman-md
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 618
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 90
+Depends: cdebconf-udeb, di-utils (>= 1.16), md-modules, mdadm-udeb (>= 2.5.2), partman-base (>= 134)
+Description: Add to partman support for MD
+
+Package: partman-partitioning
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 577
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 130
+Depends: e2fsprogs-udeb, ntfs-3g-udeb, cdebconf-udeb, di-utils (>= 1.66)
+Description: Partitioning operations for partman
+ This udeb provides partman with editing operations for creation
+ of new partitions, deletion of partitions and initialisation of the
+ partition table.
+
+Package: partman-target
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 381
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 115
+Depends: cdebconf-udeb, partman-basicfilesystems, partman-basicmethods, di-utils-mapdevfs, di-utils (>= 1.68)
+Description: Provides partman with ability to prepare /target
+ This udeb allows the user to choose how partitions should be used.
+
+Package: partman-xfs
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 39
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 66
+Depends: cdebconf-udeb, xfsprogs-udeb, xfs-modules, partman-basicfilesystems (>= 59), partman-base (>= 124)
+Provides: partman-filesystem
+Description: Add to partman support for xfs
+
+Package: pkgsel
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 92
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 0.66
+Depends: cdebconf-udeb, apt-setup-udeb, di-utils (>= 1.56)
+Description: Select and install packages
+Installer-Menu-Item: 7000
+
+Package: network-preseed
+Status: install ok unpacked
+Priority: standard
+Section: debian-installer
+Installed-Size: 95
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.102
+Depends: cdebconf-udeb, configured-network, preseed-common
+Description: download debconf preseed file
+Installer-Menu-Item: 2100
+
+Package: rdate-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 19
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Version: 1:1.2-6
+Depends: libbsd0-udeb, libc6-udeb (>= 2.19)
+Description: sets the system's date from a remote host
+
+Package: tzsetup-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 275
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1:0.111
+Depends: cdebconf-udeb, localechooser
+Description: choose time zone
+
+Package: user-setup-udeb
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 442
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 1.81
+Depends: cdebconf-udeb (>= 0.133)
+Description: Set up users and passwords
+Installer-Menu-Item: 2400
+
+Package: wide-dhcpv6-client-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 158
+Maintainer: Roger Shimizu <rogershimizu@gmail.com>
+Version: 20080615-22
+Depends: libc6-udeb (>= 2.27)
+Description: DHCPv6 client for automatic IPv6 hosts configuration
+ This is the DHCPv6 client from WIDE project.
+ .
+ DHCPv6 allows prefix delagation and host configuration for the IPv6 network
+ protocol.
+ .
+ Multiple network interfaces are supported by this DHCPv6 package.
+ .
+ This is a udeb, designed to be used by Debian installer.
+
+Package: libiw30-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 34
+Maintainer: Guus Sliepen <guus@debian.org>
+Version: 30~pre9-13
+Depends: libc6-udeb (>= 2.27)
+Description: Tools for manipulating Linux Wireless Extensions
+ This package contains the Wireless tools, used to manipulate the Linux
+ Wireless Extensions. The Wireless Extension is an interface allowing you to
+ set Wireless LAN specific parameters and get the specific stats.
+ .
+ This is a udeb of the wireless tools.
+
+Package: wpasupplicant-udeb
+Status: install ok installed
+Priority: standard
+Section: debian-installer
+Installed-Size: 844
+Maintainer: Debian wpasupplicant Maintainers <wpa@packages.debian.org>
+Version: 2:2.7+git20190128+0c1e29f-6+deb10u1
+Depends: libc6-udeb (>= 2.28), libcrypto1.1-udeb (>= 1.1.1c), libnl-3-200-udeb, libnl-genl-3-200-udeb, busybox-udeb
+Description: Client support for WPA and WPA2 (IEEE 802.11i)
+ WPA and WPA2 are methods for securing wireless networks, the former
+ using IEEE 802.1X, and the latter using IEEE 802.11i. This software
+ provides key negotiation with the WPA Authenticator, and controls
+ association with IEEE 802.11i networks.
+ .
+ This is a udeb of wpasupplicant for use by the debian-installer.
+
+Package: xfsprogs-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 290
+Maintainer: XFS Development Team <linux-xfs@vger.kernel.org>
+Version: 4.20.0-1
+Depends: libblkid1-udeb (>= 2.31), libc6-udeb (>= 2.27), libuuid1-udeb (>= 2.31)
+Description: A stripped-down version of xfsprogs, for debian-installer
+ This package is an xfsprogs package built for reduced size, so that it
+ can help to save space in debian-installer.
+ .
+ Don't attempt to install this package, it has no support for a couple of
+ features you surely want.  Anyway, it should fail to install.
+
+Package: libaio1-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 20
+Maintainer: Guillem Jover <guillem@debian.org>
+Version: 0.3.112-3
+Depends: libc6-udeb (>= 2.28)
+Description: Linux kernel AIO access library - shared library
+ This library enables userspace to use Linux kernel asynchronous I/O
+ system calls, important for the performance of databases and other
+ advanced applications.
+ .
+ This package contains the udeb shared library.
+
+Package: lvm2-udeb
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 2658
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Version: 2.03.02-3
+Depends: libaio1-udeb, libblkid1-udeb (>= 2.31), libc6-udeb (>= 2.28), libdevmapper1.02.1-udeb (>= 2:1.02.155)
+Description: Linux Logical Volume Manager
+ This is a udeb, or a microdeb, for the debian-installer.
+ .
+ This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
+ supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of
+ volume groups can be allocated to logical volumes, which are accessed as
+ regular block devices.
+
+Package: partman-auto-lvm
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 295
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 76
+Depends: cdebconf-udeb, partman-base (>= 125), partman-auto (>= 84), partman-lvm (>= 72), di-utils (>= 1.66)
+Description: Automatically partition storage devices using LVM
+
+Package: partman-lvm
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 1009
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 130
+Depends: cdebconf-udeb (>= 0.133), partman-base (>= 134), di-utils (>= 1.14), md-modules, lvm2-udeb
+Description: Adds support for LVM to partman
+
+Package: partman-auto-crypto
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 20
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 30
+Depends: cdebconf-udeb, partman-auto (>= 81), partman-auto-lvm (>= 24), partman-crypto (>= 25), partman-base (>= 114)
+Description: Automatically partition storage devices using crypto and LVM
+
+Package: partman-crypto
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 961
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Version: 103
+Depends: partman-base (>= 134), cdebconf-udeb (>= 0.133), libc6-udeb (>= 2.28)
+Description: Add to partman support for block device encryption
+
+Package: fuse-modules-4.19.0-8-amd64-di
+Status: install ok installed
+Priority: optional
+Section: debian-installer
+Installed-Size: 269
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Version: 4.19.98-1
+Depends: kernel-image-4.19.0-8-amd64-di
+Provides: fuse-modules
+Description: FUSE modules
+ This package contains the Filesystem in Userspace (FUSE) module.
+

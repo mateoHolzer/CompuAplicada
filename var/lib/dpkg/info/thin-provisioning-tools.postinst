@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ]; then
+    if which update-initramfs >/dev/null; then
+        update-initramfs -u
+    fi
+fi
+
+
+
+exit 0

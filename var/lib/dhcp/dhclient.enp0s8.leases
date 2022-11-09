@@ -1,0 +1,199 @@
+default-duid "\000\001\000\001&\0330\"\010\000'w\277\365";
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:28:25;
+  rebind 3 2022/11/09 22:32:13;
+  expire 3 2022/11/09 22:33:28;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:33:04;
+  rebind 3 2022/11/09 22:37:10;
+  expire 3 2022/11/09 22:38:25;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:36:55;
+  rebind 3 2022/11/09 22:41:49;
+  expire 3 2022/11/09 22:43:04;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:40:41;
+  rebind 3 2022/11/09 22:45:40;
+  expire 3 2022/11/09 22:46:55;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:44:47;
+  rebind 3 2022/11/09 22:49:26;
+  expire 3 2022/11/09 22:50:41;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:49:32;
+  rebind 3 2022/11/09 22:53:32;
+  expire 3 2022/11/09 22:54:47;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:54:21;
+  rebind 3 2022/11/09 22:58:17;
+  expire 3 2022/11/09 22:59:32;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 22:58:11;
+  rebind 3 2022/11/09 23:03:06;
+  expire 3 2022/11/09 23:04:21;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:02:39;
+  rebind 3 2022/11/09 23:06:56;
+  expire 3 2022/11/09 23:08:11;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:06:40;
+  rebind 3 2022/11/09 23:11:24;
+  expire 3 2022/11/09 23:12:39;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:10:57;
+  rebind 3 2022/11/09 23:15:25;
+  expire 3 2022/11/09 23:16:40;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:15:16;
+  rebind 3 2022/11/09 23:19:42;
+  expire 3 2022/11/09 23:20:57;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:19:27;
+  rebind 3 2022/11/09 23:24:01;
+  expire 3 2022/11/09 23:25:16;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:24:14;
+  rebind 3 2022/11/09 23:28:12;
+  expire 3 2022/11/09 23:29:27;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:29:00;
+  rebind 3 2022/11/09 23:32:59;
+  expire 3 2022/11/09 23:34:14;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:33:06;
+  rebind 3 2022/11/09 23:37:46;
+  expire 3 2022/11/09 23:39:01;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:37:37;
+  rebind 3 2022/11/09 23:41:51;
+  expire 3 2022/11/09 23:43:06;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 3 2022/11/09 23:41:39;
+  rebind 3 2022/11/09 23:46:23;
+  expire 3 2022/11/09 23:47:38;
+}

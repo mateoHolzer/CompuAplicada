@@ -1,0 +1,467 @@
+Package: libmysqlclient-dev
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 10006
+Depends: libmysqlclient21 (= 8.0.31-1debian10)
+Breaks: libmysqld-dev
+Replaces: libmysqld-dev, mysql-client-5.6, mysql-client-5.7, mysql-client-8.0, mysql-client-core-5.6, mysql-client-core-5.7, mysql-client-core-8.0
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: libdevel
+Filename: pool/mysql-8.0/m/mysql-community/libmysqlclient-dev_8.0.31-1debian10_amd64.deb
+Size: 1699300
+SHA256: b6066fc47428eaa87aad6a521027d5f455024428dc4172708323725e4132f5bd
+SHA1: 8e9199f274c732867e3ffa3237d7940d842e11ae
+MD5sum: a755e65147a979c78e97097d767bf957
+Description: MySQL development headers
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package contains the development header files necessary
+ to develop MySQL client applications.
+
+Package: libmysqlclient21
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 7490
+Depends: mysql-common (>= 8.0.31-1debian10), mysql-community-client-plugins (= 8.0.31-1debian10), libc6 (>= 2.28), libgcc1 (>= 1:3.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: libs
+Filename: pool/mysql-8.0/m/mysql-community/libmysqlclient21_8.0.31-1debian10_amd64.deb
+Size: 1373488
+SHA256: 05a026b3dc7920396a85c6e7ea1fe574233ddd95bf70cab853b9f3fcc66ab4e8
+SHA1: 25f8661e168506f27407765d7cccaae6c072e0ea
+MD5sum: de39630a48c14c74c039a78260f318b8
+Description: MySQL shared client libraries
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package contains the shared libraries for MySQL client
+ applications.
+
+Package: libmysqlclient21-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 6472
+Depends: libmysqlclient21 (= 8.0.31-1debian10)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/libmysqlclient21-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 6283076
+SHA256: 7638bb40bff81afc16c1ada157945e5daf7a6adaee605f98c6efcd283c8c4762
+SHA1: 24dae5c4d1bfad12e1162a58705ba5fbb801b31c
+MD5sum: 404a8b3a660b6ee93459d35c68967a29
+Description: debug symbols for libmysqlclient21
+Build-Ids: 856c30ba493cea6c892ff2a8bcbe2e13b3eefeba
+
+Package: mysql-client
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 77
+Depends: mysql-community-client (= 8.0.31-1debian10)
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-client_8.0.31-1debian10_amd64.deb
+Size: 68304
+SHA256: e575d1b89052b4a5e981a98bbe011dc56289479b2bb411e461e469a45759a51f
+SHA1: d0b7d42a6ec716a11f513d61be5ffd2098466f90
+MD5sum: 59813e2f2cbe03b5354e517e0a362721
+Description: MySQL Client meta package depending on latest version
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This is a meta package that depends on the latest mysql client
+ package available in the repository.
+
+Package: mysql-common
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 101
+Pre-Depends: debconf (>= 0.2.17)
+Conflicts: mariadb-server-5.5, mysql, mysql-client-5.7, mysql-client-8.0, mysql-client-core-5.7, mysql-client-core-8.0, mysql-common (<< 5.7.14), mysql-server-5.7, mysql-server-8.0, mysql-server-core-5.7, mysql-server-core-8.0, percona-xtradb-cluster-common-5.5
+Replaces: libmysqlclient-dev, mariadb-server-5.5, mysql, mysql-common (<< 5.7.14), mysql-server-5.7, mysql-server-8.0, mysql-server-core-5.7, mysql-server-core-8.0, percona-xtradb-cluster-common-5.5
+Provides: mysql-common
+Multi-Arch: foreign
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-common_8.0.31-1debian10_amd64.deb
+Size: 72348
+SHA256: 6a324b6cf83ff6b8b05f0accedc7a0806fc76751c6f9cb9fbff17b5724b3b375
+SHA1: 4416af781abcc331816dd15e1f25449e3a340c3d
+MD5sum: e3963cf3eb5816ab98c00e699d107e28
+Description: Common files shared between packages
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package contains common files needed by MySQL client
+ library and MySQL database server.
+
+Package: mysql-community-client
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 50697
+Depends: mysql-common (>= 8.0.31-1debian10), libc6 (>= 2.28), libgcc1 (>= 1:3.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), mysql-community-client-core (= 8.0.31-1debian10)
+Conflicts: mariadb-client-10.1, mariadb-client-10.2, mariadb-client-10.3, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-10.3, mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-10.3, mysql, mysql-client-5.7, mysql-client-8.0, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-commercial-client, mysql-cluster-community-client, mysql-commercial-client, mysql-server-5.7, mysql-server-8.0, mysql-server-core-5.7, mysql-server-core-8.0
+Breaks: libmysqlclient-dev (<< 5.7.14), mysql-common (<< 8.0.1)
+Replaces: libmysqlclient-dev (<< 5.7.14), mysql, mysql-client-5.7, mysql-client-8.0, mysql-client-core-5.7, mysql-client-core-8.0, mysql-cluster-commercial-client, mysql-cluster-community-client, mysql-commercial-client, mysql-common (<< 8.0.1)
+Provides: virtual-mysql-client
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-client_8.0.31-1debian10_amd64.deb
+Size: 3454192
+SHA256: f4158f19dead589788165feb6359ebd13685b27252b1d3838066e4d3be147590
+SHA1: 2c69f1a9f221a2639c444084a1eb35a70e82b99e
+MD5sum: a6cff20093e0ea6ffdc13a79cf22a204
+Description: MySQL Client
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package contains the standard MySQL clients and
+ administration tools.
+
+Package: mysql-community-client-core
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 23402
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libncurses6 (>= 6), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libtinfo6 (>= 6), mysql-community-client-plugins (= 8.0.31-1debian10)
+Conflicts: mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-10.3, mysql, mysql-client-core-5.7, mysql-client-core-8.0, mysql-commercial-client-core
+Breaks: libmysqlclient-dev (<< 5.7.14), mysql-commercial-client (<< 8.0.1), mysql-commercial-server-core (<< 8.0.21), mysql-community-client (<< 8.0.1), mysql-community-server-core (<< 8.0.21)
+Replaces: libmysqlclient-dev (<< 5.7.14), mysql, mysql-client-core-5.7, mysql-client-core-8.0, mysql-commercial-client, mysql-commercial-client-core, mysql-commercial-server-core (<< 8.0.21), mysql-common (<< 5.7.17), mysql-community-client (<< 8.0.1), mysql-community-server-core (<< 8.0.21)
+Provides: virtual-mysql-client-core
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-client-core_8.0.31-1debian10_amd64.deb
+Size: 1895528
+SHA256: 3e118e1a6a7c8145367aafb7dc0c6867a7a35d3e19eab6824e69aab65537069c
+SHA1: 8954b2801f073e2aca74c09a1176b6454b607baf
+MD5sum: f6746d49784a1cb4dffadaaddc34adae
+Description: MySQL Client Core Binaries
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package contains the MySQL client binaries.
+
+Package: mysql-community-client-core-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 27047
+Depends: mysql-community-client-core (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-client-core-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 26189680
+SHA256: fa7b7cef59024ac129cb9be282300f2d4896674e0f25af68fdcdcf7f9330fe61
+SHA1: 1aeabfd9764f60747f2205f32dae1df0f07fb710
+MD5sum: ecb21c94a7c1823bf5eeaf3d078b295b
+Description: debug symbols for mysql-community-client-core
+Build-Ids: 058b00bf5d6f83c34858b8d7680cf9e134e38dee 815ecb8b2074ecd4e3059112d4015e73eddccd5f acab27700e626270670dd475c7e0d1e8caf298e9
+
+Package: mysql-community-client-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 42614
+Depends: mysql-community-client (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-client-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 41117684
+SHA256: 0055592e627e0670e57a3ac1b14e9a780fa6fe7939e71de9c570580d8ca63ef4
+SHA1: 7fabfaa6c963ddf592ead50cd61bb04c043fd276
+MD5sum: 861551ecdd919058213cf4c5240627a5
+Description: debug symbols for mysql-community-client
+Build-Ids: 3ba8fd601a8501e86915491004f707978b2ac854 5d087b902860000a1379c9816f069e9e1622e861 8467778ca93aab430980ce58983c76d0ffb3fe84 97eaf879a581d2fb677a6a84522c92bbf7f0ae8a 9af8dedb8159f29d627553a2f5676323594c94eb dc399eee99f052db22529166c5620d008d1680bf fb9cb367041888da4287db990dcfdea188fa041b
+
+Package: mysql-community-client-plugins
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 13517
+Depends: libc6 (>= 2.25), libcom-err2 (>= 1.43.9), libgcc1 (>= 1:3.0), libgssapi-krb5-2 (>= 1.17), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libsasl2-2 (>= 2.1.27+dfsg), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libudev1 (>= 183)
+Conflicts: mysql-commercial-client-plugins
+Breaks: mysql-commercial-client-core (<< 8.0.22), mysql-commercial-server (<< 8.0.21), mysql-commercial-server-core (<< 8.0.21), mysql-community-client-core (<< 8.0.22), mysql-community-server (<< 8.0.21), mysql-community-server-core (<< 8.0.21)
+Replaces: mysql-commercial-client-core (<< 8.0.22), mysql-commercial-server (<< 8.0.21), mysql-commercial-server-core (<< 8.0.21), mysql-community-client-core (<< 8.0.22), mysql-community-server (<< 8.0.21), mysql-community-server-core (<< 8.0.21)
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-client-plugins_8.0.31-1debian10_amd64.deb
+Size: 1275556
+SHA256: 66b9e54d1f1ea2f81d315d00738b0554cf3f67955b43d64fffa42057a1fd50d8
+SHA1: 215cc2649abdcafce772ca9ab0cc6bbfb9ac6981
+MD5sum: f992e373d22d13fa8c3a603d34168877
+Description: MySQL Client plugin
+  The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+  and robust SQL (Structured Query Language) database server. MySQL Server
+  is intended for mission-critical, heavy-load production systems as well
+  as for embedding into mass-deployed software. MySQL is a trademark of
+  Oracle. This package contains files used by both the client library and
+  client package.
+
+Package: mysql-community-client-plugins-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 6785
+Depends: mysql-community-client-plugins (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-client-plugins-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 6437960
+SHA256: 303881de7bd7f750f2fab262a1f6c08e2604c9625d7fd65b0ed7f99080812743
+SHA1: f663fb114422db10110b38244f4ed8becbe55a21
+MD5sum: e75c27a7e41dbfd36bc5fc31e45cf605
+Description: debug symbols for mysql-community-client-plugins
+Build-Ids: 12461054beffeaf85c1aca22a13f9f9bb686c902 25745c63e438120bdec18ce69c2ea80536d1b49d 30daaa1286142a51a71828492f507dbdc49be9aa edca9b5191be866ad3c94189681c23265135ce6a f239ed2977e9b5f27ff4487aaabffadb9dead07c
+
+Package: mysql-community-server
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 142
+Pre-Depends: debconf (>= 0.2.17), adduser
+Depends: mysql-common (>= 8.0.31-1debian10), mysql-client (= 8.0.31-1debian10), mysql-community-server-core (= 8.0.31-1debian10), perl, psmisc, debconf (>= 0.5) | debconf-2.0
+Conflicts: mariadb-client-10.0, mariadb-client-10.1, mariadb-client-10.2, mariadb-client-5.5, mariadb-client-core-10.0, mariadb-client-core-10.1, mariadb-client-core-10.2, mariadb-client-core-5.5, mariadb-server-10.0, mariadb-server-10.1, mariadb-server-10.2, mariadb-server-5.5, mariadb-server-core-10.0, mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-5.5, mysql, mysql-client-5.0, mysql-client-5.1, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-client-core-5.0, mysql-client-core-5.1, mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mysql-cluster-commercial-server, mysql-cluster-community-server, mysql-commercial-server, mysql-server-5.0, mysql-server-5.1, mysql-server-5.5, mysql-server-5.6, mysql-server-5.7, mysql-server-core-5.0, mysql-server-core-5.1, mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7
+Breaks: mysql-common (<< 5.7.14), mysql-community-client (<< 5.7)
+Replaces: mysql, mysql-cluster-commercial-server, mysql-cluster-community-server, mysql-commercial-server, mysql-common (<< 5.7.14), mysql-community-client (<< 5.7), mysql-server-5.0, mysql-server-5.1, mysql-server-5.5, mysql-server-5.6, mysql-server-5.7, mysql-server-core-5.0, mysql-server-core-5.1, mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7
+Provides: virtual-mysql-server
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-server_8.0.31-1debian10_amd64.deb
+Size: 78628
+SHA256: 575600bc180b943a148d685d1a0b7443d249f16d57b71a2825ede9b63bc35184
+SHA1: 2d4a3f5f3e9ca33b346b41b62d155bf717b42153
+MD5sum: b800344af8be0da73900985b19cd2f54
+Description: MySQL Server
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package includes the MySQL server binary as well as related
+ utilities to run and administer a MySQL server.
+
+Package: mysql-community-server-core
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 204489
+Depends: libaio1 (>= 0.3.93), libc6 (>= 2.28), libgcc1 (>= 1:3.4), libmecab2, libnuma1 (>= 2.0.11), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7)
+Recommends: mecab-ipadic-utf8
+Conflicts: mariadb-server-core-10.1, mariadb-server-core-10.2, mariadb-server-core-10.3, mysql, mysql-commercial-server-core, mysql-server-core-5.7, mysql-server-core-8.0
+Breaks: mysql-commercial-server (<< 8.0.1), mysql-community-server (<< 8.0.1)
+Replaces: mysql-commercial-server (<< 8.0.1), mysql-commercial-server-core, mysql-community-server (<< 8.0.1), mysql-server-core-5.7, mysql-server-core-8.0
+Provides: virtual-mysql-server-core
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-server-core_8.0.31-1debian10_amd64.deb
+Size: 28544736
+SHA256: 950b059ef9c50898b94da85c4807523a9beef99e51ed3349acc52fd44eabadbf
+SHA1: 34a1a311544ca16d1b75351c2104d65b49f21d41
+MD5sum: c7f36c07147266afd4faad36ee78d181
+Description: MySQL Server Core Binaires
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package includes the core MySQL server binaries, but no
+ configuration or service scripts.
+
+Package: mysql-community-server-core-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 594829
+Depends: mysql-community-server-core (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-server-core-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 585526860
+SHA256: cb96af2debb4cf6dc370e16c1ae4fbba20ec33b32adc33f1411ab6ae1e06a0de
+SHA1: 186cf8c248e4df22704e1ebdb7b4e1b386823f17
+MD5sum: 8fe53ec14c0f8c555468c7d7ecd927d3
+Description: debug symbols for mysql-community-server-core
+Build-Ids: 0072a2747aeb6f614b3af2193b9c221e03b0eccf 0532bc2f6beb6a1fb9dc9d2a37713a859d21c1c1 053f48944b0b2f63e7c16b8d07d3bc64a1c7a31d 0898283afe548854be06f9f84b2e1f20d301c7c5 08ec1b77496552893a580aac871473ece9b00523 0c8bfd7c364777f6b15a9ff494ff0c81fcc15f96 10783dbfed2a18858d29f0853a8fdb88d1c20419 1193d3ca18a9bd71463d66ed60681672b0eb910d 128a4b9a7c6d250a9e953221dc848788ff5c80bb 1461cc8830184cdaf46f77fe659399f02917a92a 1503d8b7ad087b40ee3af093b8e7151cb990f4d9 1ae5d5d52e32157ba0a5e788e1fe3378ded66e8c 2afde04db7f73ae2cf929c55366e8ff3d33cb9db 2f3d2ee3fdd1e568b1ab4b1867b974d7aef2b432 3df23ea344fd948187c83e80f659c6e4fb3badea 3e89ff84db17b41df927d474527a82951c0118d2 42a7a55397d0877d19a414fce0c53a10b9c2a5cc 4a6f1e593c9873ceafcbc4385df2337d302866e4 553208e23c4c162d2e526e8988228020b8fa7a45 57e651a96afc08e5fc37cf12afccd03d64db0392 5ad9367f81b99dd99da2942d9d7052693b33ce90 6189c48e08ae799c2008844daf27896fb843e3d8 663bf58476d24421effb892e5edf8c518bb6649d 70fb6dd61107b6082b0c30ae9f7559596a962923 72e21ae355e10bfbdb4594348bd727b275eb0233 73115993680fde3a5b870a82fb6b32b9c2defb1b 736e1bf129c529790e0c08b2918864b5913d2e33 80be822c521be59b5db4417035f3b08be0b47729 860eb77e7b540866a0e9f72038fef89276cbb0b8 87c0ee0ea0c7ab9b72a6e98297310d3f9bbc2e67 8e733bb6d6a129c8a809cb60cf0e745c633ec3a3 8f67de80ec40fd72d9df2447aa96aa673e14ea07 99028dad5426cc7e403da9eb464c8a9d6a5c884d 99fe84f12725e33a56deb3cb25b3049b192cbeba a2b52d94d36a10269f51bfdeafc01df24eb983eb a366f05fcb4781b3470399f12936125cbb7c2de4 a739b503350e0f36c4d68a9803c1c46e6c703051 a7a1e8b8a7c5e04022951e3a1b75c57829f5cf3c ab60bce592b3ebfb75129ef541ff918af9b42202 ae4807dd25f9992898236dc5dd18b55ec0b9e148 b991de43ce109bef8c7e113bf319d6a60b8598fe c163839cd470c37a6cd4641f5ebf24c16937b0d1 db1dd3da6b1fefa36e11b2ffbb0a774e001c12bc ef894fc6f67e6732892a44a6c18ad7f25d413859 f06449a31623c47a2978fbc3682ba6d8cc1fb8c2 f5c32bf5e08b100c9ece04cfe26bada75c25b4c8 f6e3c9810070adb9519f5ff87ba8ca27358c338a
+
+Package: mysql-community-server-debug
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 207479
+Depends: mysql-community-server (= 8.0.31-1debian10)
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-server-debug_8.0.31-1debian10_amd64.deb
+Size: 45476064
+SHA256: bb9f97199aaa60c50becb66216786fb6814d18612dd8452ab9bf1bcbc47632a4
+SHA1: 9c69b3a5bd6e824aaa2449815bd37a83c33d89dc
+MD5sum: 8ee136856140d9777d1cd90421d021b8
+Description: Debug binaries for MySQL Server
+
+Package: mysql-community-server-debug-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 473168
+Depends: mysql-community-server-debug (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-server-debug-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 465386476
+SHA256: b037d97524eb770865f0e78313e15f1cfb090137f5dcfec8f7fd956b0ef26ffe
+SHA1: 149b981baae55c776fed6f7968b87fc9eb7e5cde
+MD5sum: b57b105ce319a80b9e426ed53e231c89
+Description: debug symbols for mysql-community-server-debug
+Build-Ids: 99b35a70f9917ee80850b915d58af1782dd7f8ec
+
+Package: mysql-community-test
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 649780
+Depends: mysql-community-server (= 8.0.31-1debian10), mysql-community-client (= 8.0.31-1debian10), libmysqlclient-dev, libjson-perl, mecab-ipadic-utf8, libc6 (>= 2.28), libgcc1 (>= 1:3.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7), mysql-community-server-core
+Conflicts: mariadb-test, mariadb-test-data, mysql, mysql-commercial-test, mysql-testsuite-5.7, mysql-testsuite-8.0
+Breaks: mysql-community-client (<< 5.7.14), mysql-community-server (<< 8.0), mysql-community-server-core (<< 8.0.20)
+Replaces: mysql-community-server (<< 8.0), mysql-community-server-core (<< 8.0.20)
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-test_8.0.31-1debian10_amd64.deb
+Size: 257951444
+SHA256: 30b2367e6e4aaba6088104b3ef01f54155c4f925cc2fda8be0453eaf52df400b
+SHA1: c98c0d5fa8af9ed7c1a2c06f9e33a1dfdca0464e
+MD5sum: 333774732f7d652964dc59a706b60e08
+Description: MySQL Test Run MTR - The MySQL testsuite
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This package contains the MySQL regression test suite for MySQL
+ database server.
+
+Package: mysql-community-test-dbgsym
+Source: mysql-community
+Version: 8.0.31-1debian10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 48851
+Depends: mysql-community-test (= 8.0.31-1debian10)
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-test-dbgsym_8.0.31-1debian10_amd64.deb
+Size: 46964828
+SHA256: 98b8658a63a2a7dd309987873811414b4951040cf6f7e783de8f2ab2ac534f71
+SHA1: 0eecb71a12537c503d4d080e045fe3b9330db3f1
+MD5sum: 61bf44c8f5487b2f8814978055f979fc
+Description: debug symbols for mysql-community-test
+Build-Ids: 02e26622b309d0433518436b60a37fe6cbb22782 0825d416d83222382aead203bc2c0d647c331599 0ba9ccc5c07acbe4d3b9eb2076530558633973c2 0cd4e9c71f8baf09b23a9f1972c5303374619cf2 0d28f8dbf4b8748c4d1639e1a32543bc01d4890d 142703d374e622e8d20b23d03725a37faeb356ef 14b1e25c500ded6bf796e155edfff3085d1d2188 15f3c0fe77e8bfd245792cfb8176fb900aa20f92 1c616351c4e976fa8ab730e87778c8e57d34354f 1e84a63fe00c53aa82fe4653c3e74afd7f0806c1 20daa46fc4d1ea2cfcd306216f12f224214749b7 213c7d618e9b858746c90d7e05adda024be56ede 27c2f83fc127cc5d195bc7d11a9fa40051904a45 2873e4ff6012c14d543c8199dd0a43b85d444698 2a30c3aff6881045552bb2350d72304685da6b52 2e1915315bdfa2db384f2fe80aa0f5410a2c40ae 2ea81879e8b388578e888b767b211094251f615f 3487dd140fbf42f531fe81ce03acdd718e4ea90e 359290fc8466fa174054792a78b1542b90b1d7c4 36a7b9f4d0ea7baa2fe66fda93d3db3bebef59f8 36e13c8161d252087ee18a60ee87cfb20df45d68 385250dc93401f540cc0b4d2b4defab6d93f3c9c 410d3a4deb0226b019ec7075946033e1a7ae6972 42dfc708a8ee6d38b4446076b144c5a54c3e49bc 4395faa27cdff162473f04d2c1d38822290cbe4f 462f4206b1fc7877d9a106c2409b8dabfb7af27d 4ad06a02c91e42e0aeeac6c60aa4dbfeb9625049 4b386add3586ec1181e524129ef425400715f586 501ce82603e0a85d7027675f5b972d241c358b84 52ece6184443d01c55d2018378cbfa6cdb12fbfd 58495d2fdad34e10926d808471a55a77c89b0b97 607ef306b32c1aa9980b05fb12a262845607cf5e 60b406de12918ffb3a4aabb4ca676c305ae47a67 6156a7bca9e383db18fa635885c750924d9e7dc8 666183f33543705e01e1e97d70fb8514dbf24cde 6679b4aef354ba8a3f50a5f8b6250b89a71c0429 6848be55fc897175af3a039969ded51170a5d400 6952a583a596ba1010f6232ed531fcffa5d651aa 6d081c215021e46bedaad6a2c193a4a4936e6999 6d3a82e8cd757fd13701e80a0fd33ff9ab723ccc 6ef27bec9c9fe8ca3dcc607cfced6d09c80c2ac7 6faccfff3bda70915505899dce3cc0e262db34ad 712ed15d34a2851d7ab8923e0e7965f104601aac 730e64d4c6db175669b621f4e1a0bcb3c51d80c9 758e8fc26da06933a1227a000aaffe482fbf9b25 7978b4a25301cec2f121a478473cf6b7cdbea88b 7b1487295cd722f72c832e8fe68d3608dd3afad5 8491a4380e22e5fab3f399adab621c0f4bdc6e73 89c5354e3334108186317a079cffb4bf62e80011 89efbfa2526df83b552a26c58ef9215b99ab18a7 8e0cc0d6a53a66ee4a795f8759b7b242aaa1f7d7 8e5064c416b82006a94a702d8750c0fa587f832f 94ff35bf7d17b7202828eaf357195d39c1fa7bd9 95ba90b2ef176e0d581d46acd1dc00df42f06f97 9904250c1c964a9f4f04de149305b9332ce00a11 9a5ce59e0a5fff013b8f2870c1a1963841ca9120 9b9b64cde37043e2b72031d20d1f5631ba3c35a3 9c2fd9cc20e60b3a4f0209c69042d0144df0fc04 9db6a42af541809d9a8a2bb329a2b51e43e65a1e 9e00dfa2a62db427a2ed9cc206171c2111ba01ca 9f843f5c768342d31068bb538c63e418eff3a963 aadb9a14b69e93f44aba0d53fb9fdb1279c99de6 ab536a8c19d66fea82bf989b2f12310e13ad3770 b28c500d99fbc3a66d5022d8e66d93b12c1177b1 b561cf2447de743046f1c79a8b36444954fd668f befcc8a3c305958061edd5b6eb4ec90905a87e52 c01ed9900607c481f239f1d2a7d6747d8df3844d c2731a042b835a9e58577fa789073abd3ebdeca0 c787b5e0ab48cf43d07f64eb8e045675fd1b10fc c9eb4b1653de56d7f7083d971dea1860a3a57315 cf17b859cd1b0d13642b802b7d90eb2b40732778 cfa3b6bcffc9f1d6e9931619670bead5a0c20a58 d211edb07813f6692a3ffcff3fa64e67b40df39c d2798512d9a82c60dfd51be618b4ea03d43cd07d d543d3101bc4c4351838691f93593be456ac05fa da76c5b171fe511627cf53f8138aa0be102a8b5b dd8ca3be625a8c7afc3bec167005e7e89e5b218e e08b28a49118252ca5359d1bafabf246302c46ce e3715543431db12b0233f427aa7067f45fd7f7b4 e38101e66bda8a853dae6aae8ecb8846a3a825f0 e55c841f2997779890f5b329c59ffc5aeb939baf ec2266abf525859842051a8fffacb8eb3f68db27 ec3b886c8e948f50730db47514aab6ba1935525e ec5658be0f49615b32ccac53d7a1763b205600e6 ed179fb8c80b937fc7405ae1a1f0bb94445005c9 f024d05c98a7526edb4df860c0eb048de00419b3 f030276ae6c7bcf71ed4a59e62dc64823fd77633 f2b62550d6da91d3ebe5a8aa1ec56fe63ceed952 f4add5de9890b9127c97bfd24cdc06171d610a65 f727f3007cd91a538c29c41628c6e298f9e6d9a3 f9e8578e05d43b1e603ec9e1b1507476746ca598 fadbf641e0ad46a372fd7d8c6fbfe9c8691ca6cc feec8f7a8722e21a085555b3c2f5e263b0a1fb62
+
+Package: mysql-community-test-debug
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 75125
+Depends: mysql-community-test
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: debug
+Filename: pool/mysql-8.0/m/mysql-community/mysql-community-test-debug_8.0.31-1debian10_amd64.deb
+Size: 13275872
+SHA256: 780a8c1537b8f14afcd8f50f77d96eb983b3a908fdf00ece8b6be3dbc9fd12b3
+SHA1: d509a86059b0bf5bf7f81399f5c9cddb6006a611
+MD5sum: 3deef9c08c3ca30dde8d0cf5fd6e25d2
+Description: Debug binaries for MySQL Testsuite
+
+Package: mysql-server
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 77
+Depends: mysql-community-server (= 8.0.31-1debian10)
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-server_8.0.31-1debian10_amd64.deb
+Size: 68304
+SHA256: cc2899d2e18cdf9c2387f2fff3efff38f6fd1ff3b4a6cf0e737aa8552e927126
+SHA1: 7f6556184e8006cf3ba14d1fb5c3d4559588f81a
+MD5sum: 535b3f6b2a3678a93bb7cb07ee025116
+Description: MySQL Server meta package depending on latest version
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This is a meta package that depends on the latest mysql server
+ package available in the repository.
+
+Package: mysql-testsuite
+Source: mysql-community
+Version: 8.0.31-1debian10
+Architecture: amd64
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 77
+Depends: mysql-community-test (= 8.0.31-1debian10)
+Homepage: http://www.mysql.com/
+Priority: optional
+Section: database
+Filename: pool/mysql-8.0/m/mysql-community/mysql-testsuite_8.0.31-1debian10_amd64.deb
+Size: 68312
+SHA256: ca1f39785b20a5d24f09827e0d590151b35e259b2893c70151a18ea5565f9aad
+SHA1: d4ea327a7cbc9721518a2ed5f7c19673d483fffd
+MD5sum: de25f838583cea4eca6ec516e421956b
+Description: MySQL Testsuite meta package depending on latest version
+ The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,
+ and robust SQL (Structured Query Language) database server. MySQL Server
+ is intended for mission-critical, heavy-load production systems as well
+ as for embedding into mass-deployed software. MySQL is a trademark of
+ Oracle. This is a meta package that depends on the latest mysql test
+ package available in the repository.
+

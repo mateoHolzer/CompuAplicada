@@ -1,0 +1,31 @@
+default-duid "\000\001\000\001&\024\244&\010\000'\354\230\334";
+lease {
+  interface "enp0s3";
+  fixed-address 10.0.2.15;
+  filename "TPVMCA 2.pxe";
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 86400;
+  option routers 10.0.2.2;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.2.2;
+  option domain-name-servers 181.30.140.195,181.30.140.135;
+  option domain-name "fibertel.com.ar";
+  renew 3 2022/11/09 19:16:05;
+  rebind 3 2022/11/09 19:16:05;
+  expire 3 2022/11/09 19:16:05;
+}
+lease {
+  interface "enp0s3";
+  fixed-address 10.0.2.15;
+  filename "TPVMCA 2.pxe";
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 86400;
+  option routers 10.0.2.2;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.2.2;
+  option domain-name-servers 181.30.140.195,181.30.140.135;
+  option domain-name "fibertel.com.ar";
+  renew 4 2022/11/10 06:07:44;
+  rebind 4 2022/11/10 16:18:09;
+  expire 4 2022/11/10 19:18:09;
+}
