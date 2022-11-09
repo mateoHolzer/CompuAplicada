@@ -82,6 +82,14 @@ mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdc /dev/sdd
 
 cat /proc/mdstat
 
+fdisk /dev/sdc
+fdisk /dev/sdd
+
+para ambos discos creamos una parcicion primaria con "n" y 4 \n seguidos para dejar todo default
+cambiamos el tipo de particion a LVM usando el codigo 8e
+y finalizamos guardandolo con w
+
+
 pvcreate pv0 /dev/md0
 
 vgcreate vg_tp /dev/md0
